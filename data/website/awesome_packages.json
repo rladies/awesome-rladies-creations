@@ -1568,6 +1568,45 @@
     ]
   },
   {
+    "name": "censored",
+    "title": "'parsnip' Engines for Survival Models",
+    "description": "Engines for survival models from the 'parsnip' package. These include parametric models (e.g., Jackson (2016) <doi:10.18637/jss.v070.i08>), semi-parametric (e.g., Simon et al (2011) <doi:10.18637/jss.v039.i05>), and tree-based models (e.g., Buehlmann and Hothorn (2007) <doi:10.1214/07-STS242>).",
+    "repo_url": "https://github.com/tidymodels/censored",
+    "pkdown_url": "https://censored.tidymodels.org",
+    "bug_reports_url": "https://github.com/tidymodels/censored/issues",
+    "logo_url": "https://censored.tidymodels.org/logo.png",
+    "last_updated": "2026-04-04",
+    "authors": [
+      {
+        "name": "Emil Hvitfeldt",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-0679-1945"
+      },
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6049-5258",
+        "directory_id": "hannah-frick",
+        "email": "hannah@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
     "name": "cereal",
     "title": "Serialize 'vctrs' Objects to 'JSON'",
     "description": "The 'vctrs' package provides a concept of vector prototype that can be especially useful when deploying models and code. Serialize these object prototypes to 'JSON' so they can be used to check and coerce data in production systems, and deserialize 'JSON' back to the correct object prototypes.",
@@ -3036,6 +3075,43 @@
     ]
   },
   {
+    "name": "dials",
+    "title": "Tools for Creating Tuning Parameter Values",
+    "description": "Many models contain tuning parameters (i.e. parameters that cannot be directly estimated from the data). These tools can be used to define objects for creating, simulating, or validating values for such parameters.",
+    "repo_url": "https://github.com/tidymodels/dials",
+    "pkdown_url": "https://dials.tidymodels.org",
+    "bug_reports_url": "https://github.com/tidymodels/dials/issues",
+    "logo_url": "https://dials.tidymodels.org/logo.png",
+    "last_updated": "2026-04-11",
+    "authors": [
+      {
+        "name": "Max Kuhn",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "hannah-frick",
+        "email": "hannah@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
     "name": "distory",
     "title": "Distance Between Phylogenetic Histories",
     "description": "Geodesic distance between phylogenetic trees and associated functions. The theoretical background of 'distory' is published in Billera et al. (2001) \"Geometry of the space of phylogenetic trees.\" <doi:10.1006/aama.2001.0759>.",
@@ -3771,6 +3847,52 @@
         "orcid": "0000-0001-7648-6578",
         "directory_id": "danielle-navarro",
         "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
+    "name": "forested",
+    "title": "Forest Attributes in U.S. States",
+    "description": "A small subset of plots throughout the U.S. are sampled and assessed \"on-the-ground\" as forested or non-forested by the U.S. Department of Agriculture, Forest Service, Forest Inventory and Analysis (FIA) Program, but the FIA also has access to remotely sensed data for all land in the country. The 'forested' package contains data frames intended for use in predictive modeling applications where the more easily-accessible remotely sensed data can be used to predict whether a plot is forested or non-forested. Currently, the package provides data for Washington and Georgia.",
+    "repo_url": "https://github.com/simonpcouch/forested",
+    "pkdown_url": "https://simonpcouch.github.io/forested/",
+    "bug_reports_url": "https://github.com/simonpcouch/forested/issues",
+    "logo_url": "https://simonpcouch.github.io/forested/logo.png",
+    "last_updated": "2025-08-19",
+    "authors": [
+      {
+        "name": "Grayson White",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4993-2792"
+      },
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-6049-5258",
+        "directory_id": "hannah-frick"
+      },
+      {
+        "name": "Simon Couch",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-5676-5107",
+        "email": "simon.couch@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
       }
     ]
   },
@@ -4648,6 +4770,82 @@
     ]
   },
   {
+    "name": "goodpractice",
+    "title": "Advice on R Package Building",
+    "description": "Give advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc.",
+    "repo_url": "https://github.com/ropensci-review-tools/goodpractice",
+    "pkdown_url": "https://docs.ropensci.org/goodpractice/",
+    "bug_reports_url": "https://github.com/ropensci-review-tools/goodpractice/issues",
+    "logo_url": "https://docs.ropensci.org/goodpractice/logo.png",
+    "last_updated": "2024-06-04",
+    "authors": [
+      {
+        "name": "Mark Padgham",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-2172-5265",
+        "email": "mark@ropensci.org"
+      },
+      {
+        "name": "Ascent Digital Services UK Limited",
+        "roles": [
+          "cph"
+        ]
+      },
+      {
+        "name": "Karina Marks",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Daniel de Bortoli",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Gabor Csardi",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "hannah-frick"
+      },
+      {
+        "name": "Owen Jones",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Hannah Alexander",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Ana Simmons",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Fabian Scheipl",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
     "name": "googleAnalyticsR",
     "title": "Google Analytics API into R",
     "description": "Interact with the Google Analytics APIs <https://developers.google.com/analytics/>, including the Core Reporting API (v3 and v4), Management API, User Activity API GA4's Data API and Admin API and Multi-Channel Funnel API.",
@@ -5374,6 +5572,50 @@
         "roles": [
           "aut",
           "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "hardhat",
+    "title": "Construct Modeling Packages",
+    "description": "Building modeling packages is hard. A large amount of effort generally goes into providing an implementation for a new method that is efficient, fast, and correct, but often less emphasis is put on the user interface. A good interface requires specialized knowledge about S3 methods and formulas, which the average package developer might not have. The goal of 'hardhat' is to reduce the burden around building new modeling packages by providing functionality for preprocessing, predicting, and validating input.",
+    "repo_url": "https://github.com/tidymodels/hardhat",
+    "pkdown_url": "https://hardhat.tidymodels.org",
+    "bug_reports_url": "https://github.com/tidymodels/hardhat/issues",
+    "logo_url": "https://hardhat.tidymodels.org/logo.png",
+    "last_updated": "2026-04-04",
+    "authors": [
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6049-5258",
+        "directory_id": "hannah-frick",
+        "email": "hannah@posit.co"
+      },
+      {
+        "name": "Davis Vaughan",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Max Kuhn",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
         ]
       }
     ]
@@ -7092,6 +7334,42 @@
     ]
   },
   {
+    "name": "multilevelmod",
+    "title": "Model Wrappers for Multi-Level Models",
+    "description": "Bindings for hierarchical regression models for use with the 'parsnip' package. Models include longitudinal generalized linear models (Liang and Zeger, 1986) <doi:10.1093/biomet/73.1.13>, and mixed-effect models (Pinheiro and Bates) <doi:10.1007/978-1-4419-0318-1_1>.",
+    "repo_url": "https://github.com/tidymodels/multilevelmod",
+    "pkdown_url": "http://multilevelmod.tidymodels.org/",
+    "bug_reports_url": {},
+    "logo_url": "https://raw.githubusercontent.com/tidymodels/multilevelmod/HEAD/man/figures/logo.png",
+    "last_updated": "2022-06-17",
+    "authors": [
+      {
+        "name": "Max Kuhn",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2402-136X"
+      },
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6049-5258",
+        "directory_id": "hannah-frick",
+        "email": "hannah@rstudio.com"
+      },
+      {
+        "name": "RStudio",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
     "name": "namer",
     "title": "Names Your 'R Markdown' Chunks",
     "description": "It names the 'R Markdown' chunks of files based on the filename.",
@@ -8352,6 +8630,45 @@
     ]
   },
   {
+    "name": "poissonreg",
+    "title": "Model Wrappers for Poisson Regression",
+    "description": "Bindings for Poisson regression models for use with the 'parsnip' package. Models include simple generalized linear models, Bayesian models, and zero-inflated Poisson models (Zeileis, Kleiber, and Jackman (2008) <doi:10.18637/jss.v027.i08>).",
+    "repo_url": "https://github.com/tidymodels/poissonreg",
+    "pkdown_url": "https://poissonreg.tidymodels.org/",
+    "bug_reports_url": "https://github.com/tidymodels/poissonreg/issues",
+    "logo_url": "https://poissonreg.tidymodels.org/logo.png",
+    "last_updated": "2026-04-20",
+    "authors": [
+      {
+        "name": "Max Kuhn",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2402-136X"
+      },
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6049-5258",
+        "directory_id": "hannah-frick",
+        "email": "hannah@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
     "name": "PPforest",
     "title": "Projection Pursuit Classification Forest",
     "description": "Implements projection pursuit forest algorithm for supervised classification.",
@@ -8563,6 +8880,55 @@
         "orcid": "0009-0000-9730-5262",
         "directory_id": "shuyi-qiu",
         "email": "shuyi.qiu@duke.edu"
+      }
+    ]
+  },
+  {
+    "name": "psychomix",
+    "title": "Psychometric Mixture Models",
+    "description": "Psychometric mixture models based on 'flexmix' infrastructure. At the moment Rasch mixture models with different parameterizations of the score distribution (saturated vs. mean/variance specification), Bradley-Terry mixture models, and MPT mixture models are implemented. These mixture models can be estimated with or without concomitant variables. See Frick et al. (2012) <doi:10.18637/jss.v048.i07> and Frick et al. (2015) <doi:10.1177/0013164414536183> for details on the Rasch mixture models.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-09-10",
+    "authors": [
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-6049-5258",
+        "directory_id": "hannah-frick"
+      },
+      {
+        "name": "Friedrich Leisch",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-7278-1983"
+      },
+      {
+        "name": "Carolin Strobl",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0952-3230"
+      },
+      {
+        "name": "Florian Wickelmaier",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Achim Zeileis",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-0918-3766",
+        "email": "Achim.Zeileis@R-project.org"
       }
     ]
   },
@@ -11078,6 +11444,56 @@
     ]
   },
   {
+    "name": "tailor",
+    "title": "Iterative Steps for Postprocessing Model Predictions",
+    "description": "Postprocessors refine predictions outputted from machine learning models to improve predictive performance or better satisfy distributional limitations. This package introduces 'tailor' objects, which compose iterative adjustments to model predictions. A number of pre-written adjustments are provided with the package, such as calibration. See Lichtenstein, Fischhoff, and Phillips (1977) <doi:10.1007/978-94-010-1276-8_19>. Other methods and utilities to compose new adjustments are also included. Tailors are tightly integrated with the 'tidymodels' framework.",
+    "repo_url": "https://github.com/tidymodels/tailor",
+    "pkdown_url": "https://tailor.tidymodels.org",
+    "bug_reports_url": "https://github.com/tidymodels/tailor/issues",
+    "logo_url": {},
+    "last_updated": "2025-08-25",
+    "authors": [
+      {
+        "name": "Simon Couch",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "hannah-frick"
+      },
+      {
+        "name": "Emil HvitFeldt",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Max Kuhn",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-2402-136X",
+        "email": "max@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
     "name": "tanggle",
     "title": "Visualization of Phylogenetic Networks",
     "description": "Offers functions for plotting split (or implicit) networks (unrooted, undirected) and explicit networks (rooted, directed) with reticulations extending. 'ggtree' and using functions from 'ape' and 'phangorn'. It extends the 'ggtree' package [@Yu2017] to allow the visualization of phylogenetic networks using the 'ggplot2' syntax. It offers an alternative to the plot functions already available in 'ape' Paradis and Schliep (2019) <doi:10.1093/bioinformatics/bty633> and 'phangorn' Schliep (2011) <doi:10.1093/bioinformatics/btq706>.",
@@ -11470,6 +11886,41 @@
           "ctb"
         ],
         "orcid": "0000-0003-1179-8436"
+      }
+    ]
+  },
+  {
+    "name": "trackeR",
+    "title": "Infrastructure for Running, Cycling and Swimming Data from\nGPS-Enabled Tracking Devices",
+    "description": "Provides infrastructure for handling running, cycling and swimming data from GPS-enabled tracking devices within R. The package provides methods to extract, clean and organise workout and competition data into session-based and unit-aware data objects of class 'trackeRdata' (S3 class). The information can then be visualised, summarised, and analysed through flexible and extensible methods. Frick and Kosmidis (2017) <doi: 10.18637/jss.v082.i07>, which is updated and maintained as one of the vignettes, provides detailed descriptions of the package and its methods, and real-data demonstrations of the package functionality.",
+    "repo_url": "https://github.com/trackerproject/trackeR",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/trackerproject/trackeR/issues",
+    "logo_url": "https://raw.githubusercontent.com/trackerproject/trackeR/HEAD/README_files/hex_trackeR.svg",
+    "last_updated": "2025-08-29",
+    "authors": [
+      {
+        "name": "Ioannis Kosmidis",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-1556-0302",
+        "email": "ioannis.kosmidis@warwick.ac.uk"
+      },
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-6049-5258",
+        "directory_id": "hannah-frick"
+      },
+      {
+        "name": "Robin Hornak",
+        "roles": [
+          "aut"
+        ]
       }
     ]
   },
@@ -12718,6 +13169,97 @@
         ],
         "directory_id": "lise-vaudor",
         "email": "lise.vaudor@ens-lyon.fr"
+      }
+    ]
+  },
+  {
+    "name": "workflows",
+    "title": "Modeling Workflows",
+    "description": "Managing both a 'parsnip' model and a preprocessor, such as a model formula or recipe from 'recipes', can often be challenging. The goal of 'workflows' is to streamline this process by bundling the model alongside the preprocessor, all within the same object.",
+    "repo_url": "https://github.com/tidymodels/workflows",
+    "pkdown_url": "https://workflows.tidymodels.org",
+    "bug_reports_url": "https://github.com/tidymodels/workflows/issues",
+    "logo_url": "https://workflows.tidymodels.org/logo.png",
+    "last_updated": "2025-08-27",
+    "authors": [
+      {
+        "name": "Davis Vaughan",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Simon Couch",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-5676-5107"
+      },
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6049-5258",
+        "directory_id": "hannah-frick",
+        "email": "hannah@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "workflowsets",
+    "title": "Create a Collection of 'tidymodels' Workflows",
+    "description": "A workflow is a combination of a model and preprocessors (e.g, a formula, recipe, etc.) (Kuhn and Silge (2021) <https://www.tmwr.org/>). In order to try different combinations of these, an object can be created that contains many workflows. There are functions to create workflows en masse as well as training them and visualizing the results.",
+    "repo_url": "https://github.com/tidymodels/workflowsets",
+    "pkdown_url": "https://workflowsets.tidymodels.org",
+    "bug_reports_url": "https://github.com/tidymodels/workflowsets/issues",
+    "logo_url": {},
+    "last_updated": "2025-05-27",
+    "authors": [
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6049-5258",
+        "directory_id": "hannah-frick",
+        "email": "hannah@posit.co"
+      },
+      {
+        "name": "Max Kuhn",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2402-136X"
+      },
+      {
+        "name": "Simon Couch",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-5676-5107"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
       }
     ]
   },

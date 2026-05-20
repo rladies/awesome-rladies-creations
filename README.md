@@ -199,6 +199,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Irena Papst, David Champredon, Government of Canada
 - [cellranger](https://github.com/rsheets/cellranger) by Jennifer Bryan,
   Hadley Wickham
+- [censored](https://github.com/tidymodels/censored) by Emil Hvitfeldt,
+  Hannah Frick, Posit Software, PBC
 - [cereal](https://github.com/r-lib/cereal/) by Julia Silge, Davis
   Vaughan, Posit Software, PBC
 - [changepoint](https://github.com/rkillick/changepoint/) by Rebecca
@@ -271,6 +273,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Vasquez, Joshua Kunst
 - [devtools](https://github.com/r-lib/devtools) by Hadley Wickham, Jim
   Hester, Winston Chang, Jennifer Bryan, Posit Software, PBC
+- [dials](https://github.com/tidymodels/dials) by Max Kuhn, Hannah
+  Frick, Posit Software, PBC
 - [distory]() by John Chakerian, Susan Holmes, Emmanuel Paradis
 - [dmrseq]() by Keegan Korthauer, Rafael Irizarry, Yuval Benjamini,
   Sutirtha Chakraborty
@@ -309,6 +313,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Zhang, Dianne Cook, Ursula Laa, Nicolas Langrené, Patricia Menéndez
 - [flametree](https://github.com/djnavarro/flametree) by Danielle
   Navarro
+- [forested](https://github.com/simonpcouch/forested) by Grayson White,
+  Hannah Frick, Simon Couch, Posit Software, PBC
 - [forwards](https://github.com/forwards/forwards) by Heather Turner,
   Oliver Keyes
 - [gapminder](https://github.com/jennybc/gapminder) by Jennifer Bryan
@@ -358,6 +364,10 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Brian Ripley, Bill Venables, Douglas M. Bates, Martin Maechler
 - [gnomesims](https://github.com/josefinabernardo/gnomesims) by Josefina
   Bernardo
+- [goodpractice](https://github.com/ropensci-review-tools/goodpractice)
+  by Mark Padgham, Ascent Digital Services UK Limited, Karina Marks,
+  Daniel de Bortoli, Gabor Csardi, Hannah Frick, Owen Jones, Hannah
+  Alexander, Ana Simmons, Fabian Scheipl
 - [googleAnalyticsR](https://github.com/8-bit-sheep/googleAnalyticsR/)
   by Mark Edmondson, Erik Grönroos, Artem Klevtsov, Johann deBoer, David
   Watkins, Olivia Brode-Roger, Jas Sohi, Zoran Selinger, Octavian
@@ -391,6 +401,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Gjerdevik, Julia Romanowska, Oivind Skare
 - [HaplinMethyl](https://github.com/jromanowska/HaplinMethyl/) by Julia
   Romanowska, Haakon K. Gjessing
+- [hardhat](https://github.com/tidymodels/hardhat) by Hannah Frick,
+  Davis Vaughan, Max Kuhn, Posit Software, PBC
 - [Hassani.SACF]() by Hossein Hassani, Masoud Yarmohammdi, Mohammad Reza
   Yeganegi, Leila Marvian Mashhad
 - [Hassani.Silva]() by Hossein Hassani, Emmanuel Sirimal Silva, Leila
@@ -486,6 +498,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Mueller-Scheessel, Martin Hinz, Clemens Schmid, Christoph Rinne,
   Daniel Knitter, Wolfgang Hamer, Dirk Seidensticker, Franziska Faupel,
   Carolin Tietze, Nicole Grunert
+- [multilevelmod](https://github.com/tidymodels/multilevelmod) by Max
+  Kuhn, Hannah Frick, RStudio
 - [namer](https://github.com/jumpingrivers/namer) by Colin Gillespie,
   Steph Locke, Maëlle Salmon, Ellis Valentiner, Charlie Hadley, Jumping
   Rivers, Han Oostdijk, Patrick Schratz
@@ -553,6 +567,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Hughes, Dominic Tong, Kara Woo, Jordan Brooks, InsightRX
 - [PlackettLuce](https://github.com/hturner/PlackettLuce) by Heather
   Turner, Ioannis Kosmidis, David Firth, Jacob van Etten
+- [poissonreg](https://github.com/tidymodels/poissonreg) by Max Kuhn,
+  Hannah Frick, Posit Software, PBC
 - [PPforest](https://github.com/natydasilva/PPforest) by Natalia da
   Silva, Dianne Cook, Eun-Kyung Lee
 - [pregnancy](https://github.com/EllaKaye/pregnancy) by Ella Kaye
@@ -563,6 +579,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [projmgr](https://github.com/emilyriederer/projmgr) by Emily Riederer
 - [ProliferativeIndex]() by Brittany Lasseigne, Ryne Ramaker
 - [psidread](https://github.com/Qcrates/psidread) by Shuyi Qiu
+- [psychomix]() by Hannah Frick, Friedrich Leisch, Carolin Strobl,
+  Florian Wickelmaier, Achim Zeileis
 - [qsmooth]() by Stephanie C. Hicks, Kwame Okrah, Koen Van den Berge,
   Hector Corrada Bravo, Rafael Irizarry
 - [qtwAcademic](https://github.com/andreaczhang/qtwAcademic) by Chi
@@ -697,6 +715,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Clemens Zauchner, Dana Jomar
 - [tailloss](http://github.com/igollini/tailloss) by Isabella Gollini,
   Jonathan Rougier
+- [tailor](https://github.com/tidymodels/tailor) by Simon Couch, Hannah
+  Frick, Emil HvitFeldt, Max Kuhn, Posit Software, PBC
 - [tanggle](https://github.com/KlausVigo/tanggle) by Klaus Schliep,
   Marta Vidal-Garcia, Claudia Solis-Lemus, Leann Biancani, Eren Ada, L.
   Francisco Henao Diaz, Guangchuang Yu, Joshua Justison
@@ -716,6 +736,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Kamvar, Jeroen Ooms, Nick Wellnhofer, rOpenSci, Peter Daengeli
 - [tourr](https://github.com/ggobi/tourr) by Hadley Wickham, Dianne
   Cook, Nick Spyrison, Ursula Laa, H. Sherry Zhang, Stuart Lee
+- [trackeR](https://github.com/trackerproject/trackeR) by Ioannis
+  Kosmidis, Hannah Frick, Robin Hornak
 - [traudem](https://github.com/lucarraro/traudem) by Luca Carraro,
   University of Zurich, Maëlle Salmon, Wael Sadek, Kirill Müller
 - [treediff](https://forge.inrae.fr/scales/treediff/-) by Nathalie
@@ -783,6 +805,10 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [wingen](https://github.com/AnushaPB/wingen) by Anusha Bishop, Anne
   Chambers, Ian Wang
 - [woody](https://github.com/lvaudor/woody) by Lise Vaudor
+- [workflows](https://github.com/tidymodels/workflows) by Davis Vaughan,
+  Simon Couch, Hannah Frick, Posit Software, PBC
+- [workflowsets](https://github.com/tidymodels/workflowsets) by Hannah
+  Frick, Max Kuhn, Simon Couch, Posit Software, PBC
 - [worrrd](https://github.com/anthonypileggi/worrrd) by Anthony Pileggi,
   Shannon Pileggi
 - [XICOR]() by Susan Holmes, Sourav Chatterjee
