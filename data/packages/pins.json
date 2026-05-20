@@ -3,7 +3,7 @@
   "title": "Pin, Discover, and Share Resources",
   "description": "Publish data sets, models, and other R objects, making it easy to share them across projects and with your colleagues. You can pin objects to a variety of \"boards\", including local folders (to share on a networked drive or with 'DropBox'), 'Posit Connect', 'AWS S3', and more.",
   "repo_url": "https://github.com/rstudio/pins-r",
-  "pkdown_url": "https://pins.rstudio.com/",
+  "pkdown_url": "https://pins.rstudio.com",
   "bug_reports_url": "https://github.com/rstudio/pins-r/issues",
   "logo_url": "https://pins.rstudio.com/logo.png",
   "last_updated": "2026-03-09",

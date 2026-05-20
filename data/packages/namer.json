@@ -3,7 +3,7 @@
   "title": "Names Your 'R Markdown' Chunks",
   "description": "It names the 'R Markdown' chunks of files based on the filename.",
   "repo_url": "https://github.com/jumpingrivers/namer",
-  "pkdown_url": "https://jumpingrivers.github.io/namer/",
+  "pkdown_url": "https://jumpingrivers.github.io/namer",
   "bug_reports_url": "https://github.com/jumpingrivers/namer/issues",
   "logo_url": null,
   "last_updated": "2025-01-23",

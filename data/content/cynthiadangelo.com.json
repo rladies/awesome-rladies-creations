@@ -1,8 +1,8 @@
 {
   "title": "Cynthia D'Angelo",
   "type": "blog",
-  "url": "https://cynthiadangelo.com/",
-  "rss_feed": "https://cynthiadangelo.com/feed/",
+  "url": "https://cynthiadangelo.com",
+  "rss_feed": "https://cynthiadangelo.com/feed",
   "photo_url": "https://cynthiadangelo.com/wp-content/uploads/2012/12/img_0008.jpg?w=333",
   "description": "ramblings about my adventures",
   "language": "en",
@@ -14,7 +14,7 @@
           "twitter": "dapostrophe",
           "bluesky": "cmdangelo.bsky.social",
           "mastodon": "@dapostrophe@mastodon.social",
-          "website": "http://cynthiadangelo.com/"
+          "website": "http://cynthiadangelo.com"
         }
       ]
     }

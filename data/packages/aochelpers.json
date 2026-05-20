@@ -3,7 +3,7 @@
   "title": "Companion to Advent of Code and Associated Personal Website",
   "description": "Use with advent-of-code-website-template to create a website for Advent of Code solutions. Also includes functions for getting and reading in puzzle input.",
   "repo_url": "https://github.com/EllaKaye/aochelpers",
-  "pkdown_url": "https://ellakaye.github.io/aochelpers/",
+  "pkdown_url": "https://ellakaye.github.io/aochelpers",
   "bug_reports_url": "https://github.com/EllaKaye/aochelpers/issues",
   "logo_url": "https://ellakaye.github.io/aochelpers/logo.png",
   "last_updated": "2024-11-25",

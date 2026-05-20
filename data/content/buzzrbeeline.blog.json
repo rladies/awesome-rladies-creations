@@ -1,8 +1,8 @@
 {
   "title": "Emma R",
   "type": "blog",
-  "url": "https://buzzrbeeline.blog/",
-  "rss_feed": "https://buzzrbeeline.blog/feed/",
+  "url": "https://buzzrbeeline.blog",
+  "rss_feed": "https://buzzrbeeline.blog/feed",
   "photo_url": "https://buzzrbeeline.blog/wp-content/uploads/2018/08/cropped-logo2.png?w=142",
   "description": "Gathering little bits of R without over-thinking",
   "language": "en",
@@ -14,7 +14,7 @@
           "twitter": "er13_r",
           "bluesky": "3mmarand.bsky.social",
           "github": "3mmaRand",
-          "website": "https://buzzrbeeline.blog/"
+          "website": "https://buzzrbeeline.blog"
         }
       ]
     }

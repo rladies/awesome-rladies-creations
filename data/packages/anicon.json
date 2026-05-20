@@ -3,7 +3,7 @@
   "title": "Animated icons for R Markdown and Shiny",
   "description": "This package allows easy insertion of animated icons into R Markdown html outputs.",
   "repo_url": "https://github.com/emitanaka/anicon",
-  "pkdown_url": "https://emitanaka.github.io/anicon/",
+  "pkdown_url": "https://emitanaka.github.io/anicon",
   "bug_reports_url": "https://github.com/emitanaka/anicon/issues",
   "logo_url": null,
   "last_updated": null,

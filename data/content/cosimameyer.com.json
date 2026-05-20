@@ -1,7 +1,7 @@
 {
   "title": "Cosima Meyer",
   "type": "blog",
-  "url": "https://cosimameyer.com/",
+  "url": "https://cosimameyer.com",
   "photo_url": "https://cosimameyer.com/images/hero/avatar.jpg",
   "rss_feed": "https://cosimameyer.com/category/r-post/index.xml",
   "language": "en",
@@ -13,7 +13,7 @@
         "mastodon": "@cosima_meyer@mas.to",
         "bluesky": "cosima.bsky.social",
         "github": "cosimameyer",
-        "website": "https://cosimameyer.com/",
+        "website": "https://cosimameyer.com",
         "linkedin": "cosimameyer/"
       }]
     }

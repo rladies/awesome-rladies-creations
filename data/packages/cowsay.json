@@ -3,7 +3,7 @@
   "title": "Messages, Warnings, Strings with Ascii Animals",
   "description": "Allows printing of character strings as messages/warnings/etc. with ASCII animals, including cats, cows, frogs, chickens, ghosts, and more.",
   "repo_url": "https://github.com/sckott/cowsay",
-  "pkdown_url": "https://sckott.github.io/cowsay/",
+  "pkdown_url": "https://sckott.github.io/cowsay",
   "bug_reports_url": "https://github.com/sckott/cowsay/issues",
   "logo_url": null,
   "last_updated": "2025-10-29",

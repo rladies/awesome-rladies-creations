@@ -3,7 +3,7 @@
   "title": "Colors and Palettes from Color-Hex",
   "description": "The website <https://www.color-hex.com> is a great resource of hex colour codes and palettes. This package allows you to retrieve palettes and colour information from the website directly from R. There are also custom scale-functions for 'ggplot2'.",
   "repo_url": "https://github.com/drmowinckels/colorhex",
-  "pkdown_url": "https://drmowinckels.github.io/colorhex/",
+  "pkdown_url": "https://drmowinckels.github.io/colorhex",
   "bug_reports_url": "https://github.com/drmowinckels/colorhex/issues",
   "logo_url": null,
   "last_updated": "2023-09-15",

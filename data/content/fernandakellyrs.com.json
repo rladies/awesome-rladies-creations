@@ -1,7 +1,7 @@
 {
   "title": "Estatística | Fernanda Kelly Romeiro Silva",
   "type": "blog",
-  "url": "https://www.fernandakellyrs.com/",
+  "url": "https://www.fernandakellyrs.com",
   "rss_feed": "https://www.fernandakellyrs.com/blog-feed.xml",
   "photo_url": "https://static.parastorage.com/client/pfavico.ico",
   "description": "Quem é Fernanda Kelly? Uma mulher preta com formação em estatística e entusiasta do universo de Machine e Deep Learning.",
@@ -12,7 +12,7 @@
       "social_media": [
         {
           "linkedin": "fernandakellyrs",
-          "website": "https://www.fernandakellyrs.com/"
+          "website": "https://www.fernandakellyrs.com"
         }
       ]
     }

@@ -3,7 +3,7 @@
   "title": "Access Meetup Data",
   "description": "Provides programmatic access to the 'Meetup' 'GraphQL' API (<https://www.meetup.com/graphql/>), enabling users to retrieve information about groups, events, and members from 'Meetup' (<https://www.meetup.com/>). Supports authentication via 'OAuth2' and includes functions for common queries and data manipulation tasks.",
   "repo_url": "https://github.com/rladies/meetupr",
-  "pkdown_url": "https://rladies.org/meetupr/",
+  "pkdown_url": "https://rladies.org/meetupr",
   "bug_reports_url": "https://github.com/rladies/meetupr/issues",
   "logo_url": "https://rladies.org/meetupr/logo.png",
   "last_updated": "2025-12-23",

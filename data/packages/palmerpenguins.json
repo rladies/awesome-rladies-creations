@@ -3,7 +3,7 @@
   "title": "Palmer Archipelago (Antarctica) Penguin Data",
   "description": "Size measurements, clutch observations, and blood isotope ratios for adult foraging Adélie, Chinstrap, and Gentoo penguins observed on islands in the Palmer Archipelago near Palmer Station, Antarctica. Data were collected and made available by Dr. Kristen Gorman and the Palmer Station Long Term Ecological Research (LTER) Program.",
   "repo_url": "https://github.com/allisonhorst/palmerpenguins",
-  "pkdown_url": "https://allisonhorst.github.io/palmerpenguins/",
+  "pkdown_url": "https://allisonhorst.github.io/palmerpenguins",
   "bug_reports_url": "https://github.com/allisonhorst/palmerpenguins/issues",
   "logo_url": "https://allisonhorst.github.io/palmerpenguins/logo.png",
   "last_updated": "2022-08-15",

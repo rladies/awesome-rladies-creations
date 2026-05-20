@@ -3,7 +3,7 @@
   "title": "Calculate and Track Dates and Medications During Pregnancy",
   "description": "Provides functionality for calculating pregnancy-related dates and tracking medications during pregnancy and fertility treatment. Calculates due dates from various starting points including last menstrual period and IVF (In Vitro Fertilisation) transfer dates, determines pregnancy progress on any given date, and identifies when specific pregnancy weeks are reached. Includes medication tracking capabilities for individuals undergoing fertility treatment or during pregnancy, allowing users to monitor remaining doses and quantities needed over specified time periods. Designed for those tracking their own pregnancies or supporting partners through the process, making use of options to personalise output messages. For details on due date calculations, see <https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date>.",
   "repo_url": "https://github.com/EllaKaye/pregnancy",
-  "pkdown_url": "https://ellakaye.github.io/pregnancy/",
+  "pkdown_url": "https://ellakaye.github.io/pregnancy",
   "bug_reports_url": "https://github.com/EllaKaye/pregnancy/issues",
   "logo_url": "https://ellakaye.github.io/pregnancy/logo.png",
   "last_updated": "2026-01-15",

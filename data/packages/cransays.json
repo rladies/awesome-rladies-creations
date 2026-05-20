@@ -3,7 +3,7 @@
   "title": "Creates an Overview of CRAN Incoming Submissions",
   "description": "It scrapes the CRAN incoming FTP folder to find where each submission is.",
   "repo_url": "https://github.com/r-hub/cransays",
-  "pkdown_url": "https://r-hub.github.io/cransays/",
+  "pkdown_url": "https://r-hub.github.io/cransays",
   "bug_reports_url": "https://github.com/r-hub/cransays/issues",
   "logo_url": null,
   "last_updated": "2025-12-26",

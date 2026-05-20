@@ -3,7 +3,7 @@
   "title": "Generate Wordsearch and Crossword Puzzles",
   "description": "Generate wordsearch and crossword puzzles using custom lists of words (and clues). Make them easy or hard, and print them to solve offline with paper and pencil!",
   "repo_url": "https://github.com/anthonypileggi/worrrd",
-  "pkdown_url": "https://www.stochastic-squirrel.com/worrrd/",
+  "pkdown_url": "https://www.stochastic-squirrel.com/worrrd",
   "bug_reports_url": "https://github.com/anthonypileggi/worrrd/issues",
   "logo_url": "https://www.stochastic-squirrel.com/worrrd/logo.png",
   "last_updated": "2022-10-25",

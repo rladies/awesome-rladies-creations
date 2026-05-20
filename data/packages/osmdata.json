@@ -3,7 +3,7 @@
   "title": "Import 'OpenStreetMap' Data as Simple Features or Spatial\nObjects",
   "description": "Download and import of 'OpenStreetMap' ('OSM') data as 'sf' or 'sp' objects. 'OSM' data are extracted from the 'Overpass' web server (<https://overpass-api.de/>) and processed with very fast 'C++' routines for return to 'R'.",
   "repo_url": "https://github.com/ropensci/osmdata",
-  "pkdown_url": "https://docs.ropensci.org/osmdata/",
+  "pkdown_url": "https://docs.ropensci.org/osmdata",
   "bug_reports_url": "https://github.com/ropensci/osmdata/issues",
   "logo_url": "https://docs.ropensci.org/osmdata/logo.png",
   "last_updated": "2025-08-23",

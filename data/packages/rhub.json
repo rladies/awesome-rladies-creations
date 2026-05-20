@@ -3,7 +3,7 @@
   "title": "Tools for R Package Developers",
   "description": "R-hub v2 uses GitHub Actions to run 'R CMD check' and similar package checks. The 'rhub' package helps you set up R-hub v2 for your R package, and start running checks.",
   "repo_url": "https://github.com/r-hub/rhub",
-  "pkdown_url": "https://r-hub.github.io/rhub/",
+  "pkdown_url": "https://r-hub.github.io/rhub",
   "bug_reports_url": "https://github.com/r-hub/rhub/issues",
   "logo_url": "https://r-hub.github.io/rhub/logo.png",
   "last_updated": "2025-03-06",

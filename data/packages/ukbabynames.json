@@ -3,7 +3,7 @@
   "title": "UK Baby Names Data",
   "description": "Full listing of UK baby names occurring more than three times per year between 1974 and 2020, and rankings of baby name popularity by decade from 1904 to 1994.",
   "repo_url": "https://github.com/mine-cetinkaya-rundel/ukbabynames",
-  "pkdown_url": "https://mine-cetinkaya-rundel.github.io/ukbabynames/",
+  "pkdown_url": "https://mine-cetinkaya-rundel.github.io/ukbabynames",
   "bug_reports_url": "https://github.com/mine-cetinkaya-rundel/ukbabynames/issues",
   "logo_url": null,
   "last_updated": "2022-03-25",

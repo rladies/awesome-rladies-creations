@@ -3,7 +3,7 @@
   "title": "HIC diffeREntial Analysis Method",
   "description": "Perform Hi-C data differential analysis based on pixel-level differential analysis and a post hoc inference strategy to quantify signal in clusters of pixels. Clusters of pixels are obtained through a connectivity-constrained two-dimensional hierarchical clustering.",
   "repo_url": "https://forge.inrae.fr/scales/hicream/-",
-  "pkdown_url": "https://scales.pages-forge.inrae.fr/hicream/",
+  "pkdown_url": "https://scales.pages-forge.inrae.fr/hicream",
   "bug_reports_url": "https://forge.inrae.fr/scales/hicream/-/issues",
   "logo_url": null,
   "last_updated": "2026-01-30",

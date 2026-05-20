@@ -1,7 +1,7 @@
 {
   "title": "Rizqy Amelia Zein",
   "type": "blog",
-  "url": "https://rameliaz.github.io/",
+  "url": "https://rameliaz.github.io",
   "rss_feed": "https://rameliaz.github.io/index.xml",
   "photo_url": "https://rameliaz.github.io/img/profil.png",
   "description": "I am a postdoc at Research Data & Methods Team, [Center of Advanced Internet Studies (CAIS)](https://www.cais-research.de/team/rizqy-amelia-zein/) and an assistant professor at [Universitas Airlangga](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)*. My research projects focus on three areas: examining how people relate to **scientific and religious** explanations; improving **the quality and precision** of psychological measures; and understanding people's **experiences with and epistemic relationships** to science. <br><br><br> *<i>Untuk mahasiswa Universitas Airlangga, silakan [klik disini untuk mengakses Soalan Sering Ditanya (SSD)](https://ameliazein.notion.site/2d92b8a8ff398087a827dd7d69804f02?v=2d92b8a8ff3980029952000c7fe98a16&pvs=73)</i>",
@@ -13,7 +13,7 @@
         {
           "twitter": "ameliazein",
           "bluesky": "ameliazein.bsky.social",
-          "website": "https://rameliaz.github.io/"
+          "website": "https://rameliaz.github.io"
         }
       ]
     }

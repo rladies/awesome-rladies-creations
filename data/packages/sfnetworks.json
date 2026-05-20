@@ -3,8 +3,8 @@
   "title": "Tidy Geospatial Networks",
   "description": "Provides a tidy approach to spatial network analysis, in the form of classes and functions that enable a seamless interaction between the network analysis package 'tidygraph' and the spatial analysis package 'sf'.",
   "repo_url": "https://github.com/luukvdmeer/sfnetworks",
-  "pkdown_url": "https://luukvdmeer.github.io/sfnetworks/",
-  "bug_reports_url": "https://github.com/luukvdmeer/sfnetworks/issues/",
+  "pkdown_url": "https://luukvdmeer.github.io/sfnetworks",
+  "bug_reports_url": "https://github.com/luukvdmeer/sfnetworks/issues",
   "logo_url": "https://luukvdmeer.github.io/sfnetworks/logo.png",
   "last_updated": "2024-12-06",
   "authors": [

@@ -1,7 +1,7 @@
 {
   "title": "Amanda's Data Blog", 
   "type": "blog", 
-  "url": "amanda.rbind.io", 
+  "url": "https://amanda.rbind.io", 
   "photo_url": "http://amanda.rbind.io/profile.jpg", 
   "description": "Amanda's musings about data analysis and R programming",
   "language": "en", 

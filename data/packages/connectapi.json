@@ -3,7 +3,7 @@
   "title": "Utilities for Interacting with the 'Posit Connect' Server API",
   "description": "Provides a helpful 'R6' class and methods for interacting with the 'Posit Connect' Server API along with some meaningful utility functions for regular tasks. API documentation varies by 'Posit Connect' installation and version, but the latest documentation is also hosted publicly at <https://docs.posit.co/connect/api/>.",
   "repo_url": "https://github.com/posit-dev/connectapi",
-  "pkdown_url": "https://posit-dev.github.io/connectapi/",
+  "pkdown_url": "https://posit-dev.github.io/connectapi",
   "bug_reports_url": "https://github.com/posit-dev/connectapi/issues",
   "logo_url": "https://posit-dev.github.io/connectapi/logo.svg",
   "last_updated": "2026-04-29",

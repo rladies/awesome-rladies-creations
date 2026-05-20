@@ -3,7 +3,7 @@
   "title": "Automatically Create and Style 'ggplot2' Charts",
   "description": "Automatically choose an appropriate chart type based on the types and values in the data. Apply more accessible default styling and colours to 'ggplot2' charts.",
   "repo_url": "https://github.com/nrennie/ggauto",
-  "pkdown_url": "https://nrennie.rbind.io/ggauto/",
+  "pkdown_url": "https://nrennie.rbind.io/ggauto",
   "bug_reports_url": "https://github.com/nrennie/ggauto/issues",
   "logo_url": "https://nrennie.rbind.io/ggauto/logo.png",
   "last_updated": "2026-04-24",

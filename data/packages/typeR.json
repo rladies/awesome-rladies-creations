@@ -3,7 +3,7 @@
   "title": "Simulate Typing Script",
   "description": "Simulates typing of R script files for presentations and demonstrations. Provides character-by-character animation with optional live code execution. Supports R scripts (.R), R Markdown (.Rmd), and Quarto (.qmd) documents.",
   "repo_url": "https://github.com/Fgazzelloni/typeR",
-  "pkdown_url": "https://Fgazzelloni.github.io/typeR/",
+  "pkdown_url": "https://Fgazzelloni.github.io/typeR",
   "bug_reports_url": "https://github.com/Fgazzelloni/typeR/issues",
   "logo_url": "https://Fgazzelloni.github.io/typeR/logo.png",
   "last_updated": "2026-02-08",

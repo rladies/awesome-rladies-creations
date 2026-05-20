@@ -3,7 +3,7 @@
   "title": "Oregon Spotted A Frog (Rana Pretiosa)",
   "description": "Oregon Frogs Rana Pretiosa dataset contains information about radio telemetry frequency used to study the frogs' habitat. The survey run from late September to November 2018. There are 311 observations and 16 variables.",
   "repo_url": "https://github.com/fgazzelloni/oregonfrogs",
-  "pkdown_url": "https://fgazzelloni.github.io/oregonfrogs/",
+  "pkdown_url": "https://fgazzelloni.github.io/oregonfrogs",
   "bug_reports_url": "https://github.com/fgazzelloni/oregonfrogs/issues",
   "logo_url": "https://fgazzelloni.github.io/oregonfrogs/logo.png",
   "last_updated": null,

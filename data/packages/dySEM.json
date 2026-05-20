@@ -3,7 +3,7 @@
   "title": "Dyadic Structural Equation Modeling",
   "description": "Scripting of structural equation models via 'lavaan' for Dyadic Data Analysis, and helper functions for supplemental calculations, tabling, and model visualization.",
   "repo_url": "https://github.com/jsakaluk/dySEM",
-  "pkdown_url": "https://jsakaluk.github.io/dySEM/",
+  "pkdown_url": "https://jsakaluk.github.io/dySEM",
   "bug_reports_url": "https://github.com/jsakaluk/dySEM/issues",
   "logo_url": "https://jsakaluk.github.io/dySEM/logo.png",
   "last_updated": "2025-12-22",

@@ -3,7 +3,7 @@
   "title": "Tools For Generative Art Workflows",
   "description": "A personal-use package for managing generative art workflows.",
   "repo_url": "https://github.com/djnavarro/arttools",
-  "pkdown_url": "https://arttools.djnavarro.net/",
+  "pkdown_url": "https://arttools.djnavarro.net",
   "bug_reports_url": "https://github.com/djnavarro/arttools/issues",
   "logo_url": null,
   "last_updated": "2026-03-21",

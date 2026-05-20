@@ -3,7 +3,7 @@
   "title": "Plotting Tool for Brain Atlases",
   "description": "Provides a 'ggplot2' geom and position for visualizing brain region data on cortical, subcortical, and white matter tract atlases. Brain atlas geometries are stored as simple features ('sf'), enabling seamless integration with the 'ggplot2' ecosystem including faceting, custom scales, and themes. Mowinckel & Vidal-Piñeiro (2020) <doi:10.1177/2515245920928009>.",
   "repo_url": "https://github.com/ggsegverse/ggseg",
-  "pkdown_url": "https://ggsegverse.github.io/ggseg/",
+  "pkdown_url": "https://ggsegverse.github.io/ggseg",
   "bug_reports_url": "https://github.com/ggsegverse/ggseg/issues",
   "logo_url": "https://ggsegverse.github.io/ggseg/logo.png",
   "last_updated": "2026-04-16",

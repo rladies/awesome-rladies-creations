@@ -3,7 +3,7 @@
   "title": "Clinical Pharmacokinetics Toolkit",
   "description": "Provides equations commonly used in clinical pharmacokinetics and clinical pharmacology, such as equations for dose individualization, compartmental pharmacokinetics, drug exposure, anthropomorphic calculations, clinical chemistry, and conversion of common clinical parameters. Where possible and relevant, it provides multiple published and peer-reviewed equations within the respective R function.",
   "repo_url": "https://github.com/InsightRX/clinPK",
-  "pkdown_url": "https://insightrx.github.io/clinPK/",
+  "pkdown_url": "https://insightrx.github.io/clinPK",
   "bug_reports_url": null,
   "logo_url": null,
   "last_updated": "2024-02-23",

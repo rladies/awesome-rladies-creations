@@ -3,7 +3,7 @@
   "title": "Creates Generative Art Data",
   "description": "Create data that displays generative art when mapped into a 'ggplot2' plot. Functionality includes specialized data frame creation for geometric shapes, tools that define artistic color palettes, tools for geometrically transforming data, and other miscellaneous tools that are helpful when using 'ggplot2' for generative art.",
   "repo_url": "https://github.com/Meghansaha/artpack",
-  "pkdown_url": "https://meghansaha.github.io/artpack/",
+  "pkdown_url": "https://meghansaha.github.io/artpack",
   "bug_reports_url": "https://github.com/Meghansaha/artpack/issues",
   "logo_url": "https://meghansaha.github.io/artpack/logo.png",
   "last_updated": "2025-09-17",

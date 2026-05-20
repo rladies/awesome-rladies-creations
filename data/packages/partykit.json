@@ -3,7 +3,7 @@
   "title": "A Toolkit for Recursive Partytioning",
   "description": "A toolkit with infrastructure for representing, summarizing, and visualizing tree-structured regression and classification models. This unified infrastructure can be used for reading/coercing tree models from different sources ('rpart', 'RWeka', 'PMML') yielding objects that share functionality for print()/plot()/predict() methods. Furthermore, new and improved reimplementations of conditional inference trees (ctree()) and model-based recursive partitioning (mob()) from the 'party' package are provided based on the new infrastructure. A description of this package was published by Hothorn and Zeileis (2015) <https://jmlr.org/papers/v16/hothorn15a.html>.",
   "repo_url": null,
-  "pkdown_url": "http://partykit.r-forge.r-project.org/partykit/",
+  "pkdown_url": "http://partykit.r-forge.r-project.org/partykit",
   "bug_reports_url": null,
   "logo_url": null,
   "last_updated": "2026-03-13",

@@ -3,7 +3,7 @@
   "title": "SIMEX- And MCSIMEX-Algorithm for Measurement Error Models",
   "description": "Implementation of the SIMEX-Algorithm by Cook & Stefanski (1994) <doi:10.1080/01621459.1994.10476871> and MCSIMEX by Küchenhoff, Mwalili & Lesaffre (2006) <doi:10.1111/j.1541-0420.2005.00396.x>.",
   "repo_url": "https://github.com/wolfganglederer/simex",
-  "pkdown_url": "http://wolfganglederer.github.io/simex/",
+  "pkdown_url": "http://wolfganglederer.github.io/simex",
   "bug_reports_url": "https://github.com/wolfganglederer/simex/issues",
   "logo_url": null,
   "last_updated": "2019-07-31",

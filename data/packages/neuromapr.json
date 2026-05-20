@@ -3,7 +3,7 @@
   "title": "Spatial Null Models and Transforms for Brain Map Comparison",
   "description": "Implements spatial null models and coordinate-space transformations for statistical comparison of brain maps, following the framework described in Markello et al. (2022) <doi:10.1038/s41592-022-01625-w>. Provides variogram-matching surrogates (Burt et al. 2020), Moran spectral randomization (Wagner & Dray 2015), and spin-based permutation tests (Alexander-Bloch et al. 2018). Includes an R interface to the 'neuromaps' annotation registry for browsing, downloading, and comparing brain map annotations from the Open Science Framework ('OSF'). Integrates with 'ciftiTools' for coordinate-space transforms.",
   "repo_url": "https://github.com/lcbc-uio/neuromapr",
-  "pkdown_url": "https://lcbc-uio.github.io/neuromapr/",
+  "pkdown_url": "https://lcbc-uio.github.io/neuromapr",
   "bug_reports_url": "https://github.com/lcbc-uio/neuromapr/issues",
   "logo_url": "https://lcbc-uio.github.io/neuromapr/logo.svg",
   "last_updated": "2026-04-30",

@@ -3,7 +3,7 @@
   "title": "Generate 'CodeMeta' Metadata for R Packages",
   "description": "The 'Codemeta' Project defines a 'JSON-LD' format for describing software metadata, as detailed at <https://codemeta.github.io>. This package provides utilities to generate, parse, and modify 'codemeta.json' files automatically for R packages, as well as tools and examples for working with 'codemeta.json' 'JSON-LD' more generally.",
   "repo_url": "https://github.com/ropensci/codemetar",
-  "pkdown_url": "https://docs.ropensci.org/codemetar/",
+  "pkdown_url": "https://docs.ropensci.org/codemetar",
   "bug_reports_url": "https://github.com/ropensci/codemetar/issues",
   "logo_url": "https://docs.ropensci.org/codemetar/logo.png",
   "last_updated": "2026-02-11",

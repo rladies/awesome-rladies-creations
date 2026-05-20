@@ -1,7 +1,7 @@
 {
   "title": "Yanina Bellini Saibene", 
   "type": "blog", 
-  "url": "https://yabellini.netlify.app/blog/", 
+  "url": "https://yabellini.netlify.app/blog", 
   "rss_feed": "https://yabellini.netlify.app/categories/rstats/index.xml",
   "description": "Writings about my interests and my work: R, education, communities of practice, research, data science, experiences, talks and some more personal stuff.",
   "language": "en", 
@@ -14,7 +14,7 @@
          "github": "yabellini",
          "instagram": "yanina.bellini",
          "youtube": "yabellini",
-         "website": "https://yabellini.netlify.app/",
+         "website": "https://yabellini.netlify.app",
          "linkedin": "/in/yabellini/",
          "orcid": "0000-0002-4522-7466"
       }]

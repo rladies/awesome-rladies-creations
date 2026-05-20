@@ -3,7 +3,7 @@
   "title": "Health Metrics and the Spread of Infectious Diseases",
   "description": "A collection of datasets and supporting functions accompanying Health Metrics and the Spread of Infectious Diseases by Federica Gazzelloni (2024). This package provides data for health metrics calculations, including Disability-Adjusted Life Years (DALYs), Years of Life Lost (YLLs), and Years Lived with Disability (YLDs), as well as additional tools for analyzing and visualizing health data. Federica Gazzelloni (2024) <doi:10.5281/zenodo.10818338>.",
   "repo_url": "https://github.com/Fgazzelloni/hmsidwR",
-  "pkdown_url": "https://fgazzelloni.github.io/hmsidwR/",
+  "pkdown_url": "https://fgazzelloni.github.io/hmsidwR",
   "bug_reports_url": "https://github.com/Fgazzelloni/hmsidwR/issues",
   "logo_url": "https://fgazzelloni.github.io/hmsidwR/logo.png",
   "last_updated": "2025-05-16",

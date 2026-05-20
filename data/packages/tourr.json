@@ -3,7 +3,7 @@
   "title": "Tour Methods for Multivariate Data Visualisation",
   "description": "Implements geodesic interpolation and basis generation functions that allow you to create new tour methods from R.",
   "repo_url": "https://github.com/ggobi/tourr",
-  "pkdown_url": "https://ggobi.github.io/tourr/",
+  "pkdown_url": "https://ggobi.github.io/tourr",
   "bug_reports_url": "https://github.com/ggobi/tourr/issues",
   "logo_url": "https://ggobi.github.io/tourr/logo.png",
   "last_updated": "2025-07-13",

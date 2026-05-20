@@ -2,9 +2,9 @@
   "name": "methylCC",
   "title": "Estimate the cell composition of whole blood in DNA methylation\nsamples",
   "description": "A tool to estimate the cell composition of DNA methylation whole blood sample measured on any platform technology (microarray and sequencing).",
-  "repo_url": "https://github.com/stephaniehicks/methylCC/",
+  "repo_url": "https://github.com/stephaniehicks/methylCC",
   "pkdown_url": null,
-  "bug_reports_url": "https://github.com/stephaniehicks/methylCC/",
+  "bug_reports_url": "https://github.com/stephaniehicks/methylCC",
   "logo_url": null,
   "last_updated": "2026-04-28",
   "authors": [

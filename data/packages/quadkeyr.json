@@ -3,7 +3,7 @@
   "title": "Generate Raster Images from QuadKey-Identified Datasets",
   "description": "A set of functions of increasing complexity allows users to (1) convert QuadKey-identified datasets, based on 'Microsoft's Bing Maps Tile System', into Simple Features data frames, (2) transform Simple Features data frames into rasters, and (3) process multiple 'Meta' ('Facebook') QuadKey-identified human mobility files directly into raster files. For more details, see D’Andrea et al. (2024) <doi:10.21105/joss.06500>.",
   "repo_url": "https://github.com/ropensci/quadkeyr",
-  "pkdown_url": "https://docs.ropensci.org/quadkeyr/",
+  "pkdown_url": "https://docs.ropensci.org/quadkeyr",
   "bug_reports_url": "https://github.com/ropensci/quadkeyr/issues",
   "logo_url": "https://docs.ropensci.org/quadkeyr/logo.png",
   "last_updated": "2025-03-24",

@@ -3,7 +3,7 @@
   "title": "Companion to \"Learning Statistics with R\"",
   "description": "A collection of tools intended to make introductory statistics easier to teach, including wrappers for common hypothesis tests and basic data manipulation. It accompanies Navarro, D. J. (2015). Learning Statistics with R: A Tutorial for Psychology Students and Other Beginners, Version 0.6.",
   "repo_url": "https://github.com/djnavarro/lsr",
-  "pkdown_url": "http://lsr.djnavarro.net/",
+  "pkdown_url": "http://lsr.djnavarro.net",
   "bug_reports_url": "https://github.com/djnavarro/lsr/issues",
   "logo_url": null,
   "last_updated": "2026-03-21",

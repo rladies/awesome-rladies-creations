@@ -3,7 +3,7 @@
   "title": "Checks Session Status",
   "description": "Provides tools to check variables contained in the user environment, and inspect the currently loaded package namespaces. The intended use is to allow user scripts to throw errors or warnings if unwanted variables exist or if unwanted packages are loaded.",
   "repo_url": "https://github.com/djnavarro/sessioncheck",
-  "pkdown_url": "https://sessioncheck.djnavarro.net/",
+  "pkdown_url": "https://sessioncheck.djnavarro.net",
   "bug_reports_url": "https://github.com/djnavarro/sessioncheck/issues",
   "logo_url": null,
   "last_updated": "2026-02-27",

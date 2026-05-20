@@ -3,7 +3,7 @@
   "title": "Data from \"Statistical Methods in Biology\"",
   "description": "All data in the book \"Statistical Methods in Biology\" by Welham et al. (2015) <doi:10.1201/b17336> with a corresponding documentation and illustrative analysis of the data.",
   "repo_url": "https://github.com/emitanaka/smbdata",
-  "pkdown_url": "http://emitanaka.org/smbdata/",
+  "pkdown_url": "http://emitanaka.org/smbdata",
   "bug_reports_url": "https://github.com/emitanaka/smbdata/issues",
   "logo_url": null,
   "last_updated": "2026-01-21",

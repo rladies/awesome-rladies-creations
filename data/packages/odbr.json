@@ -3,7 +3,7 @@
   "title": "Download Data from Brazil's Origin Destination Surveys",
   "description": "Download data from Brazil's Origin Destination Surveys. The package covers both data from household travel surveys, dictionaries of variables, and the spatial geometries of surveys conducted in different years and across various urban areas in Brazil. For some cities, the package will include enhanced versions of the data sets with variables \"harmonized\" across different years.",
   "repo_url": "https://github.com/hsvab/odbr",
-  "pkdown_url": "https://hsvab.github.io/odbr/",
+  "pkdown_url": "https://hsvab.github.io/odbr",
   "bug_reports_url": "https://github.com/hsvab/odbr/issues",
   "logo_url": "https://hsvab.github.io/odbr/logo.png",
   "last_updated": "2025-02-14",

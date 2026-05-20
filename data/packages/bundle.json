@@ -3,7 +3,7 @@
   "title": "Serialize Model Objects with a Consistent Interface",
   "description": "Typically, models in 'R' exist in memory and can be saved via regular 'R' serialization. However, some models store information in locations that cannot be saved using 'R' serialization alone. The goal of 'bundle' is to provide a common interface to capture this information, situate it within a portable object, and restore it for use in new settings.",
   "repo_url": "https://github.com/rstudio/bundle",
-  "pkdown_url": "https://rstudio.github.io/bundle/",
+  "pkdown_url": "https://rstudio.github.io/bundle",
   "bug_reports_url": "https://github.com/rstudio/bundle/issues",
   "logo_url": null,
   "last_updated": "2025-12-10",

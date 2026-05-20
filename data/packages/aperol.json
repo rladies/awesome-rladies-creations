@@ -3,7 +3,7 @@
   "title": "Generates Tipsy or Drunk Praise",
   "description": "This is a joke package, which generates praise using the praise package, then garbles it, as if being delivered by someone tipsy or drunk.",
   "repo_url": "https://github.com/EllaKaye/aperol",
-  "pkdown_url": "https://ellakaye.github.io/aperol/",
+  "pkdown_url": "https://ellakaye.github.io/aperol",
   "bug_reports_url": "https://github.com/EllaKaye/aperol/issues",
   "logo_url": "https://ellakaye.github.io/aperol/logo.png",
   "last_updated": "2025-02-27",

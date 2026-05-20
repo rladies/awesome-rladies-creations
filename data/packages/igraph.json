@@ -3,7 +3,7 @@
   "title": "Network Analysis and Visualization",
   "description": "Routines for simple graphs and network analysis. It can handle large graphs very well and provides functions for generating random and regular graphs, graph visualization, centrality methods and much more.",
   "repo_url": "https://github.com/igraph/rigraph",
-  "pkdown_url": "https://r.igraph.org/",
+  "pkdown_url": "https://r.igraph.org",
   "bug_reports_url": "https://github.com/igraph/rigraph/issues",
   "logo_url": "https://r.igraph.org/logo.png",
   "last_updated": "2026-05-04",

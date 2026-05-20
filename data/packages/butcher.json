@@ -3,7 +3,7 @@
   "title": "Model Butcher",
   "description": "Provides a set of S3 generics to axe components of fitted model objects and help reduce the size of model objects saved to disk.",
   "repo_url": "https://github.com/tidymodels/butcher",
-  "pkdown_url": "https://butcher.tidymodels.org/",
+  "pkdown_url": "https://butcher.tidymodels.org",
   "bug_reports_url": "https://github.com/tidymodels/butcher/issues",
   "logo_url": "https://butcher.tidymodels.org/logo.png",
   "last_updated": "2025-12-09",

@@ -3,7 +3,7 @@
   "title": "Interactive 3D Brain Atlas Visualization",
   "description": "Plot brain atlases as interactive 3D meshes using 'Three.js' via 'htmlwidgets', or render publication-quality static images through 'rgl' and 'rayshader'. A pipe-friendly API lets you map data onto brain regions, control camera angles, toggle region edges, overlay glass brains, and snapshot or ray-trace the result. Additional atlases are available through the 'ggsegverse' r-universe. Mowinckel & Vidal-Piñeiro (2020) <doi:10.1177/2515245920928009>.",
   "repo_url": "https://github.com/ggsegverse/ggseg3d",
-  "pkdown_url": "https://ggsegverse.github.io/ggseg3d/",
+  "pkdown_url": "https://ggsegverse.github.io/ggseg3d",
   "bug_reports_url": "https://github.com/ggsegverse/ggseg3d/issues",
   "logo_url": "https://ggsegverse.github.io/ggseg3d/logo.png",
   "last_updated": "2026-04-22",

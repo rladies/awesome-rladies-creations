@@ -3,7 +3,7 @@
   "title": "Date and Time Functions for Public Health Purposes",
   "description": "Provides easy and consistent time conversion for public health purposes. The time conversion functions provided here are between date, ISO week, ISO yearweek, ISO year, calendar month/year, season, season week.",
   "repo_url": "https://github.com/csids/cstime",
-  "pkdown_url": "https://www.csids.no/cstime/",
+  "pkdown_url": "https://www.csids.no/cstime",
   "bug_reports_url": "https://github.com/csids/cstime/issues",
   "logo_url": null,
   "last_updated": "2025-10-14",

@@ -3,7 +3,7 @@
   "title": "Dynamically Generate Quarto Syntax",
   "description": "Provides helper functions to work programmatically within a quarto document. It allows the user to create section headers, tabsets, divs, and spans, and formats these objects into quarto syntax when printed into a document.",
   "repo_url": "https://github.com/djnavarro/quartose",
-  "pkdown_url": "https://quartose.djnavarro.net/",
+  "pkdown_url": "https://quartose.djnavarro.net",
   "bug_reports_url": "https://github.com/djnavarro/quartose/issues",
   "logo_url": null,
   "last_updated": "2025-07-09",

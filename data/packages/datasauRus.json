@@ -3,7 +3,7 @@
   "title": "Datasets from the Datasaurus Dozen",
   "description": "The Datasaurus Dozen is a set of datasets with the same summary statistics. They retain the same summary statistics despite having radically different distributions. The datasets represent a larger and quirkier object lesson that is typically taught via Anscombe's Quartet (available in the 'datasets' package). Anscombe's Quartet contains four very different distributions with the same summary statistics and as such highlights the value of visualisation in understanding data, over and above summary statistics. As well as being an engaging variant on the Quartet, the data is generated in a novel way. The simulated annealing process used to derive datasets from the original Datasaurus is detailed in \"Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing\" <doi:10.1145/3025453.3025912>.",
   "repo_url": "https://github.com/jumpingrivers/datasauRus",
-  "pkdown_url": "https://jumpingrivers.github.io/datasauRus/",
+  "pkdown_url": "https://jumpingrivers.github.io/datasauRus",
   "bug_reports_url": "https://github.com/jumpingrivers/datasauRus/issues",
   "logo_url": "https://jumpingrivers.github.io/datasauRus/logo.png",
   "last_updated": "2025-01-23",

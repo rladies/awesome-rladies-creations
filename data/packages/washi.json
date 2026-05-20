@@ -3,8 +3,8 @@
   "title": "Washington Soil Health Initiative Branding",
   "description": "Create plots and tables in a consistent style with WaSHI (Washington Soil Health Initiative) branding. Use 'washi' to easily style your 'ggplot2' plots and 'flextable' tables.",
   "repo_url": "https://github.com/WA-Department-of-Agriculture/washi",
-  "pkdown_url": "https://wa-department-of-agriculture.github.io/washi/",
-  "bug_reports_url": "https://github.com/WA-Department-of-Agriculture/washi/issues/",
+  "pkdown_url": "https://wa-department-of-agriculture.github.io/washi",
+  "bug_reports_url": "https://github.com/WA-Department-of-Agriculture/washi/issues",
   "logo_url": "https://wa-department-of-agriculture.github.io/washi/logo.png",
   "last_updated": "2025-09-16",
   "authors": [

@@ -3,7 +3,7 @@
   "title": "Índices y Estadísticos Climáticos e Hidrológicos",
   "description": "Conjunto de funciones para calcular índices y estadísticos climáticos hidrológicos a partir de datos tidy. Incluye una función para graficar resultados georeferenciados y e información cartográfica.",
   "repo_url": "https://github.com/ropensci/agroclimatico",
-  "pkdown_url": "https://docs.ropensci.org/agroclimatico/",
+  "pkdown_url": "https://docs.ropensci.org/agroclimatico",
   "bug_reports_url": "https://github.com/ropensci/agroclimatico/issues",
   "logo_url": "https://docs.ropensci.org/agroclimatico/logo.png",
   "last_updated": null,

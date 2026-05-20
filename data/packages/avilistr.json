@@ -3,7 +3,7 @@
   "title": "Access and Work with the 'AviList' Global Avian Checklist",
   "description": "Provides easy access to the 'AviList' Global Avian Checklist, the first unified global bird taxonomy that harmonizes previous differences between International Ornithological Committee ('IOC'), 'Clements', and 'BirdLife' checklists. This package contains the complete 'AviList' dataset as R data objects ready for ornithological research and analysis. For more details see 'AviList' Core Team (2025) <doi:10.2173/avilist.v2025>.",
   "repo_url": "https://github.com/dalyanalytics/avilistr",
-  "pkdown_url": "https://dalyanalytics.github.io/avilistr/",
+  "pkdown_url": "https://dalyanalytics.github.io/avilistr",
   "bug_reports_url": "https://github.com/dalyanalytics/avilistr/issues",
   "logo_url": "https://dalyanalytics.github.io/avilistr/logo.png",
   "last_updated": "2025-06-17",

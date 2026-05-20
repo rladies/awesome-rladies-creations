@@ -1,7 +1,7 @@
 {
   "title": "R-Ladies Melbourne Blog",
   "type": "blog",
-  "url": "https://r-ladiesmelbourne.github.io/",
+  "url": "https://r-ladiesmelbourne.github.io",
   "photo_url": "https://r-ladiesmelbourne.github.io/images/rladiesmelblogo.png",
   "description": "Blog by R-Ladies Melbourne",
   "language": "en",
@@ -15,7 +15,7 @@
          "github": "r-ladiesmelbourne",
          "linkedin": "https://www.linkedin.com/company/r-ladies-melbourne/",
          "meetup": "r-ladies-melbourne",
-        "website": "https://r-ladiesmelbourne.github.io/"
+        "website": "https://r-ladiesmelbourne.github.io"
       }]
     }
   ]

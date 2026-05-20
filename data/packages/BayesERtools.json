@@ -3,7 +3,7 @@
   "title": "Bayesian Exposure-Response Analysis Tools",
   "description": "Suite of tools that facilitate exposure-response analysis using Bayesian methods. The package provides a streamlined workflow for fitting types of models that are commonly used in exposure-response analysis - linear and Emax for continuous endpoints, logistic linear and logistic Emax for binary endpoints, as well as performing simulation and visualization. Learn more about the workflow at <https://genentech.github.io/BayesERbook/>.",
   "repo_url": null,
-  "pkdown_url": "https://genentech.github.io/BayesERtools/",
+  "pkdown_url": "https://genentech.github.io/BayesERtools",
   "bug_reports_url": null,
   "logo_url": "https://genentech.github.io/BayesERtools/logo.png",
   "last_updated": "2026-04-23",

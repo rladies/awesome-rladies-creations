@@ -2,7 +2,7 @@
   "name": "googleAnalyticsR",
   "title": "Google Analytics API into R",
   "description": "Interact with the Google Analytics APIs <https://developers.google.com/analytics/>, including the Core Reporting API (v3 and v4), Management API, User Activity API GA4's Data API and Admin API and Multi-Channel Funnel API.",
-  "repo_url": "https://github.com/8-bit-sheep/googleAnalyticsR/",
+  "repo_url": "https://github.com/8-bit-sheep/googleAnalyticsR",
   "pkdown_url": null,
   "bug_reports_url": "https://github.com/8-bit-sheep/googleAnalyticsR/issues",
   "logo_url": "https://raw.githubusercontent.com/8-bit-sheep/googleAnalyticsR/HEAD/man/figures/logo.png",

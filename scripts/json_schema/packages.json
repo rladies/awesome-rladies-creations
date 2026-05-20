@@ -1,63 +1,63 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-        "name": {
-            "type": "string"
-        },
-        "title": {
-            "type": "string"
-        },
-        "description": {
-            "type": "string"
-        },
-        "repo_url": {
-            "type": ["string", "null"]
-        },
-        "pkdown_url": {
-            "type": ["string", "null"]
-        },
-        "bug_reports_url": {
-            "type": ["string", "null"]
-        },
-        "logo_url": {
-            "type": ["string", "null"]
-        },
-        "last_updated": {
-            "type": ["string", "null"],
-            "description": "ISO date (YYYY-MM-DD) of last publication: r-universe Date/Publication, falling back to _published or CRAN Date/Publication."
-        },
-        "authors": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string"
-                    },
-                    "email": {
-                        "type": ["string", "null"]
-                    },
-                    "directory_id": {
-                        "type": ["string", "null"]
-                    },
-                    "orcid": {
-                        "type": ["string", "null"]
-                    },
-                    "roles": {
-                        "type": "array",
-                        "items": { "type": "string" }
-                    }
-                },
-                "required": ["name"],
-                "additionalProperties": true
-            }
-        }
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
     },
-    "required": [
-        "name",
-        "description",
-        "authors"
-    ],
-    "additionalProperties": true
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "repo_url": {
+      "type": ["string", "null"],
+      "pattern": "^https?://[^\\s]+[^/\\s]$"
+    },
+    "pkdown_url": {
+      "type": ["string", "null"],
+      "pattern": "^https?://[^\\s]+[^/\\s]$"
+    },
+    "bug_reports_url": {
+      "type": ["string", "null"],
+      "pattern": "^https?://[^\\s]+[^/\\s]$"
+    },
+    "logo_url": {
+      "type": ["string", "null"],
+      "pattern": "^https?://[^\\s]+[^/\\s]$"
+    },
+    "last_updated": {
+      "type": ["string", "null"],
+      "description": "ISO date (YYYY-MM-DD) of last publication: r-universe Date/Publication, falling back to _published or CRAN Date/Publication."
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "email": {
+            "type": ["string", "null"]
+          },
+          "directory_id": {
+            "type": ["string", "null"]
+          },
+          "orcid": {
+            "type": ["string", "null"]
+          },
+          "roles": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "required": ["name"],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": ["name", "description", "authors"],
+  "additionalProperties": true
 }

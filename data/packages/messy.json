@@ -3,7 +3,7 @@
   "title": "Create Messy Data from Clean Data Frames",
   "description": "For the purposes of teaching, it is often desirable to show examples of working with messy data and how to clean it. This R package creates messy data from clean, tidy data frames so that students have a clean example to work towards.",
   "repo_url": "https://github.com/nrennie/messy",
-  "pkdown_url": "https://nrennie.rbind.io/messy/",
+  "pkdown_url": "https://nrennie.rbind.io/messy",
   "bug_reports_url": "https://github.com/nrennie/messy/issues",
   "logo_url": "https://nrennie.rbind.io/messy/logo.png",
   "last_updated": "2025-08-29",

@@ -3,7 +3,7 @@
   "title": "Data from Gapminder",
   "description": "An excerpt of the data available at Gapminder.org. For each of 142 countries, the package provides values for life expectancy, GDP per capita, and population, every five years, from 1952 to 2007.",
   "repo_url": "https://github.com/jennybc/gapminder",
-  "pkdown_url": "https://www.gapminder.org/data/",
+  "pkdown_url": "https://www.gapminder.org/data",
   "bug_reports_url": "https://github.com/jennybc/gapminder/issues",
   "logo_url": null,
   "last_updated": "2025-06-12",

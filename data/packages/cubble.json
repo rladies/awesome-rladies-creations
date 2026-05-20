@@ -3,7 +3,7 @@
   "title": "A Vector Spatio-Temporal Data Structure for Data Analysis",
   "description": "A spatiotemperal data object in a relational data structure to separate the recording of time variant/ invariant variables. See the Journal of Statistical Software reference: <doi:10.18637/jss.v110.i07>.",
   "repo_url": "https://github.com/huizezhang-sherry/cubble",
-  "pkdown_url": "https://huizezhang-sherry.github.io/cubble/",
+  "pkdown_url": "https://huizezhang-sherry.github.io/cubble",
   "bug_reports_url": "https://github.com/huizezhang-sherry/cubble/issues",
   "logo_url": "https://huizezhang-sherry.github.io/cubble/logo.svg",
   "last_updated": "2024-10-05",

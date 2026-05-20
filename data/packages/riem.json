@@ -3,7 +3,7 @@
   "title": "Accesses Weather Data from the Iowa Environment Mesonet",
   "description": "Allows to get weather data from Automated Surface Observing System (ASOS) stations (airports) in the whole world thanks to the Iowa Environment Mesonet website.",
   "repo_url": "https://github.com/ropensci/riem",
-  "pkdown_url": "https://docs.ropensci.org/riem/",
+  "pkdown_url": "https://docs.ropensci.org/riem",
   "bug_reports_url": "https://github.com/ropensci/riem/issues",
   "logo_url": "https://docs.ropensci.org/riem/logo.png",
   "last_updated": "2025-01-31",

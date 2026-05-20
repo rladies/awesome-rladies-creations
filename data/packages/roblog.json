@@ -3,7 +3,7 @@
   "title": "rOpenSci's blog guidance",
   "description": "It provides templates for roweb2 blogging and help for a GitHub forking workflow.",
   "repo_url": "https://github.com/ropenscilabs/roblog",
-  "pkdown_url": "https://docs.ropensci.org/roblog/",
+  "pkdown_url": "https://docs.ropensci.org/roblog",
   "bug_reports_url": "https://github.com/ropenscilabs/roblog/issues",
   "logo_url": "https://docs.ropensci.org/roblog/logo.png",
   "last_updated": "2026-02-18",

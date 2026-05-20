@@ -6,16 +6,19 @@
       "type": "string"
     },
     "url": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^https?://[^\\s]+[^/\\s]$"
     },
     "rss_feed": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^https?://[^\\s]+[^/\\s]$"
     },
     "type": {
       "type": "string"
     },
     "photo_url": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^https?://[^\\s]+[^/\\s]$"
     },
     "description": {
       "type": "string"
@@ -72,7 +75,8 @@
                       "type": "string"
                     },
                     "website": {
-                      "type": "string"
+                      "type": "string",
+                      "pattern": "^https?://[^\\s]+[^/\\s]$"
                     },
                     "orcid": {
                       "type": "string"
@@ -82,18 +86,10 @@
               ]
             }
           },
-          "required": [
-            "name"
-          ]
+          "required": ["name"]
         }
       ]
     }
   },
-  "required": [
-    "title",
-    "url",
-    "type",
-    "authors",
-    "language"
-  ]
+  "required": ["title", "url", "type", "authors", "language"]
 }

@@ -3,7 +3,7 @@
   "title": "Regulatory Tables for Clinical Research",
   "description": "Creates tables suitable for regulatory agency submission by leveraging the 'gtsummary' package as the back end. Tables can be exported to HTML, Word, PDF and more. Highly customized outputs are available by utilizing existing styling functions from 'gtsummary' as well as custom options designed for regulatory tables.",
   "repo_url": "https://github.com/shannonpileggi/gtreg",
-  "pkdown_url": "https://shannonpileggi.github.io/gtreg/",
+  "pkdown_url": "https://shannonpileggi.github.io/gtreg",
   "bug_reports_url": "https://github.com/shannonpileggi/gtreg/issues",
   "logo_url": "https://shannonpileggi.github.io/gtreg/logo.png",
   "last_updated": "2025-11-25",

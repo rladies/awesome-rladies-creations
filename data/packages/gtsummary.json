@@ -3,7 +3,7 @@
   "title": "Presentation-Ready Data Summary and Analytic Result Tables",
   "description": "Creates presentation-ready tables summarizing data sets, regression models, and more. The code to create the tables is concise and highly customizable. Data frames can be summarized with any function, e.g. mean(), median(), even user-written functions. Regression models are summarized and include the reference rows for categorical variables. Common regression models, such as logistic regression and Cox proportional hazards regression, are automatically identified and the tables are pre-filled with appropriate column headers.",
   "repo_url": "https://github.com/ddsjoberg/gtsummary",
-  "pkdown_url": "https://www.danieldsjoberg.com/gtsummary/",
+  "pkdown_url": "https://www.danieldsjoberg.com/gtsummary",
   "bug_reports_url": "https://github.com/ddsjoberg/gtsummary/issues",
   "logo_url": "https://www.danieldsjoberg.com/gtsummary/logo.png",
   "last_updated": "2025-12-05",

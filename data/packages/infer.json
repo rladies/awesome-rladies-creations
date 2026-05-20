@@ -3,7 +3,7 @@
   "title": "Tidy Statistical Inference",
   "description": "The objective of this package is to perform inference using an expressive statistical grammar that coheres with the tidy design framework.",
   "repo_url": "https://github.com/tidymodels/infer",
-  "pkdown_url": "https://infer.tidymodels.org/",
+  "pkdown_url": "https://infer.tidymodels.org",
   "bug_reports_url": "https://github.com/tidymodels/infer/issues",
   "logo_url": "https://infer.tidymodels.org/logo.png",
   "last_updated": "2025-12-18",

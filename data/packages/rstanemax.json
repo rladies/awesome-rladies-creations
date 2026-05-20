@@ -3,7 +3,7 @@
   "title": "Emax Model Analysis with 'Stan'",
   "description": "Perform sigmoidal Emax model fit using 'Stan' in a formula notation, without writing 'Stan' model code.",
   "repo_url": "https://github.com/yoshidk6/rstanemax",
-  "pkdown_url": "https://yoshidk6.github.io/rstanemax/",
+  "pkdown_url": "https://yoshidk6.github.io/rstanemax",
   "bug_reports_url": "https://github.com/yoshidk6/rstanemax/issues",
   "logo_url": null,
   "last_updated": "2025-02-17",

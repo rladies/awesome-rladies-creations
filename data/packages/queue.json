@@ -3,7 +3,7 @@
   "title": "Simple Multi-Threaded Task Queuing",
   "description": "Implements a simple multi-threaded task queue using R6 classes.",
   "repo_url": "https://github.com/djnavarro/queue",
-  "pkdown_url": "http://djnavarro.net/queue/",
+  "pkdown_url": "http://djnavarro.net/queue",
   "bug_reports_url": "https://github.com/djnavarro/queue/issues",
   "logo_url": null,
   "last_updated": "2026-03-21",

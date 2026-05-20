@@ -3,7 +3,7 @@
   "title": "Data from \"The Great British Bake Off\"",
   "description": "Data about the bakers, challenges, and ratings for \"The Great British Bake Off\", from Wikipedia <https://en.wikipedia.org/wiki/The_Great_British_Bake_Off>.",
   "repo_url": "https://github.com/apreshill/bakeoff",
-  "pkdown_url": "https://bakeoff.netlify.app/",
+  "pkdown_url": "https://bakeoff.netlify.app",
   "bug_reports_url": "https://github.com/apreshill/bakeoff/issues",
   "logo_url": "https://bakeoff.netlify.app/logo.png",
   "last_updated": "2022-11-02",

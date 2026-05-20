@@ -2,7 +2,7 @@
   "name": "changepoint",
   "title": "Methods for Changepoint Detection",
   "description": "Implements various mainstream and specialised changepoint methods for finding single and multiple changepoints within data. Many popular non-parametric and frequentist methods are included. The cpt.mean(), cpt.var(), cpt.meanvar() functions should be your first point of call.",
-  "repo_url": "https://github.com/rkillick/changepoint/",
+  "repo_url": "https://github.com/rkillick/changepoint",
   "pkdown_url": null,
   "bug_reports_url": "https://github.com/rkillick/changepoint/issues",
   "logo_url": null,

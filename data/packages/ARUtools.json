@@ -3,7 +3,7 @@
   "title": "Management and Processing of Autonomous Recording Unit (ARU)\nData",
   "description": "Parse Autonomous Recording Unit (ARU) data and for sub-sampling recordings. Extract Metadata from your recordings, select a subset of recordings for interpretation, and prepare files for processing on the 'WildTrax' <https://wildtrax.ca/> platform. Read and process metadata from recordings collected using the SongMeter and BAR-LT types of ARUs.",
   "repo_url": "https://github.com/ARUtools/ARUtools",
-  "pkdown_url": "https://arutools.github.io/ARUtools/",
+  "pkdown_url": "https://arutools.github.io/ARUtools",
   "bug_reports_url": "https://github.com/ARUtools/ARUtools/issues",
   "logo_url": "https://arutools.github.io/ARUtools/logo.png",
   "last_updated": "2025-07-28",

@@ -3,7 +3,7 @@
   "title": "Generate Random Tree-Like Images",
   "description": "A generative art system for producing tree-like images using an L-system to create the structures. The package includes tools for generating the data structures and visualise them in a variety of styles.",
   "repo_url": "https://github.com/djnavarro/flametree",
-  "pkdown_url": "https://flametree.djnavarro.net/",
+  "pkdown_url": "https://flametree.djnavarro.net",
   "bug_reports_url": "https://github.com/djnavarro/flametree/issues",
   "logo_url": null,
   "last_updated": "2026-03-21",

@@ -3,7 +3,7 @@
   "title": "Access 'EMODnet' Web Feature Service Data",
   "description": "Access and interrogate 'EMODnet' (European Marine Observation and Data Network) Web Feature Service data <https://emodnet.ec.europa.eu/en/emodnet-web-service-documentation#data-download-services>. This includes listing existing data sources, and getting data from each of them.",
   "repo_url": "https://github.com/EMODnet/emodnet.wfs",
-  "pkdown_url": "https://docs.ropensci.org/emodnet.wfs/",
+  "pkdown_url": "https://docs.ropensci.org/emodnet.wfs",
   "bug_reports_url": "https://github.com/EMODnet/emodnet.wfs/issues",
   "logo_url": "https://docs.ropensci.org/emodnet.wfs/logo.svg",
   "last_updated": "2026-03-26",

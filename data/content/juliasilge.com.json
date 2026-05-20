@@ -1,7 +1,7 @@
 {
   "title": "Julia Silge",
   "type": "blog",
-  "url": "https://juliasilge.com/",
+  "url": "https://juliasilge.com",
   "rss_feed": "https://juliasilge.com/categories/rstats/index.xml",
   "photo_url": "https://github.com/juliasilge.png",
   "description": "A data science blog by Julia Silge",
@@ -15,7 +15,7 @@
          "bluesky": "juliasilge.com",
          "github": "juliasilge",
          "youtube": "juliasilge",
-         "website": "https://juliasilge.com/",
+         "website": "https://juliasilge.com",
          "linkedin": "juliasilge",
          "orcid": "0000-0002-3671-836X"
       }]

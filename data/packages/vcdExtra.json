@@ -3,7 +3,7 @@
   "title": "'vcd' Extensions and Additions",
   "description": "Provides additional data sets, methods and documentation to complement the 'vcd' package for Visualizing Categorical Data and the 'gnm' package for Generalized Nonlinear Models. In particular, 'vcdExtra' extends mosaic, assoc and sieve plots from 'vcd' to handle 'glm()' and 'gnm()' models and adds a 3D version in 'mosaic3d'. Additionally, methods are provided for comparing and visualizing lists of 'glm' and 'loglm' objects. This package is now a support package for the book, \"Discrete Data Analysis with R\" by Michael Friendly and David Meyer.",
   "repo_url": "https://github.com/friendly/vcdExtra",
-  "pkdown_url": "https://friendly.github.io/vcdExtra/",
+  "pkdown_url": "https://friendly.github.io/vcdExtra",
   "bug_reports_url": "https://github.com/friendly/vcdExtra/issues",
   "logo_url": "https://friendly.github.io/vcdExtra/logo.png",
   "last_updated": "2026-03-18",

@@ -3,7 +3,7 @@
   "title": "BC Aquifer data tools",
   "description": "Set of tools for processing BC Aquifer lithology and yield data.",
   "repo_url": "https://github.com/bcgov/bcaquiferdata",
-  "pkdown_url": "http://bcgov.github.io/bcaquiferdata/",
+  "pkdown_url": "http://bcgov.github.io/bcaquiferdata",
   "bug_reports_url": null,
   "logo_url": null,
   "last_updated": "2026-02-06",

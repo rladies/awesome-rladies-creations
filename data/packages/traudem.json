@@ -3,7 +3,7 @@
   "title": "Use TauDEM",
   "description": "Simple trustworthy utility functions to use TauDEM (Terrain Analysis Using Digital Elevation Models <https://hydrology.usu.edu/taudem/taudem5/>) command-line interface. This package provides a guide to installation of TauDEM and its dependencies GDAL (Geopatial Data Abstraction Library) and MPI (Message Passing Interface) for different operating systems. Moreover, it checks that TauDEM and its dependencies are correctly installed and included to the PATH, and it provides wrapper commands for calling TauDEM methods from R.",
   "repo_url": "https://github.com/lucarraro/traudem",
-  "pkdown_url": "https://lucarraro.github.io/traudem/",
+  "pkdown_url": "https://lucarraro.github.io/traudem",
   "bug_reports_url": "https://github.com/lucarraro/traudem/issues",
   "logo_url": null,
   "last_updated": "2024-04-24",

@@ -3,7 +3,7 @@
   "title": "Data on the States and Counties of the United States",
   "description": "Demographic data on the United States at the county and state levels spanning multiple years.",
   "repo_url": "https://github.com/OpenIntroStat/usdata",
-  "pkdown_url": "https://openintrostat.github.io/usdata/",
+  "pkdown_url": "https://openintrostat.github.io/usdata",
   "bug_reports_url": "https://github.com/OpenIntroStat/usdata/issues",
   "logo_url": "https://openintrostat.github.io/usdata/logo.png",
   "last_updated": "2024-06-02",

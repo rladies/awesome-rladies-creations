@@ -3,7 +3,7 @@
   "title": "Make Static HTML Documentation for a Package",
   "description": "Generate an attractive and useful website from a source package. 'pkgdown' converts your documentation, vignettes, 'README', and more to 'HTML' making it easy to share information about your package online.",
   "repo_url": "https://github.com/r-lib/pkgdown",
-  "pkdown_url": "https://pkgdown.r-lib.org/",
+  "pkdown_url": "https://pkgdown.r-lib.org",
   "bug_reports_url": "https://github.com/r-lib/pkgdown/issues",
   "logo_url": "https://pkgdown.r-lib.org/logo.png",
   "last_updated": "2025-11-06",

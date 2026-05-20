@@ -3,7 +3,7 @@
   "title": "Brain Atlas Data Structures for the 'ggseg' Ecosystem",
   "description": "Provides the 'ggseg_atlas' S3 class used across the 'ggseg' ecosystem for 2D and 3D brain visualisation. Ships three bundled atlases ('Desikan-Killiany', 'FreeSurfer' 'aseg', 'TRACULA') and functions for querying, subsetting, renaming, and enriching atlas objects. Also includes readers for 'FreeSurfer' statistics files.",
   "repo_url": "https://github.com/ggsegverse/ggseg.formats",
-  "pkdown_url": "https://ggsegverse.github.io/ggseg.formats/",
+  "pkdown_url": "https://ggsegverse.github.io/ggseg.formats",
   "bug_reports_url": "https://github.com/ggsegverse/ggseg.formats/issues",
   "logo_url": null,
   "last_updated": "2026-04-03",

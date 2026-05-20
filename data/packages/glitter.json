@@ -3,7 +3,7 @@
   "title": "glitter makes SPARQL",
   "description": "This package aims at writing and sending SPARQL queries. It makes the exploration and use of Linked Open Data (Wikidata in particular) easier for those who do not know SPARQL.",
   "repo_url": "https://github.com/lvaudor/glitter",
-  "pkdown_url": "https://lvaudor.github.io/glitter/",
+  "pkdown_url": "https://lvaudor.github.io/glitter",
   "bug_reports_url": "https://github.com/lvaudor/glitter/issues",
   "logo_url": "https://lvaudor.github.io/glitter/logo.png",
   "last_updated": "2023-12-21",

@@ -1,7 +1,7 @@
 {
   "title": "Soy Andrea blog",
   "type": "blog", 
-  "url": "https://soyandrea.netlify.app/",
+  "url": "https://soyandrea.netlify.app",
   "rss_feed": "https://soyandrea.netlify.app/tag/r/index.xml",
   "photo_url": "https://soyandrea.netlify.app/author/andrea/avatar.jpg",
   "description": "Socióloga, web profesional & portafolio",

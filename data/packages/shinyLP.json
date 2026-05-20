@@ -3,7 +3,7 @@
   "title": "Bootstrap Landing Home Pages for Shiny Applications",
   "description": "Provides functions that wrap HTML Bootstrap components code to enable the design and layout of informative landing home pages for Shiny applications. This can lead to a better user experience for the users and writing less HTML for the developer.",
   "repo_url": "https://github.com/jasdumas/shinyLP",
-  "pkdown_url": "http://jasminedaly.com/shinyLP/",
+  "pkdown_url": "http://jasminedaly.com/shinyLP",
   "bug_reports_url": null,
   "logo_url": "http://jasminedaly.com/shinyLP/logo.png",
   "last_updated": "2025-05-15",

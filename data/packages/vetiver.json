@@ -2,7 +2,7 @@
   "name": "vetiver",
   "title": "Version, Share, Deploy, and Monitor Models",
   "description": "The goal of 'vetiver' is to provide fluent tooling to version, share, deploy, and monitor a trained model. Functions handle both recording and checking the model's input data prototype, and predicting from a remote API endpoint. The 'vetiver' package is extensible, with generics that can support many kinds of models.",
-  "repo_url": "https://github.com/rstudio/vetiver-r/",
+  "repo_url": "https://github.com/rstudio/vetiver-r",
   "pkdown_url": "https://vetiver.posit.co",
   "bug_reports_url": "https://github.com/rstudio/vetiver-r/issues",
   "logo_url": "https://raw.githubusercontent.com/rstudio/vetiver-r/HEAD/man/figures/logo.png",
