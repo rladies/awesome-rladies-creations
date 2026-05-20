@@ -1,0 +1,35 @@
+{
+  "name": "trackeR",
+  "title": "Infrastructure for Running, Cycling and Swimming Data from\nGPS-Enabled Tracking Devices",
+  "description": "Provides infrastructure for handling running, cycling and swimming data from GPS-enabled tracking devices within R. The package provides methods to extract, clean and organise workout and competition data into session-based and unit-aware data objects of class 'trackeRdata' (S3 class). The information can then be visualised, summarised, and analysed through flexible and extensible methods. Frick and Kosmidis (2017) <doi: 10.18637/jss.v082.i07>, which is updated and maintained as one of the vignettes, provides detailed descriptions of the package and its methods, and real-data demonstrations of the package functionality.",
+  "repo_url": "https://github.com/trackerproject/trackeR",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/trackerproject/trackeR/issues",
+  "logo_url": "https://raw.githubusercontent.com/trackerproject/trackeR/HEAD/README_files/hex_trackeR.svg",
+  "last_updated": "2025-08-29",
+  "authors": [
+    {
+      "name": "Ioannis Kosmidis",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-1556-0302",
+      "email": "ioannis.kosmidis@warwick.ac.uk"
+    },
+    {
+      "name": "Hannah Frick",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-6049-5258",
+      "directory_id": "hannah-frick"
+    },
+    {
+      "name": "Robin Hornak",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

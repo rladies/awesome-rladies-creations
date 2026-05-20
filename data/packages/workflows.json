@@ -1,0 +1,45 @@
+{
+  "name": "workflows",
+  "title": "Modeling Workflows",
+  "description": "Managing both a 'parsnip' model and a preprocessor, such as a model formula or recipe from 'recipes', can often be challenging. The goal of 'workflows' is to streamline this process by bundling the model alongside the preprocessor, all within the same object.",
+  "repo_url": "https://github.com/tidymodels/workflows",
+  "pkdown_url": "https://workflows.tidymodels.org",
+  "bug_reports_url": "https://github.com/tidymodels/workflows/issues",
+  "logo_url": "https://workflows.tidymodels.org/logo.png",
+  "last_updated": "2025-08-27",
+  "authors": [
+    {
+      "name": "Davis Vaughan",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Simon Couch",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-5676-5107"
+    },
+    {
+      "name": "Hannah Frick",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6049-5258",
+      "directory_id": "hannah-frick",
+      "email": "hannah@posit.co"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

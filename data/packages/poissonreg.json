@@ -1,0 +1,39 @@
+{
+  "name": "poissonreg",
+  "title": "Model Wrappers for Poisson Regression",
+  "description": "Bindings for Poisson regression models for use with the 'parsnip' package. Models include simple generalized linear models, Bayesian models, and zero-inflated Poisson models (Zeileis, Kleiber, and Jackman (2008) <doi:10.18637/jss.v027.i08>).",
+  "repo_url": "https://github.com/tidymodels/poissonreg",
+  "pkdown_url": "https://poissonreg.tidymodels.org/",
+  "bug_reports_url": "https://github.com/tidymodels/poissonreg/issues",
+  "logo_url": "https://poissonreg.tidymodels.org/logo.png",
+  "last_updated": "2026-04-20",
+  "authors": [
+    {
+      "name": "Max Kuhn",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-2402-136X"
+    },
+    {
+      "name": "Hannah Frick",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6049-5258",
+      "directory_id": "hannah-frick",
+      "email": "hannah@posit.co"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "dials",
+  "title": "Tools for Creating Tuning Parameter Values",
+  "description": "Many models contain tuning parameters (i.e. parameters that cannot be directly estimated from the data). These tools can be used to define objects for creating, simulating, or validating values for such parameters.",
+  "repo_url": "https://github.com/tidymodels/dials",
+  "pkdown_url": "https://dials.tidymodels.org",
+  "bug_reports_url": "https://github.com/tidymodels/dials/issues",
+  "logo_url": "https://dials.tidymodels.org/logo.png",
+  "last_updated": "2026-04-11",
+  "authors": [
+    {
+      "name": "Max Kuhn",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Hannah Frick",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "hannah-frick",
+      "email": "hannah@posit.co"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}
