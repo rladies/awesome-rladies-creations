@@ -1,0 +1,121 @@
+name: Sync packages from R-Universe opt-ins
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-runiverse
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate app token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.JINX_APP_ID }}
+          private-key: ${{ secrets.JINX_PRIVATE_KEY }}
+          owner: rladies
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ steps.app-token.outputs.token }}
+
+      - name: Install cURL headers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "renv"
+
+      - name: Setup renv
+        uses: r-lib/actions/setup-renv@v2
+
+      - name: Run upsert sync
+        id: upsert
+        env:
+          SYNC_MODE: upsert
+        run: Rscript scripts/sync_from_runiverse.R
+
+      - name: Commit upserts to main
+        id: commit
+        env:
+          ADDED: ${{ steps.upsert.outputs.added }}
+          UPDATED: ${{ steps.upsert.outputs.updated }}
+        run: |
+          set -euo pipefail
+          git config user.name "Jinx[bot]"
+          git config user.email "jinx@rladies.org"
+          git add data/packages/ data/runiverse/_sync_state.json
+          if git diff --cached --quiet; then
+            echo "No package upserts to commit."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          added_count=$(printf '%s\n' "$ADDED" | grep -c . || true)
+          updated_count=$(printf '%s\n' "$UPDATED" | grep -c . || true)
+          parts=()
+          [ "${added_count:-0}" -gt 0 ] && parts+=("add ${added_count}")
+          [ "${updated_count:-0}" -gt 0 ] && parts+=("update ${updated_count}")
+          summary=$(IFS=', '; echo "${parts[*]}")
+          git commit -m "sync(r-universe): ${summary}"
+          git push origin HEAD:main
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open removal PR
+        if: steps.upsert.outputs.removal_candidates != ''
+        env:
+          REMOVALS: ${{ steps.upsert.outputs.removal_candidates }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git checkout -B auto/runiverse-removals origin/main
+
+          SYNC_MODE=remove Rscript scripts/sync_from_runiverse.R
+
+          git add data/packages/ data/runiverse/_sync_state.json
+          if git diff --cached --quiet; then
+            echo "Nothing to remove on the PR branch."
+            exit 0
+          fi
+
+          count=$(printf '%s\n' "$REMOVALS" | grep -c . || true)
+          git commit -m "sync(r-universe): remove ${count} package(s) no longer rladies-marked"
+          git push --force-with-lease origin auto/runiverse-removals
+
+          rows=$(printf '%s\n' "$REMOVALS" | awk 'NF { print "- `" $0 "`" }')
+          body=$(cat <<EOF
+The R-Universe \`packages.json\` for one or more opted-in authors no longer marks the following package(s) with \`"rladies": true\`. Review and merge to drop them from the directory.
+
+Candidates:
+
+${rows}
+
+Multi-author packages: double-check before merging — another R-Ladies+ author might still legitimately be listed even though this opt-in dropped the flag.
+EOF
+)
+
+          if gh pr list --head auto/runiverse-removals --state open --json number | grep -q '"number"'; then
+            gh pr edit auto/runiverse-removals \
+              --title "Remove ${count} package(s) no longer rladies-marked" \
+              --body "$body"
+          else
+            gh pr create --base main --head auto/runiverse-removals \
+              --title "Remove ${count} package(s) no longer rladies-marked" \
+              --body "$body" \
+              --draft
+          fi

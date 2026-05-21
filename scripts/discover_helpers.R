@@ -16,51 +16,6 @@ is_blank <- function(x) {
     !nzchar(trimws(paste(x, collapse = "")))
 }
 
-read_authors <- function(dir) {
-  files <- list.files(dir, pattern = "\\.json$", full.names = TRUE)
-  out <- list()
-  for (f in files) {
-    blog <- jsonlite::read_json(f)
-    for (a in blog$authors %||% list()) {
-      sm <- a$social_media[[1]] %||% list()
-      out[[length(out) + 1]] <- list(
-        name = a$name,
-        github = sm$github %||% NA_character_,
-        orcid = sm$orcid %||% NA_character_,
-        blog = blog$url
-      )
-    }
-  }
-  out
-}
-
-# Read directory entries that have a github handle, returning a list of
-# (slug, name, github) tuples. Used to seed package discovery for community
-# members who don't (yet) have a blog listed in data/content/.
-read_directory_entries <- function(dir) {
-  if (!dir.exists(dir)) {
-    return(list())
-  }
-  files <- list.files(dir, pattern = "\\.json$", full.names = TRUE)
-  out <- list()
-  for (f in files) {
-    entry <- tryCatch(jsonlite::read_json(f), error = function(e) NULL)
-    if (is.null(entry)) {
-      next
-    }
-    gh <- entry$social_media$github
-    if (is_blank(gh)) {
-      next
-    }
-    out[[length(out) + 1]] <- list(
-      slug = sub("\\.json$", "", basename(f)),
-      name = entry$name %||% NA_character_,
-      github = trimws(gh)
-    )
-  }
-  out
-}
-
 # Build a name/handle -> directory slug lookup from the sibling rladies/directory
 # repo. The slug (filename minus .json) is the canonical directory_id.
 build_directory_lookup <- function(dir) {
@@ -177,11 +132,13 @@ apply_directory_id_pairs <- function(authors, pairs) {
     matched <- FALSE
     candidates <- c(p$dir_name, if (nzchar(p$explicit_name)) p$explicit_name)
     for (i in seq_along(authors)) {
-      if (any(vapply(
-        candidates,
-        function(c) names_match(c, authors[[i]]$name),
-        logical(1)
-      ))) {
+      if (
+        any(vapply(
+          candidates,
+          function(c) names_match(c, authors[[i]]$name),
+          logical(1)
+        ))
+      ) {
         authors[[i]]$directory_id <- p$slug
         matched <- TRUE
         break
@@ -594,7 +551,10 @@ to_package_shape <- function(cand, dir_lookup) {
     ))
     if (length(match_idx) > 0) {
       idx <- match_idx[1]
-      parsed[[idx]]$roles <- as.list(unique(c(unlist(parsed[[idx]]$roles), "cre")))
+      parsed[[idx]]$roles <- as.list(unique(c(
+        unlist(parsed[[idx]]$roles),
+        "cre"
+      )))
     } else {
       parsed <- c(
         parsed,
@@ -660,8 +620,14 @@ write_pkg <- function(entry, dir) {
   # which would otherwise happen on a read+rewrite cycle and fail schema
   # validation (string|null fields can't be empty objects).
   scalar_fields <- c(
-    "name", "title", "description", "repo_url",
-    "pkdown_url", "bug_reports_url", "logo_url", "last_updated"
+    "name",
+    "title",
+    "description",
+    "repo_url",
+    "pkdown_url",
+    "bug_reports_url",
+    "logo_url",
+    "last_updated"
   )
   for (f in scalar_fields) {
     if (is.null(merged[[f]]) || length(merged[[f]]) == 0) {

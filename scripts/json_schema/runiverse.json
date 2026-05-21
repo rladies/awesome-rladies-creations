@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "handle": {
+      "type": "string",
+      "description": "R-Universe sub-domain (typically the GitHub user or org that owns <handle>.r-universe.dev)."
+    },
+    "directory_id": {
+      "type": ["string", "null"],
+      "description": "Optional slug of the corresponding entry in the R-Ladies directory."
+    }
+  },
+  "required": ["handle"],
+  "additionalProperties": false
+}

@@ -16,6 +16,12 @@ If you'd rather edit JSON directly, you can also fork the repo, add the file
 under `data/content/` or `data/packages/`, and open a PR — see
 [Editing JSON directly](#editing-json-directly) below.
 
+If you maintain an R-Universe and would like us to keep your packages here in
+sync automatically, see
+[Opt in to R-Universe sync](#opt-in-to-r-universe-sync) below — you flag
+which packages you want listed inside your own `packages.json`, and a
+scheduled job picks them up.
+
 ## Recommended: open an issue
 
 Pick the form that matches what you're submitting:
@@ -97,6 +103,52 @@ For packages, authors may also have an `email`, `roles` (`aut`, `cre`, …),
 - Aggregated outputs (`data/website/awesome_blogs.json` and
   `data/website/awesome_packages.json`) are produced by
   `scripts/generate_website_jsons.R` on push to `main`.
+
+## Opt in to R-Universe sync
+
+If you already curate your packages in an R-Universe (the
+`<handle>/<handle>.r-universe.dev` repo on GitHub), you can let this
+repository follow it automatically instead of opening an issue per package.
+
+**One-time setup** — open a PR adding `data/runiverse/<your-handle>.json`:
+
+```json
+{
+  "handle": "drmowinckels",
+  "directory_id": "athanasia-mo-mowinckel"
+}
+```
+
+- `handle` is the sub-domain of your R-Universe (`drmowinckels` for
+  `drmowinckels.r-universe.dev`). It's also the GitHub user or org that owns
+  the `<handle>.r-universe.dev` config repo.
+- `directory_id` is optional — your slug in the
+  [R-Ladies directory](https://github.com/rladies/directory).
+
+**Per package** — in your R-Universe's `packages.json`, set `"rladies":
+true` on each entry you want listed here:
+
+```json
+[
+  {
+    "package": "ggseg",
+    "url": "https://github.com/ggsegverse/ggseg",
+    "rladies": true
+  },
+  { "package": "some-other-pkg", "url": "https://github.com/you/other" }
+]
+```
+
+A scheduled job runs once a week:
+
+- Packages newly flagged `"rladies": true` are added or updated under
+  `data/packages/` and committed straight to `main` for you.
+- Packages that previously had the flag but no longer do are proposed for
+  removal in a draft pull request — a maintainer reviews before merging,
+  since some packages have several authors.
+
+Stop syncing entirely by removing your `data/runiverse/<handle>.json` (or
+clearing every `"rladies": true` flag in your `packages.json`).
 
 ## After your PR is opened
 

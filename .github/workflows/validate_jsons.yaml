@@ -5,17 +5,19 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'data/content/**'
-      - 'data/packages/**'
-      - 'scripts/json_schema/**'
-      - 'scripts/validate_jsons.R'
-      - '.github/workflows/validate_jsons.yaml'
+      - "data/content/**"
+      - "data/packages/**"
+      - "data/runiverse/**"
+      - "scripts/json_schema/**"
+      - "scripts/validate_jsons.R"
+      - ".github/workflows/validate_jsons.yaml"
   push:
     branches: [main]
     paths:
-      - 'data/content/**'
-      - 'data/packages/**'
-      - 'scripts/json_schema/**'
+      - "data/content/**"
+      - "data/packages/**"
+      - "data/runiverse/**"
+      - "scripts/json_schema/**"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
