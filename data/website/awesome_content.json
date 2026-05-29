@@ -1103,22 +1103,24 @@
     ]
   },
   {
-    "title": "Soy Andrea blog",
+    "title": "Data by Andre blog",
     "type": "blog",
-    "url": "https://soyandrea.netlify.app/",
-    "rss_feed": "https://soyandrea.netlify.app/tag/r/index.xml",
-    "photo_url": "https://soyandrea.netlify.app/author/andrea/avatar.jpg",
-    "description": "Socióloga, web profesional & portafolio",
+    "url": "https://soyandrea.github.io/",
+    "rss_feed": "https://soyandrea.github.io/conoce-arcenso.xml",
+    "photo_url": "https://soyandrea.github.io/image/andrea.jpg",
+    "description": "Professional blog focused on R, official statistics, demographic analysis, and open-source community projects.",
     "language": "es",
     "authors": [
       {
-        "name": "Andrea Gómez Vargas",
+        "name": "Andrea Gomez Vargas",
         "social_media": [
           {
             "twitter": "me_andre",
             "mastodon": "@me_andre@mastodon.social",
+            "bluesky": "goandre.bsky.social",
             "github": "SoyAndrea",
-            "linkedin": "andreasociologa"
+            "linkedin": "andreasociologa",
+            "orcid": "0009-0007-8745-3967"
           }
         ]
       }

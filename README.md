@@ -95,7 +95,7 @@ aggregated file is written to `data/website/awesome_content.json`.
   Kariuki
 - [Meeting People Where They R](https://silviacanelon.com) by Silvia
   Canelón
-- [Soy Andrea blog](https://soyandrea.netlify.app/) by Andrea Gómez
+- [Data by Andre blog](https://soyandrea.github.io/) by Andrea Gomez
   Vargas
 - [Ciencia de Datos en Español](https://sporella.xyz) by Steph Orellana
   Bello
@@ -685,6 +685,13 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Saibene, Elio Campitelli, Paola Corrales
 - [SISIR](https://forgemia.inra.fr/sfcb/sisir/-) by Victor Picheny, Remi
   Servien, Nathalie Vialaneix
+- [skimr](https://github.com/ropensci/skimr/) by Elin Waring, Michael
+  Quinn, Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu, Julia
+  Lowndes, Shannon Ellis, Hope McLeod, Hadley Wickham, Kirill Müller,
+  RStudio, Inc., Connor Kirkpatrick, Scott Brenstuhl, Patrick Schratz,
+  lbusett, Mikko Korpela, Jennifer Thompson, Harris McGehee, Mark
+  Roepke, Patrick Kennedy, Daniel Possenriede, David Zimmermann, Kyle
+  Butts, Bastian Torges, Rick Saporta, Henry Morgan Stewart, Olivier Roy
 - [sknifedatar](https://github.com/rafzamb/sknifedatar) by Rafael
   Zambrano, Karina Bartolome, Rodrigo Serrano
 - [slingshot](https://github.com/kstreet13/slingshot) by Kelly Street,
