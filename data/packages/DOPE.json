@@ -1,0 +1,42 @@
+{
+  "name": "DOPE",
+  "title": "Drug Ontology Parsing Engine",
+  "description": "Provides information on drug names (brand, generic and street) for drugs tracked by the DEA. There are functions that will search synonyms and return the drug names and types. The vignettes have extensive information on the work done to create the data for the package.",
+  "repo_url": "https://github.com/CTN-0094/DOPE",
+  "pkdown_url": "https://ctn-0094.github.io/DOPE/",
+  "bug_reports_url": "https://github.com/CTN-0094/DOPE/issues",
+  "logo_url": "https://raw.githubusercontent.com/CTN-0094/DOPE/HEAD/man/figures/DOPE_hex.png",
+  "last_updated": "2021-06-18",
+  "authors": [
+    {
+      "name": "Raymond Balise",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-9856-5901",
+      "email": "balise@miami.edu"
+    },
+    {
+      "name": "Layla Bouzoubaa",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-6616-0950",
+      "directory_id": "layla-bouzoubaa"
+    },
+    {
+      "name": "Gabriel Odom",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1341-4555"
+    },
+    {
+      "name": "Nathaniel Castor",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}
