@@ -1,0 +1,53 @@
+{
+  "name": "phylocomr",
+  "title": "Interface to 'Phylocom'",
+  "description": "Interface to 'Phylocom' (<https://phylodiversity.net/phylocom/>), a library for analysis of 'phylogenetic' community structure and character evolution. Includes low level methods for interacting with the three executables, as well as higher level interfaces for methods like 'aot', 'ecovolve', 'bladj', 'phylomatic', and more.",
+  "repo_url": "https://github.com/ropensci/phylocomr",
+  "pkdown_url": "https://docs.ropensci.org/phylocomr/",
+  "bug_reports_url": "https://github.com/ropensci/phylocomr/issues",
+  "logo_url": "https://docs.ropensci.org/phylocomr/logo.png",
+  "last_updated": "2023-04-22",
+  "authors": [
+    {
+      "name": "Jeroen Ooms",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Scott Chamberlain",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1444-9135"
+    },
+    {
+      "name": "Cam Webb",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "David Ackerly",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "Steven Kembel",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "Luna Luisa Sanchez Reyes",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0001-7668-2528",
+      "directory_id": "luna-luisa-sanchez-reyes",
+      "email": "sanchez.reyes.luna@gmail.com"
+    }
+  ]
+}
