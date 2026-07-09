@@ -1,0 +1,18 @@
+{
+  "title": "Julie Josse – Julie josse",
+  "type": "blog",
+  "url": "http://juliejosse.com/",
+  "rss_feed": "http://juliejosse.com/feed/",
+  "language": "fr",
+  "authors": [
+    {
+      "name": "Julie Josse",
+      "social_media": [
+        {
+          "twitter": "JulieJosseStat",
+          "website": "http://juliejosse.com/"
+        }
+      ]
+    }
+  ]
+}
