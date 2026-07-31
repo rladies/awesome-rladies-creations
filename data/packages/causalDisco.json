@@ -1,0 +1,45 @@
+{
+  "name": "causalDisco",
+  "title": "Tools for Causal Discovery on Observational Data",
+  "description": "Tools for causal structure learning from observational data, with emphasis on temporally ordered variables. The package implements the Temporal Peter–Clark (TPC) algorithm (Petersen, Osler & Ekstrøm, 2021; <doi:10.1093/aje/kwab087>), the Temporal Greedy Equivalence Search (TGES) algorithm (Larsen, Ekstrøm & Petersen, 2025; <doi:10.48550/arXiv.2502.06232>) and Temporal Fast Causal Inference (TFCI). It provides a unified framework for specifying background knowledge, which can be incorporated into the implemented algorithms from the R packages 'bnlearn' (Scutari, 2010; <doi:10.18637/jss.v035.i03>) and 'pcalg' (Kalish et al., 2012; <doi:10.18637/jss.v047.i11>), as well as the Java library 'Tetrad' (Scheines et al., 1998; <doi:10.1207/s15327906mbr3301_3>). The package further includes utilities for visualization, comparison, and evaluation of graph structures, facilitating performance evaluation and methodological studies.",
+  "repo_url": "https://github.com/disco-coders/causalDisco",
+  "pkdown_url": "https://disco-coders.github.io/causalDisco/",
+  "bug_reports_url": "https://github.com/disco-coders/causalDisco/issues",
+  "logo_url": "https://disco-coders.github.io/causalDisco/logo.png",
+  "last_updated": "2026-04-13",
+  "authors": [
+    {
+      "name": "Bjarke Hautop Kristensen",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "bjarke.kristensen@sund.ku.dk"
+    },
+    {
+      "name": "Frederik Fabricius-Bjerre",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Anne Helby Petersen",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "anne-helby-petersen"
+    },
+    {
+      "name": "Claus Thorn Ekstrøm",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Tobias Ellegaard Larsen",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}
