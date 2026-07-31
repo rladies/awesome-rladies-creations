@@ -1,0 +1,33 @@
+{
+  "name": "weathermetrics",
+  "title": "Functions to Convert Between Weather Metrics",
+  "description": "Functions to convert between weather metrics, including conversions for metrics of temperature, air moisture, wind speed, and precipitation. This package also includes functions to calculate the heat index from air temperature and air moisture.",
+  "repo_url": "https://github.com/geanders/weathermetrics/",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/geanders/weathermetrics/issues",
+  "logo_url": null,
+  "last_updated": "2016-05-19",
+  "authors": [
+    {
+      "name": "Brooke Anderson",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "brooke-anderson",
+      "email": "brooke.anderson@colostate.edu"
+    },
+    {
+      "name": "Roger Peng",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Joshua Ferreri",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}
