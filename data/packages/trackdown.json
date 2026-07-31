@@ -1,0 +1,50 @@
+{
+  "name": "trackdown",
+  "title": "Collaborative Editing of Rmd (or Rnw) Documents in Google Drive",
+  "description": "Collaborative writing and editing of R Markdown (or Sweave) documents. The local .Rmd (or .Rnw) is uploaded as a plain-text file to Google Drive. By taking advantage of the easily readable Markdown (or LaTeX) syntax and the well-known online interface offered by Google Docs, collaborators can easily contribute to the writing and editing process. After integrating all authors’ contributions, the final document can be downloaded and rendered locally.",
+  "repo_url": "https://github.com/claudiozandonella/trackdown/",
+  "pkdown_url": "https://claudiozandonella.github.io/trackdown/",
+  "bug_reports_url": "https://github.com/claudiozandonella/trackdown/issues",
+  "logo_url": "https://claudiozandonella.github.io/trackdown/logo.png",
+  "last_updated": "2021-12-19",
+  "authors": [
+    {
+      "name": "Emily Kothe",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1210-0554",
+      "directory_id": "emily-kothe"
+    },
+    {
+      "name": "Claudio Zandonella Callegher",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0001-7721-6318",
+      "email": "claudiozandonella@gmail.com"
+    },
+    {
+      "name": "Filippo Gambarota",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-6666-1747"
+    },
+    {
+      "name": "Janosch Linkersdörfer",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-1577-1233"
+    },
+    {
+      "name": "Mathew Ling",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-0940-2538"
+    }
+  ]
+}
