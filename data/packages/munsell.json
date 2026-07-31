@@ -1,0 +1,23 @@
+{
+  "name": "munsell",
+  "title": "Utilities for Using Munsell Colours",
+  "description": "Provides easy access to, and manipulation of, the Munsell colours. Provides a mapping between Munsell's original notation (e.g. \"5R 5/10\") and hexadecimal strings suitable for use directly in R graphics. Also provides utilities to explore slices through the Munsell colour tree, to transform Munsell colours and display colour palettes.",
+  "repo_url": "https://github.com/cwickham/munsell/",
+  "pkdown_url": "https://cran.r-project.org/package=munsell",
+  "bug_reports_url": "https://github.com/cwickham/munsell/issues",
+  "logo_url": "http://cranlogs.r-pkg.org/badges/last-week/munsell",
+  "last_updated": "2024-04-02",
+  "authors": [
+    {
+      "name": "Charlotte Wickham <cwickham@gmail.com>"
+    },
+    {
+      "name": "Charlotte Wickham",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "charlotte-wickham",
+      "email": "cwickham@gmail.com"
+    }
+  ]
+}
