@@ -1,0 +1,33 @@
+{
+  "name": "qqplotr",
+  "title": "Quantile-Quantile Plot Extensions for 'ggplot2'",
+  "description": "Extensions of 'ggplot2' Q-Q plot functionalities.",
+  "repo_url": "https://github.com/aloy/qqplotr",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/aloy/qqplotr/issues",
+  "logo_url": "https://raw.githubusercontent.com/aloy/qqplotr/HEAD/man/figures/logo.png",
+  "last_updated": "2025-09-05",
+  "authors": [
+    {
+      "name": "Alexandre Almeida",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Adam Loy",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "loyad01@gmail.com"
+    },
+    {
+      "name": "Heike Hofmann",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "heike-hofmann"
+    }
+  ]
+}
