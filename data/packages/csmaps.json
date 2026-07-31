@@ -1,0 +1,35 @@
+{
+  "name": "csmaps",
+  "title": "Preformatted Maps of Norway that Don't Need Geolibraries",
+  "description": "Provides datasets containing preformatted maps of Norway at the county, municipality, and ward (Oslo only) level for redistricting in 2024, 2020, 2018, and 2017. Multiple layouts are provided (normal, split, and with an insert for Oslo), allowing the user to rapidly create choropleth maps of Norway without any geolibraries.",
+  "repo_url": "https://github.com/csids/csmaps",
+  "pkdown_url": "https://www.csids.no/csmaps/",
+  "bug_reports_url": "https://github.com/csids/csmaps/issues",
+  "logo_url": null,
+  "last_updated": "2025-08-21",
+  "authors": [
+    {
+      "name": "Richard Aubrey White",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6747-1726",
+      "email": "hello@rwhite.no"
+    },
+    {
+      "name": "Chi Zhang",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0501-5909",
+      "directory_id": "andrea-chi"
+    },
+    {
+      "name": "CSIDS",
+      "roles": [
+        "cph"
+      ]
+    }
+  ]
+}

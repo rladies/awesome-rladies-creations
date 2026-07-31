@@ -1,0 +1,41 @@
+{
+  "name": "covidnor",
+  "title": "Public COVID-19 Data for Norway",
+  "description": "Publicly available COVID-19 data for Norway cleaned and merged into one dataset, including PCR confirmed cases, tests, hospitalisation and vaccination.",
+  "repo_url": "https://github.com/csids/covidnor",
+  "pkdown_url": "https://www.csids.no/covidnor/",
+  "bug_reports_url": "https://github.com/csids/covidnor/issues",
+  "logo_url": "https://raw.githubusercontent.com/csids/covidnor/HEAD/man/figures/logo.png",
+  "last_updated": "2023-05-26",
+  "authors": [
+    {
+      "name": "Chi Zhang",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-0501-5909",
+      "directory_id": "andrea-chi",
+      "email": "andreachizhang@yahoo.com"
+    },
+    {
+      "name": "Richard Aubrey White",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-6747-1726"
+    },
+    {
+      "name": "CSIDS",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "Folkehelseinstituttet",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

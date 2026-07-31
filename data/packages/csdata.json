@@ -1,0 +1,29 @@
+{
+  "name": "csdata",
+  "title": "Structural Data for Norway",
+  "description": "Datasets relating to population in municipalities, municipality/county matching, and how different municipalities have merged/redistricted over time from 2006 to 2024.",
+  "repo_url": "https://github.com/niphr/csdata",
+  "pkdown_url": "https://niphr.github.io/csdata/",
+  "bug_reports_url": "https://github.com/niphr/csdata/issues",
+  "logo_url": "https://niphr.github.io/csdata/logo.png",
+  "last_updated": "2026-03-31",
+  "authors": [
+    {
+      "name": "Richard Aubrey White",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6747-1726",
+      "email": "hello@rwhite.no"
+    },
+    {
+      "name": "Chi Zhang",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0501-5909",
+      "directory_id": "andrea-chi"
+    }
+  ]
+}

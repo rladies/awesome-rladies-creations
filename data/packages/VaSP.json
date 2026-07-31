@@ -1,0 +1,36 @@
+{
+  "name": "VaSP",
+  "title": "Quantification and Visualization of Variations of Splicing in\nPopulation",
+  "description": "Discovery of genome-wide variable alternative splicing events from short-read RNA-seq data and visualizations of gene splicing information for publication-quality multi-panel figures in a population. (Warning: The visualizing function is removed due to the dependent package Sushi deprecated. If you want to use it, please change back to an older version.)",
+  "repo_url": "https://github.com/yuhuihui2011/VaSP",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/yuhuihui2011/VaSP/issues",
+  "logo_url": "https://raw.githubusercontent.com/yuhuihui2011/VaSP/HEAD/README_files/VaSP_logo_s.jpg",
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Huihui Yu",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-2725-1937",
+      "email": "yuhuihui2011@foxmail.com"
+    },
+    {
+      "name": "Qian Du",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-3864-8745"
+    },
+    {
+      "name": "Chi Zhang",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-1827-8137",
+      "directory_id": "andrea-chi"
+    }
+  ]
+}
