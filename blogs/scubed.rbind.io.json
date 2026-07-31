@@ -1,0 +1,21 @@
+{
+  "title": "Sophie Lee's blog",
+  "subtitle": "S-Cubed",
+  "type": "blog",
+  "url": "https://scubed.rbind.io/blog/",
+  "photo_url": "https://scubed.rbind.io/about/sidebar/avatar.jpg",
+  "description": "Personal blog",
+  "language": "en",
+  "rss_feed": "https://scubed.netlify.app/index.xml",
+  "authors": [
+    {
+      "name": "Sophie Lee",
+      "social_media": [{
+         "bluesky": "sophie-stats.bsky.social",
+         "github": "sophie-a-lee",
+         "website": "https://scubed.rbind.io",
+         "linkedin": "sophie-a-lee"
+      }]
+    }
+  ]
+}
