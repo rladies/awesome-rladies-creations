@@ -1,0 +1,39 @@
+{
+  "name": "textometry",
+  "title": "Textual Data Analysis Package Used by the TXM Software",
+  "description": "Statistical exploration of textual corpora using several methods from French 'Textometrie' (new name of 'Lexicometrie') and French 'Data Analysis' schools. It includes methods for exploring irregularity of distribution of lexicon features across text sets or parts of texts (Specificity analysis); multi-dimensional exploration (Factorial analysis), etc. Those methods are used in the TXM software.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-03-03",
+  "authors": [
+    {
+      "name": "Sylvain Loiseau",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Matthieu Decorde",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "matthieu.decorde@ens-lyon.fr"
+    },
+    {
+      "name": "Serge Heiden",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Lise Vaudor",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "lise-vaudor"
+    }
+  ]
+}
