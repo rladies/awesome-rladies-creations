@@ -1,0 +1,28 @@
+{
+  "name": "geodaData",
+  "title": "Spatial Analysis Datasets for Teaching",
+  "description": "Stores small spatial datasets used to teach basic spatial analysis concepts. Datasets are based off of the 'GeoDa' software workbook and data site <https://geodacenter.github.io/data-and-lab/> developed by Luc Anselin and team at the University of Chicago. Datasets are stored as 'sf' objects.",
+  "repo_url": "https://github.com/spatialanalysis/geodaData",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/spatialanalysis/geodaData/issues",
+  "logo_url": null,
+  "last_updated": "2020-05-27",
+  "authors": [
+    {
+      "name": "Angela Li",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-8956-419X",
+      "directory_id": "angela-li",
+      "email": "ali6@uchicago.edu"
+    },
+    {
+      "name": "Luc Anselin",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}
