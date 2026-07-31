@@ -1,0 +1,33 @@
+{
+  "name": "holiglm",
+  "title": "Holistic Generalized Linear Models",
+  "description": "Holistic generalized linear models (HGLMs) extend generalized linear models (GLMs) by enabling the possibility to add further constraints to the model. The 'holiglm' package simplifies estimating HGLMs using convex optimization. Additional information about the package can be found in the reference manual, the 'README' and the accompanying paper <doi:10.18637/jss.v108.i07>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-12-20",
+  "authors": [
+    {
+      "name": "Benjamin Schwendinger",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "benjaminschwe@gmail.com"
+    },
+    {
+      "name": "Florian Schwendinger",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Laura Vana",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "laura-vana"
+    }
+  ]
+}
