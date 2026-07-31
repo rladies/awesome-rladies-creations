@@ -1,0 +1,22 @@
+{
+  "name": "guaguas",
+  "title": "Nombres Inscritos en Chile (1920 - 2021)",
+  "description": "Datos de nombres inscritos en Chile entre 1920 y 2021, de acuerdo al Servicio de Registro Civil. English: Chilean baby names registered from 1920 to 2021 by the Civil Registry Service.",
+  "repo_url": "https://github.com/rivaquiroga/guaguas",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/rivaquiroga/guaguas/issues",
+  "logo_url": "https://raw.githubusercontent.com/rivaquiroga/guaguas/HEAD/man/figures/guaguas-hex.png",
+  "last_updated": "2022-03-09",
+  "authors": [
+    {
+      "name": "Riva Quiroga",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-1147-4135",
+      "directory_id": "riva-quiroga",
+      "email": "riva.quiroga@uc.cl"
+    }
+  ]
+}
