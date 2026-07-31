@@ -1,0 +1,48 @@
+{
+  "name": "indiedown",
+  "title": "Individual R Markdown Templates",
+  "description": "Simplifies the generation of customized R Markdown PDF templates. A template may include an individual logo, typography, geometry or color scheme. The package provides a skeleton with detailed instructions for customizations. The skeleton can be modified by changing defaults in the 'YAML' header, by adding additional 'LaTeX' commands or by applying dynamic adjustments in R. Individual corporate design elements, such as a title page, can be added as R functions that produce 'LaTeX' code.",
+  "repo_url": "https://github.com/cynkra/indiedown",
+  "pkdown_url": "https://cynkra.github.io/indiedown/",
+  "bug_reports_url": "https://github.com/cynkra/indiedown/issues",
+  "logo_url": null,
+  "last_updated": "2021-03-22",
+  "authors": [
+    {
+      "name": "Christoph Sax",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-7192-7044",
+      "email": "christoph.sax@gmail.com"
+    },
+    {
+      "name": "Kirill Müller",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-1416-3412"
+    },
+    {
+      "name": "Angelica Becerra",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "angelica-becerra"
+    },
+    {
+      "name": "Frederik Aust",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "cynkra GmbH",
+      "roles": [
+        "fnd",
+        "cph"
+      ]
+    }
+  ]
+}
