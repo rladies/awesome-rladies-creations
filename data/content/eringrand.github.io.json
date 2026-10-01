@@ -1,0 +1,19 @@
+{
+  "title": "Erin Grand",
+  "type": "blog",
+  "url": "https://eringrand.github.io/",
+  "rss_feed": "https://eringrand.github.io/index.xml",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Erin Grand",
+      "social_media": [
+        {
+          "twitter": "astroeringrand",
+          "bluesky": "astroeringrand.bsky.social",
+          "website": "https://eringrand.github.io/"
+        }
+      ]
+    }
+  ]
+}
