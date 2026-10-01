@@ -1,0 +1,23 @@
+{
+  "title": "S-Cubed",
+  "type": "blog",
+  "url": "https://scubed.rbind.io/",
+  "rss_feed": "https://scubed.rbind.io/index.xml",
+  "photo_url": "https://scubed.rbind.io/img/homepage_image.jpg",
+  "description": "Feeling overwhelmed by data? S-Cubed is here to work through data fatigue with you, helping you to streamline the analysis process, and gain important insights that lead to real change.",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Sophie Lee",
+      "social_media": [
+        {
+          "twitter": "Sophiestats10",
+          "bluesky": "sophie-stats.bsky.social",
+          "linkedin": "sophie-a-lee",
+          "github": "sophie-a-lee",
+          "website": "https://scubed.rbind.io/"
+        }
+      ]
+    }
+  ]
+}
