@@ -1,0 +1,181 @@
+{
+  "name": "skimr",
+  "title": "Compact and Flexible Summaries of Data",
+  "description": "A simple to use summary function that can be used with pipes and displays nicely in the console. The default summary statistics may be modified by the user as can the default formatting. Support for data frames and vectors is included, and users can implement their own skim methods for specific object types as described in a vignette. Default summaries include support for inline spark graphs. Instructions for managing these on specific operating systems are given in the \"Using skimr\" vignette and the README.",
+  "repo_url": "https://github.com/ropensci/skimr/",
+  "pkdown_url": "https://docs.ropensci.org/skimr/",
+  "bug_reports_url": "https://github.com/ropensci/skimr/issues",
+  "logo_url": "https://docs.ropensci.org/skimr/logo.png",
+  "last_updated": "2026-01-10",
+  "authors": [
+    {
+      "name": "Elin Waring",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "email": "elin.waring@gmail.com"
+    },
+    {
+      "name": "Michael Quinn",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Amelia McNamara",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "amelia-mcnamara"
+    },
+    {
+      "name": "Eduardo Arino de la Rubia",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Hao Zhu",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Julia Lowndes",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Shannon Ellis",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Hope McLeod",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Kirill Müller",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "RStudio"
+    },
+    {
+      "name": "Inc.",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "Connor Kirkpatrick",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Scott Brenstuhl",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Patrick Schratz",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "lbusett",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Mikko Korpela",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Jennifer Thompson",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "jennifer-thompson"
+    },
+    {
+      "name": "Harris McGehee",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Mark Roepke",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Patrick Kennedy",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Daniel Possenriede",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "David Zimmermann",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Kyle Butts",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Bastian Torges",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Rick Saporta",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Henry Morgan Stewart",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Olivier Roy",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

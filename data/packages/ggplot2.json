@@ -1,0 +1,93 @@
+{
+  "name": "ggplot2",
+  "title": "Create Elegant Data Visualisations Using the Grammar of Graphics",
+  "description": "A system for 'declaratively' creating graphics, based on \"The Grammar of Graphics\". You provide the data, tell 'ggplot2' how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.",
+  "repo_url": "https://github.com/tidyverse/ggplot2",
+  "pkdown_url": "https://ggplot2.tidyverse.org",
+  "bug_reports_url": "https://github.com/tidyverse/ggplot2/issues",
+  "logo_url": "https://ggplot2.tidyverse.org/logo.png",
+  "last_updated": "2026-04-22",
+  "authors": [
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4757-117X"
+    },
+    {
+      "name": "Winston Chang",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-1576-2126"
+    },
+    {
+      "name": "Lionel Henry",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Thomas Lin Pedersen",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-5147-4711",
+      "email": "thomas.pedersen@posit.co"
+    },
+    {
+      "name": "Kohske Takahashi",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Claus Wilke",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-7470-9261"
+    },
+    {
+      "name": "Kara Woo",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-5125-4188",
+      "directory_id": "kara-woo"
+    },
+    {
+      "name": "Hiroaki Yutani",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3385-7233"
+    },
+    {
+      "name": "Dewey Dunnington",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9415-4582"
+    },
+    {
+      "name": "Teun van den Brand",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9335-7468"
+    },
+    {
+      "name": "Posit"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

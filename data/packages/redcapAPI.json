@@ -1,0 +1,137 @@
+{
+  "name": "redcapAPI",
+  "title": "Interface to 'REDCap'",
+  "description": "Access data stored in 'REDCap' databases using the Application Programming Interface (API). 'REDCap' (Research Electronic Data CAPture; <https://projectredcap.org>, Harris, et al. (2009) <doi:10.1016/j.jbi.2008.08.010>, Harris, et al. (2019) <doi:10.1016/j.jbi.2019.103208>) is a web application for building and managing online surveys and databases developed at Vanderbilt University. The API allows users to access data and project meta data (such as the data dictionary) from the web programmatically. The 'redcapAPI' package facilitates the process of accessing data with options to prepare an analysis-ready data set consistent with the definitions in a database's data dictionary.",
+  "repo_url": "https://github.com/vubiostat/redcapAPI",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/vubiostat/redcapAPI/issues",
+  "logo_url": null,
+  "last_updated": "2026-03-23",
+  "authors": [
+    {
+      "name": "Benjamin Nutter",
+      "roles": [
+        "ctb",
+        "aut"
+      ]
+    },
+    {
+      "name": "Shawn Garbett",
+      "roles": [
+        "cre",
+        "ctb"
+      ],
+      "orcid": "0000-0003-4079-5621",
+      "email": "shawn.garbett@vumc.org"
+    },
+    {
+      "name": "Savannah Obregon",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "savannah-obregon"
+    },
+    {
+      "name": "Thomas Obadia",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Marcus Lehr",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Brian High",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Stephen Lane",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Will Beasley",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Will Gray",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Nick Kennedy",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Tan Hsi-Nien",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Jeffrey Horner",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jeremy Stephens",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Cole Beck",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Bradley Johnson",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Philip Chase",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Paddy Tobias",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Michael Chirico",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "William Sharp",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Alexander Strübing",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "scShapes",
+  "title": "A Statistical Framework for Modeling and Identifying\nDifferential Distributions in Single-cell RNA-sequencing Data",
+  "description": "We present a novel statistical framework for identifying differential distributions in single-cell RNA-sequencing (scRNA-seq) data between treatment conditions by modeling gene expression read counts using generalized linear models (GLMs). We model each gene independently under each treatment condition using error distributions Poisson (P), Negative Binomial (NB), Zero-inflated Poisson (ZIP) and Zero-inflated Negative Binomial (ZINB) with log link function and model based normalization for differences in sequencing depth. Since all four distributions considered in our framework belong to the same family of distributions, we first perform a Kolmogorov-Smirnov (KS) test to select genes belonging to the family of ZINB distributions. Genes passing the KS test will be then modeled using GLMs. Model selection is done by calculating the Bayesian Information Criterion (BIC) and likelihood ratio test (LRT) statistic.",
+  "repo_url": "https://github.com/Malindrie/scShapes",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/Malindrie/scShapes/issues",
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Malindrie Dharmaratne",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "orcid": "0000-0002-1694-6496",
+      "directory_id": "malindrie-dharmaratne",
+      "email": "malindrie@gmail.com"
+    }
+  ]
+}

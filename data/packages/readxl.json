@@ -1,0 +1,81 @@
+{
+  "name": "readxl",
+  "title": "Read Excel Files",
+  "description": "Import excel files into R. Supports '.xls' via the embedded 'libxls' C library <https://github.com/libxls/libxls> and '.xlsx' via the embedded 'RapidXML' C++ library <https://rapidxml.sourceforge.net/>. Works on Windows, Mac and Linux without external dependencies.",
+  "repo_url": "https://github.com/tidyverse/readxl",
+  "pkdown_url": "https://readxl.tidyverse.org",
+  "bug_reports_url": "https://github.com/tidyverse/readxl/issues",
+  "logo_url": "https://readxl.tidyverse.org/logo.png",
+  "last_updated": "2025-03-07",
+  "authors": [
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4757-117X"
+    },
+    {
+      "name": "Jennifer Bryan",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6983-2759",
+      "directory_id": "jenny-bryan",
+      "email": "jenny@posit.co"
+    },
+    {
+      "name": "Posit"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    },
+    {
+      "name": "Marcin Kalicinski",
+      "roles": [
+        "ctb",
+        "cph"
+      ]
+    },
+    {
+      "name": "Komarov Valery",
+      "roles": [
+        "ctb",
+        "cph"
+      ]
+    },
+    {
+      "name": "Christophe Leitienne",
+      "roles": [
+        "ctb",
+        "cph"
+      ]
+    },
+    {
+      "name": "Bob Colbert",
+      "roles": [
+        "ctb",
+        "cph"
+      ]
+    },
+    {
+      "name": "David Hoerl",
+      "roles": [
+        "ctb",
+        "cph"
+      ]
+    },
+    {
+      "name": "Evan Miller",
+      "roles": [
+        "ctb",
+        "cph"
+      ]
+    }
+  ]
+}

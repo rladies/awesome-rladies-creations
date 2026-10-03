@@ -1,0 +1,53 @@
+{
+  "name": "slingshot",
+  "title": "Tools for ordering single-cell sequencing",
+  "description": "Provides functions for inferring continuous, branching lineage structures in low-dimensional data. Slingshot was designed to model developmental trajectories in single-cell RNA sequencing data and serve as a component in an analysis pipeline after dimensionality reduction and clustering. It is flexible enough to handle arbitrarily many branching events and allows for the incorporation of prior knowledge through supervised graph construction.",
+  "repo_url": "https://github.com/kstreet13/slingshot",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/kstreet13/slingshot/issues",
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Kelly Street",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "email": "street.kelly@gmail.com"
+    },
+    {
+      "name": "Davide Risso",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Diya Das",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "diya-das"
+    },
+    {
+      "name": "Sandrine Dudoit",
+      "roles": [
+        "ths"
+      ]
+    },
+    {
+      "name": "Koen Van den Berge",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-3641-729X"
+    }
+  ]
+}

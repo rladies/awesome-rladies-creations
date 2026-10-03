@@ -1,0 +1,39 @@
+{
+  "name": "phyloseq",
+  "title": "Handling and analysis of high-throughput microbiome census data",
+  "description": "phyloseq provides a set of classes and tools to facilitate the import, storage, analysis, and graphical display of microbiome census data.",
+  "repo_url": "https://github.com/joey711/phyloseq",
+  "pkdown_url": "http://dx.plos.org/10.1371/journal.pone.0061217",
+  "bug_reports_url": "https://github.com/joey711/phyloseq/issues",
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Paul J. McMurdie",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "joey711@gmail.com"
+    },
+    {
+      "name": "Susan Holmes",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "susan-holmes"
+    },
+    {
+      "name": "Gregory Jordan",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Scott Chamberlain",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

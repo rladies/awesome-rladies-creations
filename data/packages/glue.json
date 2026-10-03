@@ -1,0 +1,39 @@
+{
+  "name": "glue",
+  "title": "Interpreted String Literals",
+  "description": "An implementation of interpreted string literals, inspired by Python's Literal String Interpolation <https://www.python.org/dev/peps/pep-0498/> and Docstrings <https://www.python.org/dev/peps/pep-0257/> and Julia's Triple-Quoted String Literals <https://docs.julialang.org/en/v1.3/manual/strings/#Triple-Quoted-String-Literals-1>.",
+  "repo_url": "https://github.com/tidyverse/glue",
+  "pkdown_url": "https://glue.tidyverse.org/",
+  "bug_reports_url": "https://github.com/tidyverse/glue/issues",
+  "logo_url": "https://glue.tidyverse.org/logo.png",
+  "last_updated": "2026-04-17",
+  "authors": [
+    {
+      "name": "Jim Hester",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2739-7082"
+    },
+    {
+      "name": "Jennifer Bryan",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6983-2759",
+      "directory_id": "jenny-bryan",
+      "email": "jenny@posit.co"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

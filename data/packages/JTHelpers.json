@@ -1,0 +1,33 @@
+{
+  "name": "JTHelpers",
+  "title": "Personal Helper Functions, Some Related to rms Package",
+  "description": "A package of helper functions I and others wrote for my own frequent use. Several are related to Frank Harrell’s rms package.",
+  "repo_url": "https://github.com/jenniferthompson/JTHelpers",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Jennifer Thompson",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "jennifer-thompson",
+      "email": "thompson.jennifer@gmail.com"
+    },
+    {
+      "name": "Cole Beck",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Zhiguo Zhao",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

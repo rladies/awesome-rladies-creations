@@ -1,0 +1,39 @@
+{
+  "name": "censored",
+  "title": "'parsnip' Engines for Survival Models",
+  "description": "Engines for survival models from the 'parsnip' package. These include parametric models (e.g., Jackson (2016) <doi:10.18637/jss.v070.i08>), semi-parametric (e.g., Simon et al (2011) <doi:10.18637/jss.v039.i05>), and tree-based models (e.g., Buehlmann and Hothorn (2007) <doi:10.1214/07-STS242>).",
+  "repo_url": "https://github.com/tidymodels/censored",
+  "pkdown_url": "https://censored.tidymodels.org",
+  "bug_reports_url": "https://github.com/tidymodels/censored/issues",
+  "logo_url": "https://censored.tidymodels.org/logo.png",
+  "last_updated": "2026-04-04",
+  "authors": [
+    {
+      "name": "Emil Hvitfeldt",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-0679-1945"
+    },
+    {
+      "name": "Hannah Frick",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6049-5258",
+      "directory_id": "hannah-frick",
+      "email": "hannah@posit.co"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

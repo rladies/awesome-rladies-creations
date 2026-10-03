@@ -1,0 +1,22 @@
+{
+  "name": "codewhere",
+  "title": "Find the Location of an R Package's Code",
+  "description": "Find the location of the code for an R package based on the package's name or string representation. Checks on CRAN based on information in the URL field or BioConductor and GitHub based on constructing a URL, and verifies all paths via testing for a successful response. This can be useful when automating static code analysis based on a list of package names, and similar tasks.",
+  "repo_url": "https://github.com/thisisnic/codewhere/",
+  "pkdown_url": "https://thisisnic.github.io/codewhere/",
+  "bug_reports_url": "https://github.com/thisisnic/codewhere/issues",
+  "logo_url": null,
+  "last_updated": "2024-06-05",
+  "authors": [
+    {
+      "name": "Nic Crane",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "directory_id": "nic-crane",
+      "email": "thisisnic@gmail.com"
+    }
+  ]
+}

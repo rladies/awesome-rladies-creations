@@ -1,0 +1,64 @@
+{
+  "name": "rjtools",
+  "title": "Preparing, Checking, and Submitting Articles to the 'R Journal'",
+  "description": "Create an 'R Journal' 'Rmarkdown' template article, that will generate html and pdf versions of your paper. Check that the paper folder has all the required components needed for submission. Examples of 'R Journal' publications can be found at <https://journal.r-project.org>.",
+  "repo_url": "https://github.com/rjournal/rjtools",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/rjournal/rjtools/issues",
+  "logo_url": null,
+  "last_updated": "2026-02-02",
+  "authors": [
+    {
+      "name": "Mitchell O'Hara-Wild",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6729-7695"
+    },
+    {
+      "name": "Stephanie Kobakian",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "H. Sherry Zhang",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-7122-1463",
+      "directory_id": "h-sherry-zhang"
+    },
+    {
+      "name": "Di Cook",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-3813-7155",
+      "email": "dicook@monash.edu"
+    },
+    {
+      "name": "Simon Urbanek",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-2297-1732"
+    },
+    {
+      "name": "Christophe Dervieux",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4474-2498"
+    },
+    {
+      "name": "R Journal Technical Editor",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "r-journal-technical@r-project.org"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "psidread",
+  "title": "Streamline Building Panel Data from Panel Study of Income\nDynamics ('PSID') Raw Files",
+  "description": "Streamline the management, creation, and formatting of panel data from the Panel Study of Income Dynamics ('PSID') <https://psidonline.isr.umich.edu> using this user-friendly tool. Simply define variable names and input code book details directly from the 'PSID' official website, and this toolbox will efficiently facilitate the data preparation process, transforming raw 'PSID' files into a well-organized format ready for further analysis.",
+  "repo_url": "https://github.com/Qcrates/psidread",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/Qcrates/psidread/issues",
+  "logo_url": null,
+  "last_updated": "2025-10-29",
+  "authors": [
+    {
+      "name": "Shuyi Qiu",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0009-0000-9730-5262",
+      "directory_id": "shuyi-qiu",
+      "email": "shuyi.qiu@duke.edu"
+    }
+  ]
+}

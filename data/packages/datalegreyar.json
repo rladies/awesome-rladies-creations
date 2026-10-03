@@ -1,0 +1,21 @@
+{
+  "name": "datalegreyar",
+  "title": "A tool to easily insert datalegreya for html output.",
+  "description": "Datalegreya is a typeface which can interweave data curves with text. This package allows easy insertion of datalegreya font for html output such as Rmarkdown, xaringan, ioslides and shiny app.",
+  "repo_url": "https://github.com/emitanaka/datalegreyar",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/emitanaka/datalegreyar/issues",
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Emi Tanaka",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "emi-tanaka",
+      "email": "dr.emi.tanaka@gmail.com"
+    }
+  ]
+}

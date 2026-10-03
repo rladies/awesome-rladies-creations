@@ -1,0 +1,20 @@
+{
+  "name": "EpiGenR",
+  "title": "Combined analysis of epidemiologic and genetic data to infer infectious disease dynamics",
+  "description": "This package contains functions to simulate epidemic data, parse existing data, generate input files for the EpiGenMCMC (github.com/lucymli/EpiGenMCMC) C++ program, and visualise output from EpiGenMCMC.",
+  "repo_url": "https://github.com/lucymli/EpiGenR",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Lucy M Li",
+      "roles": [
+        "cre"
+      ],
+      "email": "info@lucymli.com",
+      "directory_id": "lucy-li"
+    }
+  ]
+}

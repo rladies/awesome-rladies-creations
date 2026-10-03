@@ -1,0 +1,20 @@
+{
+  "name": "woody",
+  "title": "Use wood occurrence data and discharge data for wood flux prediction",
+  "description": "The woody package prepares wood occurrence data and related discharge data in order to carry out a random forest regression that predicts wood flux according to discharge history descriptors.",
+  "repo_url": "https://github.com/lvaudor/woody",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Lise Vaudor",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "lise-vaudor",
+      "email": "lise.vaudor@ens-lyon.fr"
+    }
+  ]
+}

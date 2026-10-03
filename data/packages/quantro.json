@@ -1,0 +1,29 @@
+{
+  "name": "quantro",
+  "title": "A test for when to use quantile normalization",
+  "description": "A data-driven test for the assumptions of quantile normalization using raw data such as objects that inherit eSets (e.g. ExpressionSet, MethylSet). Group level information about each sample (such as Tumor / Normal status) must also be provided because the test assesses if there are global differences in the distributions between the user-defined groups.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Stephanie Hicks",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-7858-0231",
+      "directory_id": "stephanie-hicks",
+      "email": "shicks19@jhu.edu"
+    },
+    {
+      "name": "Rafael Irizarry",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3944-4309"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "helena * jambor",
+  "type": "blog",
+  "url": "https://helenajambor.wordpress.com/",
+  "rss_feed": "https://helenajamborwrites.netlify.app/index.xml",
+  "photo_url": "https://s0.wp.com/i/blank.jpg?m=1383295312i",
+  "description": "Scientist specialised in RNA biology and data visualization.",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Helena Jambor",
+      "social_media": [
+        {
+          "mastodon": "@helenajambor@mastodon.social",
+          "linkedin": "helenaklarajambor",
+          "github": "helenajambor",
+          "bluesky": "helenajambor.bsky.social",
+          "website": "https://helenajamborwrites.netlify.app"
+        }
+      ]
+    }
+  ]
+}

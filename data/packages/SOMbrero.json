@@ -1,0 +1,58 @@
+{
+  "name": "SOMbrero",
+  "title": "SOM Bound to Realize Euclidean and Relational Outputs",
+  "description": "The stochastic (also called on-line) version of the Self-Organising Map (SOM) algorithm is provided. Different versions of the algorithm are implemented, for numeric and relational data and for contingency tables as described, respectively, in Kohonen (2001) <isbn:3-540-67921-9>, Olteanu & Villa-Vialaneix (2005) <doi:10.1016/j.neucom.2013.11.047> and Cottrell et al (2004) <doi:10.1016/j.neunet.2004.07.010>. The package also contains many plotting features (to help the user interpret the results), can handle (and impute) missing values and is delivered with a graphical user interface based on 'shiny'.",
+  "repo_url": "https://github.com/tuxette/SOMbrero",
+  "pkdown_url": "https://forge.inrae.fr/nathalie.villa-vialaneix/sombrero",
+  "bug_reports_url": "https://github.com/tuxette/SOMbrero/issues",
+  "logo_url": "https://forge.inrae.fr/uploads/-/system/project/avatar/9683/sombrero.png",
+  "last_updated": "2025-10-06",
+  "authors": [
+    {
+      "name": "Nathalie Vialaneix",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-1156-0639",
+      "directory_id": "nathalie-vialaneix",
+      "email": "nathalie.vialaneix@inrae.fr"
+    },
+    {
+      "name": "Elise Maigne",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jerome Mariette",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Madalina Olteanu",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Fabrice Rossi",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Laura Bendhaiba",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Julien Boelaert",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

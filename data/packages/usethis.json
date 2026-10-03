@@ -1,0 +1,53 @@
+{
+  "name": "usethis",
+  "title": "Automate Package and Project Setup",
+  "description": "Automate package and project setup tasks that are otherwise performed manually. This includes setting up unit testing, test coverage, continuous integration, Git, 'GitHub', licenses, 'Rcpp', 'RStudio' projects, and more.",
+  "repo_url": "https://github.com/r-lib/usethis",
+  "pkdown_url": "https://usethis.r-lib.org",
+  "bug_reports_url": "https://github.com/r-lib/usethis/issues",
+  "logo_url": "https://usethis.r-lib.org/logo.png",
+  "last_updated": "2025-09-06",
+  "authors": [
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4757-117X"
+    },
+    {
+      "name": "Jennifer Bryan",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6983-2759",
+      "directory_id": "jenny-bryan",
+      "email": "jenny@posit.co"
+    },
+    {
+      "name": "Malcolm Barrett",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0299-5825"
+    },
+    {
+      "name": "Andy Teucher",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-7840-692X"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

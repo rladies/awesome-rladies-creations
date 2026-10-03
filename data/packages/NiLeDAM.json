@@ -1,0 +1,41 @@
+{
+  "name": "NiLeDAM",
+  "title": "Monazite Dating for the NiLeDAM Team",
+  "description": "Th-U-Pb electron microprobe age dating of monazite, as originally described in <doi:10.1016/0009-2541(96)00024-1>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2025-06-19",
+  "authors": [
+    {
+      "name": "Nathalie Vialaneix",
+      "roles": [
+        "aut",
+        "trl",
+        "cre"
+      ],
+      "orcid": "0000-0003-1156-0639",
+      "directory_id": "nathalie-vialaneix",
+      "email": "nathalie.vialaneix@inrae.fr"
+    },
+    {
+      "name": "Aurélie Mercadié",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jean-Marc Montel",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Anne-Magali Seydoux-Guillaume",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

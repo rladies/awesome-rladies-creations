@@ -1,0 +1,46 @@
+{
+  "name": "SuperLearner",
+  "title": "Super Learner Prediction",
+  "description": "Implements the super learner prediction method and contains a library of prediction algorithms to be used in the super learner.",
+  "repo_url": "https://github.com/ecpolley/SuperLearner",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2025-12-15",
+  "authors": [
+    {
+      "name": "Eric Polley",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "epolley@uchicago.edu"
+    },
+    {
+      "name": "Erin LeDell",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "erin-ledell"
+    },
+    {
+      "name": "Chris Kennedy",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Sam Lendle",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Mark van der Laan",
+      "roles": [
+        "aut",
+        "ths"
+      ]
+    }
+  ]
+}

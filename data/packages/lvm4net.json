@@ -1,0 +1,22 @@
+{
+  "name": "lvm4net",
+  "title": "Latent Variable Models for Networks",
+  "description": "Latent variable models for network data using fast inferential procedures. For more information please visit: <http://igollini.github.io/lvm4net/>.",
+  "repo_url": "http://github.com/igollini/lvm4net",
+  "pkdown_url": null,
+  "bug_reports_url": "http://github.com/igollini/lvm4net/issues",
+  "logo_url": "https://raw.githubusercontent.com/igollini/lvm4net/HEAD/man/figures/hex_lvm4net.png",
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Isabella Gollini",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-7738-5688",
+      "directory_id": "isabella-gollini",
+      "email": "igollini.stats@gmail.com"
+    }
+  ]
+}

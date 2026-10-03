@@ -1,0 +1,98 @@
+{
+  "name": "tsfeatures",
+  "title": "Time Series Feature Extraction",
+  "description": "Methods for extracting various features from time series data. The features provided are those from Hyndman, Wang and Laptev (2013) <doi:10.1109/ICDMW.2015.104>, Kang, Hyndman and Smith-Miles (2017) <doi:10.1016/j.ijforecast.2016.09.004> and from Fulcher, Little and Jones (2013) <doi:10.1098/rsif.2013.0048>. Features include spectral entropy, autocorrelations, measures of the strength of seasonality and trend, and so on. Users can also define their own feature functions.",
+  "repo_url": "https://github.com/robjhyndman/tsfeatures",
+  "pkdown_url": "https://pkg.robjhyndman.com/tsfeatures/",
+  "bug_reports_url": "https://github.com/robjhyndman/tsfeatures/issues",
+  "logo_url": "https://raw.githubusercontent.com/robjhyndman/tsfeatures/HEAD/man/figures/tsfeatures-hex.png",
+  "last_updated": "2023-08-28",
+  "authors": [
+    {
+      "name": "Rob Hyndman",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-2140-5352",
+      "email": "Rob.Hyndman@monash.edu"
+    },
+    {
+      "name": "Yanfei Kang",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-8769-6650"
+    },
+    {
+      "name": "Pablo Montero-Manso",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Mitchell O'Hara-Wild",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6729-7695"
+    },
+    {
+      "name": "Thiyanga Talagala",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-0656-9789",
+      "directory_id": "thiyanga-talagala"
+    },
+    {
+      "name": "Earo Wang",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6448-5260"
+    },
+    {
+      "name": "Yangzhuoran Yang",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Souhaib Ben Taieb",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Cao Hanqing",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "D K Lake",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Nikolay Laptev",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "J R Moorman",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Bohan Zhang",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

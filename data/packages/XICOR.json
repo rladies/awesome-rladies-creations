@@ -1,0 +1,27 @@
+{
+  "name": "XICOR",
+  "title": "Association Measurement Through Cross Rank Increments",
+  "description": "Computes robust association measures that do not presuppose linearity. The xi correlation (xicor) is based on cross correlation between ranked increments. The reference for the methods implemented here is Chatterjee, Sourav (2020) <arXiv:1909.10140> This package includes the Galton peas example.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-12-02",
+  "authors": [
+    {
+      "name": "Susan Holmes",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "susan-holmes",
+      "email": "sp.holmes@gmail.com"
+    },
+    {
+      "name": "Sourav Chatterjee",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

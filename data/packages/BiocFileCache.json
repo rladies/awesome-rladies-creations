@@ -1,0 +1,27 @@
+{
+  "name": "BiocFileCache",
+  "title": "Manage Files Across Sessions",
+  "description": "This package creates a persistent on-disk cache of files that the user can add, update, and retrieve. It is useful for managing resources (such as custom Txdb objects) that are costly or difficult to create, web resources, and data files used across sessions.",
+  "repo_url": "https://github.com/Bioconductor/BiocFileCache",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/Bioconductor/BiocFileCache/issues",
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Lori Shepherd",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "lori-shepherd",
+      "email": "lori.shepherd@roswellpark.org"
+    },
+    {
+      "name": "Martin Morgan",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

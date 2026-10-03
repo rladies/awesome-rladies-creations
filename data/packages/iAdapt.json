@@ -1,0 +1,39 @@
+{
+  "name": "iAdapt",
+  "title": "Two-Stage Adaptive Dose-Finding Clinical Trial Design",
+  "description": "Simulate and implement early phase two-stage adaptive dose-finding design for binary and quasi-continuous toxicity endpoints. See Chiuzan et al. (2018) for further reading <DOI:10.1080/19466315.2018.1462727>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2021-08-06",
+  "authors": [
+    {
+      "name": "Alyssa Vanderbeek",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "vanderbeekam@gmail.com"
+    },
+    {
+      "name": "Laura Cosgrove",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Elizabeth Garrett-Mayer",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Cody Chiuzan",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "cody-chiuzan"
+    }
+  ]
+}

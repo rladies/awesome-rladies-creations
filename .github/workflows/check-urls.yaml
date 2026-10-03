@@ -1,0 +1,276 @@
+name: Check URLs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * SAT"
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate app token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.JINX_APP_ID }}
+          private-key: ${{ secrets.JINX_PRIVATE_KEY }}
+          owner: rladies
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Install cURL headers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "renv"
+
+      - name: Setup renv
+        uses: r-lib/actions/setup-renv@v2
+
+      - name: Sweep URLs
+        run: Rscript --verbose scripts/check-urls.R
+
+      - name: Open or update tracking issue
+        id: issue
+        uses: actions/github-script@v7
+        env:
+          REPORT_PATH: url-check-report.tsv
+          ISSUE_TITLE: "Broken URLs sweep"
+          DOWN_STREAK_THRESHOLD: "2"
+        with:
+          github-token: ${{ steps.app-token.outputs.token }}
+          script: |
+            const fs = require('fs');
+            const reportPath = process.env.REPORT_PATH;
+            const title = process.env.ISSUE_TITLE;
+            const downThreshold = parseInt(process.env.DOWN_STREAK_THRESHOLD, 10);
+
+            if (!fs.existsSync(reportPath)) {
+              core.setFailed(`Report ${reportPath} not found.`);
+              return;
+            }
+
+            const lines = fs.readFileSync(reportPath, 'utf8').split(/\r?\n/).filter(Boolean);
+            const header = lines.shift().split('\t');
+            const rows = lines.map(line => {
+              const cells = line.split('\t');
+              const o = {};
+              header.forEach((h, i) => { o[h] = cells[i] ?? ''; });
+              return o;
+            });
+
+            // Locate existing tracking issue by exact title.
+            const search = await github.rest.search.issuesAndPullRequests({
+              q: `repo:${context.repo.owner}/${context.repo.repo} is:issue in:title "${title}"`,
+              per_page: 50
+            });
+            const existing = search.data.items
+              .filter(i => i.title === title)
+              .sort((a, b) => b.number - a.number)[0];
+
+            // Parse prior state from hidden JSON block.
+            const STATE_RE = /<!-- url-check-state\s*([\s\S]*?)\s*-->/;
+            let prior = {};
+            if (existing) {
+              const m = existing.body && existing.body.match(STATE_RE);
+              if (m) {
+                try { prior = JSON.parse(m[1]); }
+                catch (e) { core.warning(`Could not parse prior state: ${e.message}`); }
+              }
+            }
+
+            const today = new Date().toISOString().slice(0, 10);
+            const keyOf = r => `${r.kind}|${r.file}|${r.field}|${r.url}`;
+
+            // Build new state: streak counts only failures, omit recovered.
+            const state = {};
+            for (const r of rows) {
+              if (r.category === 'ok') continue;
+              const prev = prior[keyOf(r)] || { streak: 0, first_seen: null };
+              state[keyOf(r)] = {
+                streak: (r.category === 'down' ? prev.streak : 0) + 1,
+                first_seen: prev.first_seen || today,
+                category: r.category
+              };
+            }
+
+            const broken = rows.filter(r => r.category === 'broken');
+            const notImage = rows.filter(r => r.category === 'not_image');
+            const downAll = rows.filter(r => r.category === 'down');
+            const down = downAll.filter(r => (state[keyOf(r)]?.streak || 0) >= downThreshold);
+            const watching = downAll.filter(r => (state[keyOf(r)]?.streak || 0) < downThreshold);
+
+            const fmtRow = r => {
+              const where = `\`${r.file}\` → \`${r.field}\``;
+              const detail = r.status ? `HTTP ${r.status}` : (r.error || 'no response');
+              const head = `- ${where} — ${detail}\n  - ${r.url}`;
+              if (r.suggestion && r.suggestion !== 'NA') {
+                return `${head}\n  - suggested replacement (og:image): \`${r.suggestion}\``;
+              }
+              return head;
+            };
+            const section = (heading, items, blurb) => {
+              if (items.length === 0) return '';
+              return `## ${heading} (${items.length})\n\n${blurb}\n\n${items.map(fmtRow).join('\n')}\n\n`;
+            };
+
+            const totalActionable = broken.length + notImage.length + down.length;
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const intro = totalActionable === 0
+              ? `All URLs are reachable.${watching.length ? ` ${watching.length} site(s) flaky on this run — being watched.` : ''}`
+              : `Found ${totalActionable} URL(s) that need attention. Edit the matching JSON file under \`data/\` to fix or remove the entry.`;
+
+            const body = [
+              `_Last run: ${today} ([workflow run](${runUrl}))_`,
+              ``,
+              intro,
+              ``,
+              section('Broken (4xx)', broken,
+                'These URLs return a 4xx status — likely permanently broken. Fix or remove the entry.'),
+              section('Wrong content type (not an image)', notImage,
+                'These image URLs resolved with 200 but did not return image content. The URL probably points at an HTML page, not the image asset.'),
+              section(`Site down (≥ ${downThreshold} consecutive failures)`, down,
+                'These URLs have failed with 5xx, timeout, or DNS errors on multiple consecutive runs. The site may be down for good.'),
+              section('Watching (1 consecutive failure)', watching,
+                'Transient failure on this run. Will be promoted to "Site down" if it fails again next sweep. No action needed yet.'),
+              `<!-- url-check-state\n${JSON.stringify(state)}\n-->\n`
+            ].join('');
+
+            const allClear = totalActionable === 0 && watching.length === 0;
+
+            let issueNumber = '';
+            if (existing) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                title,
+                body,
+                state: allClear ? 'closed' : 'open'
+              });
+              core.info(`Updated #${existing.number} (state=${allClear ? 'closed' : 'open'})`);
+              issueNumber = String(existing.number);
+            } else if (!allClear) {
+              const created = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body
+              });
+              core.info(`Opened #${created.data.number}`);
+              issueNumber = String(created.data.number);
+            } else {
+              core.info('No issue needed — all URLs healthy and no prior issue open.');
+            }
+            core.setOutput('issue_number', issueNumber);
+
+      - name: Apply og:image fixes
+        id: fixes
+        uses: actions/github-script@v7
+        env:
+          REPORT_PATH: url-check-report.tsv
+        with:
+          github-token: ${{ steps.app-token.outputs.token }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const lines = fs.readFileSync(process.env.REPORT_PATH, 'utf8').split(/\r?\n/).filter(Boolean);
+            const header = lines.shift().split('\t');
+            const rows = lines.map(line => {
+              const cells = line.split('\t');
+              const o = {};
+              header.forEach((h, i) => { o[h] = cells[i] ?? ''; });
+              return o;
+            });
+            const fixes = rows.filter(r =>
+              r.category !== 'ok' &&
+              r.suggestion && r.suggestion !== 'NA' && r.suggestion !== ''
+            );
+            const changed = [];
+            for (const f of fixes) {
+              const dir = f.kind === 'content' ? 'data/content' : 'data/packages';
+              const filePath = path.join(dir, f.file);
+              if (!fs.existsSync(filePath)) continue;
+              const before = fs.readFileSync(filePath, 'utf8');
+              const needle = `"${f.url}"`;
+              if (!before.includes(needle)) continue;
+              const after = before.split(needle).join(`"${f.suggestion}"`);
+              if (after !== before) {
+                fs.writeFileSync(filePath, after);
+                changed.push({ file: filePath, field: f.field, old: f.url, new: f.suggestion });
+              }
+            }
+            core.setOutput('count', String(changed.length));
+            core.setOutput('changed', changed.length > 0 ? 'true' : 'false');
+            core.setOutput('summary', changed.map(c =>
+              `- \`${c.file}\` (\`${c.field}\`): ${c.old} → ${c.new}`
+            ).join('\n'));
+
+      - name: Open or update og:image fix PR
+        if: steps.fixes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          BRANCH: auto/og-image-fixes
+          COUNT: ${{ steps.fixes.outputs.count }}
+          SUMMARY: ${{ steps.fixes.outputs.summary }}
+          ISSUE_NUMBER: ${{ steps.issue.outputs.issue_number }}
+        run: |
+          set -euo pipefail
+          git config user.name "Jinx[bot]"
+          git config user.email "jinx@rladies.org"
+          git checkout -B "$BRANCH"
+          git add data/
+          git commit -m "Replace ${COUNT} broken image URL(s) with og:image suggestions"
+
+          existing_state=$(gh pr view "$BRANCH" --json state --jq .state 2>/dev/null || echo "")
+          if [ "$existing_state" = "CLOSED" ] || [ "$existing_state" = "MERGED" ]; then
+            echo "PR for $BRANCH is $existing_state — refusing to force-push. A maintainer rejected or merged a previous version; clean up the branch or rename if you want a fresh attempt."
+            exit 0
+          fi
+
+          git push --force-with-lease origin "$BRANCH"
+
+          ref="${ISSUE_NUMBER:+Tracking: #${ISSUE_NUMBER}.}"
+          {
+            printf '%s\n\n' "Auto-generated from the URL sweep workflow. Each broken \`photo_url\` / \`logo_url\` was replaced with the og:image scraped from the entry's homepage."
+            if [ -n "$ref" ]; then printf '%s\n\n' "$ref"; fi
+            printf '%s\n\n' "**Review carefully** — the og:image is sometimes a generic site banner rather than a portrait/logo. If a suggestion isn't right, just edit or drop the change in this PR."
+            printf '%s\n' "Changes (${COUNT}):"
+            printf '%s\n' "$SUMMARY"
+          } > /tmp/pr-body.md
+
+          if gh pr view "$BRANCH" --json number >/dev/null 2>&1; then
+            gh pr edit "$BRANCH" --body-file /tmp/pr-body.md
+            echo "Updated existing PR for $BRANCH"
+          else
+            gh pr create \
+              --title "Replace ${COUNT} broken image URL(s) with og:image suggestions" \
+              --body-file /tmp/pr-body.md \
+              --head "$BRANCH"
+            echo "Opened new PR for $BRANCH"
+          fi
+
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: url-check-report
+          path: url-check-report.tsv
+          if-no-files-found: ignore

@@ -1,0 +1,20 @@
+{
+  "name": "QueryWikidataR",
+  "title": "Use the Query Wikidata service in R",
+  "description": "QueryWikidataR allows to query for Wikidata items with geocoordinates in three different ways, to get the list of related Wikipedia articles with languages and to get the properties (P31) and the classes (P279) they belong to. The package also allows to query for an item from a known property and a value of this property that you can decide to set. The functionalities of the package will be enhanced.",
+  "repo_url": "https://github.com/serenasignorelli/QueryWikidataR",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Serena Signorelli",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "serena-signorelli",
+      "email": "serena.signorelli@unibg.it"
+    }
+  ]
+}

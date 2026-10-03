@@ -1,0 +1,20 @@
+{
+  "title": "Andrea Rau, PhD",
+  "type": "blog",
+  "url": "https://andrea-rau.com/",
+  "rss_feed": "https://andreamrau.netlify.app/index.xml",
+  "photo_url": "https://andreamrau.netlify.app/img/featured.png",
+  "description": "My research interests involve applying statistical reasoning to solve complex problems in biology and genomics, and implementing open-source software solutions in [R](http://www.r-project.org) and [Bioconductor](http://bioconductor.org).",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Andrea Rau",
+      "social_media": [
+        {
+          "twitter": "andreamrau",
+          "website": "http://www.andrea-rau.com"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "PlackettLuce",
+  "title": "Plackett-Luce Models for Rankings",
+  "description": "Functions to prepare rankings data and fit the Plackett-Luce model jointly attributed to Plackett (1975) <doi:10.2307/2346567> and Luce (1959, ISBN:0486441369). The standard Plackett-Luce model is generalized to accommodate ties of any order in the ranking. Partial rankings, in which only a subset of items are ranked in each ranking, are also accommodated in the implementation. Disconnected/weakly connected networks implied by the rankings may be handled by adding pseudo-rankings with a hypothetical item. Optionally, a multivariate normal prior may be set on the log-worth parameters and ranker reliabilities may be incorporated as proposed by Raman and Joachims (2014) <doi:10.1145/2623330.2623654>. Maximum a posteriori estimation is used when priors are set. Methods are provided to estimate standard errors or quasi-standard errors for inference as well as to fit Plackett-Luce trees. See the package website or vignette for further details.",
+  "repo_url": "https://github.com/hturner/PlackettLuce",
+  "pkdown_url": "https://hturner.github.io/PlackettLuce/",
+  "bug_reports_url": "https://github.com/hturner/PlackettLuce/issues",
+  "logo_url": null,
+  "last_updated": "2026-03-25",
+  "authors": [
+    {
+      "name": "Heather Turner",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-1256-3375",
+      "directory_id": "heather-turner",
+      "email": "ht@heatherturner.net"
+    },
+    {
+      "name": "Ioannis Kosmidis",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1556-0302"
+    },
+    {
+      "name": "David Firth",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0302-2312"
+    },
+    {
+      "name": "Jacob van Etten",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-7554-2558"
+    }
+  ]
+}

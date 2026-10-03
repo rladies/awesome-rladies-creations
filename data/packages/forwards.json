@@ -1,0 +1,27 @@
+{
+  "name": "forwards",
+  "title": "Data from Surveys Conducted by Forwards",
+  "description": "Anonymized data from surveys conducted by Forwards <https://forwards.github.io/>, the R Foundation task force on women and other under-represented groups. Currently, a single data set of responses to a survey of attendees at useR! 2016 <https://www.r-project.org/useR-2016/>, the R user conference held at Stanford University, Stanford, California, USA, June 27 - June 30 2016.",
+  "repo_url": "https://github.com/forwards/forwards",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/forwards/forwards/issues",
+  "logo_url": null,
+  "last_updated": "2019-07-30",
+  "authors": [
+    {
+      "name": "Heather Turner",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "heather-turner",
+      "email": "ht@heatherturner.net"
+    },
+    {
+      "name": "Oliver Keyes",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

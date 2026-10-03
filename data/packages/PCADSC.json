@@ -1,0 +1,27 @@
+{
+  "name": "PCADSC",
+  "title": "Tools for Principal Component Analysis-Based Data Structure\nComparisons",
+  "description": "A suite of non-parametric, visual tools for assessing differences in data structures for two datasets that contain different observations of the same variables. These tools are all based on Principal Component Analysis (PCA) and thus effectively address differences in the structures of the covariance matrices of the two datasets. The PCADSC tools consist of easy-to-use, intuitive plots that each focus on different aspects of the PCA decompositions. The cumulative eigenvalue (CE) plot describes differences in the variance components (eigenvalues) of the deconstructed covariance matrices. The angle plot presents the information loss when moving from the PCA decomposition of one dataset to the PCA decomposition of the other. The chroma plot describes the loading patterns of the two datasets, thereby presenting the relative weighting and importance of the variables from the original dataset.",
+  "repo_url": "https://github.com/annennenne/PCADSC",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/annennenne/PCADSC/issues",
+  "logo_url": null,
+  "last_updated": "2025-05-21",
+  "authors": [
+    {
+      "name": "Anne Helby Petersen",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "anne-helby-petersen",
+      "email": "ahpe@sund.ku.dk"
+    },
+    {
+      "name": "Bo Markussen",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

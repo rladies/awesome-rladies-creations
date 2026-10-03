@@ -1,0 +1,36 @@
+{
+  "name": "multilevelmod",
+  "title": "Model Wrappers for Multi-Level Models",
+  "description": "Bindings for hierarchical regression models for use with the 'parsnip' package. Models include longitudinal generalized linear models (Liang and Zeger, 1986) <doi:10.1093/biomet/73.1.13>, and mixed-effect models (Pinheiro and Bates) <doi:10.1007/978-1-4419-0318-1_1>.",
+  "repo_url": "https://github.com/tidymodels/multilevelmod",
+  "pkdown_url": "http://multilevelmod.tidymodels.org/",
+  "bug_reports_url": null,
+  "logo_url": "https://raw.githubusercontent.com/tidymodels/multilevelmod/HEAD/man/figures/logo.png",
+  "last_updated": "2022-06-17",
+  "authors": [
+    {
+      "name": "Max Kuhn",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-2402-136X"
+    },
+    {
+      "name": "Hannah Frick",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6049-5258",
+      "directory_id": "hannah-frick",
+      "email": "hannah@rstudio.com"
+    },
+    {
+      "name": "RStudio",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

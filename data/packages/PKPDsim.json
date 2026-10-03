@@ -1,0 +1,52 @@
+{
+  "name": "PKPDsim",
+  "title": "Tools for Performing Pharmacokinetic-Pharmacodynamic Simulations",
+  "description": "Simulate dose regimens for pharmacokinetic-pharmacodynamic (PK-PD) models described by differential equation (DE) systems. Simulation using ADVAN-style analytical equations is also supported (Abuhelwa et al. (2015) <doi:10.1016/j.vascn.2015.03.004>).",
+  "repo_url": "https://github.com/InsightRX/PKPDsim",
+  "pkdown_url": "https://insightrx.github.io/PKPDsim/",
+  "bug_reports_url": null,
+  "logo_url": "https://raw.githubusercontent.com/InsightRX/PKPDsim/HEAD/man/figures/hexsticker.png",
+  "last_updated": "2025-04-17",
+  "authors": [
+    {
+      "name": "Ron Keizer",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "ron@insight-rx.com"
+    },
+    {
+      "name": "Jasmine Hughes",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Dominic Tong",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Kara Woo",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "kara-woo"
+    },
+    {
+      "name": "Jordan Brooks",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "InsightRX",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

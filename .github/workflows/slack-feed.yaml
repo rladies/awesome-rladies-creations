@@ -1,47 +1,164 @@
 name: Slack RSS Subscription
+
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/content/**.json'
   workflow_dispatch:
     inputs:
       rss_feed_url:
-        description: 'RSS Feed URL'
+        description: 'RSS feed URL (manual subscribe)'
         required: true
+      title:
+        description: 'Title for context (optional)'
+        required: false
+
+permissions:
+  contents: read
 
 jobs:
-  send_url_to_slack:
+  notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out code
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          node-version: 14
+          fetch-depth: 0
 
-      - name: Subscribe to RSS feed
+      - name: Notify Slack of RSS feed changes
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
           SLACK_CHANNEL: rladiesblogs
-          RSS_FEED_URL: ${{ github.event.inputs.rss_feed_url }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          MANUAL_URL: ${{ github.event.inputs.rss_feed_url }}
+          MANUAL_TITLE: ${{ github.event.inputs.title }}
         run: |
-          npm install @slack/web-api
-          node -e '
-          const { WebClient } = require("@slack/web-api");
+          set -euo pipefail
 
-          const slackToken = process.env.SLACK_TOKEN;
-          const channel = process.env.SLACK_CHANNEL;
-          const url = process.env.RSS_FEED_URL;
+          post_message() {
+            local action="$1" title="$2" url="$3" rss_old="$4" rss_new="$5" file="$6"
+            local payload
+            payload=$(jq -n \
+              --arg channel "$SLACK_CHANNEL" \
+              --arg action "$action" \
+              --arg title "$title" \
+              --arg url "$url" \
+              --arg rss_old "$rss_old" \
+              --arg rss_new "$rss_new" \
+              --arg file "$file" \
+              '
+              def head:
+                if $title != "" and $url != "" then "<\($url)|\($title)>"
+                elif $title != "" then $title
+                elif $url != "" then "<\($url)|\($url)>"
+                else "(no link)"
+                end;
+              def footer:
+                if $file != "" then "\n_from `\($file)`_" else "" end;
+              def fence(c):
+                "```\n" + c + "\n```";
+              def cmd_sub: fence("/feed subscribe \($rss_new)");
+              def cmd_rm:  fence("/feed remove \($rss_old)");
+              def body:
+                if $action == "subscribe" then
+                  "📡 *New content added*: " + head + footer
+                  + "\n\nCopy-paste this command into this channel to subscribe:\n"
+                  + cmd_sub
+                elif $action == "unsubscribe" then
+                  "🗑️ *RSS feed removed for*: " + head + footer
+                  + "\n\nCopy-paste this command into this channel to unsubscribe the old feed:\n"
+                  + cmd_rm
+                  + "\n_If `/feed remove <url>` does nothing, run `/feed list` and remove by index instead._"
+                elif $action == "change" then
+                  "🔄 *RSS feed changed for*: " + head + footer
+                  + "\n\nCopy-paste these commands — remove the old feed first, then subscribe to the new one:\n"
+                  + cmd_rm + "\n" + cmd_sub
+                  + "\n_If `/feed remove <url>` does nothing, run `/feed list` and remove by index instead._"
+                else
+                  "📡 *Manual RSS subscribe request*" + footer
+                  + "\n\nCopy-paste this command into this channel to subscribe:\n"
+                  + cmd_sub
+                end;
+              {
+                channel: $channel,
+                text: body,
+                unfurl_links: false,
+                unfurl_media: false
+              }')
+            curl -sS -X POST \
+              -H "Authorization: Bearer ${SLACK_TOKEN}" \
+              -H "Content-Type: application/json; charset=utf-8" \
+              --data "$payload" \
+              https://slack.com/api/chat.postMessage \
+              | jq -e '.ok' >/dev/null
+          }
 
-          (async () => {
-            const web = new WebClient(slackToken);
-            const response = await web.chat.postMessage({
-              channel,
-              text: `/feed subscribe ${url}`
-            });
+          read_old_rss() {
+            local f="$1"
+            local content
+            content=$(git show "$BEFORE:$f" 2>/dev/null || true)
+            if [ -z "$content" ]; then
+              echo ""
+              return
+            fi
+            printf '%s' "$content" | jq -r '.rss_feed // empty' 2>/dev/null || echo ""
+          }
 
-            console.log("Response:", response);
-          })().catch(error => {
-            console.error("Error:", error);
-            process.exit(1);
-          });
-          '
+          if [ -n "${MANUAL_URL:-}" ]; then
+            post_message "manual" "${MANUAL_TITLE:-}" "" "" "$MANUAL_URL" ""
+            exit 0
+          fi
+
+          if [ -z "${BEFORE:-}" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            echo "No before SHA (initial push?); nothing to diff."
+            exit 0
+          fi
+
+          mapfile -t lines < <(git diff --name-status --diff-filter=AM "$BEFORE" "$AFTER" -- 'data/content/*.json')
+          if [ "${#lines[@]}" -eq 0 ]; then
+            echo "No added or modified content JSONs."
+            exit 0
+          fi
+
+          for line in "${lines[@]}"; do
+            [ -z "$line" ] && continue
+            status="${line%%	*}"
+            f="${line#*	}"
+
+            if [ ! -f "$f" ]; then
+              echo "Skipping $f (not present in working tree)"
+              continue
+            fi
+
+            new_rss=$(jq -r '.rss_feed // empty' "$f")
+            title=$(jq -r '.title // empty' "$f")
+            url=$(jq -r '.url // empty' "$f")
+
+            if [ "$status" = "A" ]; then
+              old_rss=""
+            else
+              old_rss=$(read_old_rss "$f")
+            fi
+
+            if [ -z "$new_rss" ] && [ -z "$old_rss" ]; then
+              echo "Skipping $f (no rss_feed before or after)"
+              continue
+            fi
+            if [ "$new_rss" = "$old_rss" ]; then
+              echo "Skipping $f (rss_feed unchanged)"
+              continue
+            fi
+
+            if [ -z "$old_rss" ]; then
+              action="subscribe"
+            elif [ -z "$new_rss" ]; then
+              action="unsubscribe"
+            else
+              action="change"
+            fi
+
+            echo "Notifying for $f: action=$action old='$old_rss' new='$new_rss'"
+            post_message "$action" "$title" "$url" "$old_rss" "$new_rss" "$f"
+          done

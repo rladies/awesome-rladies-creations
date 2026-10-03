@@ -1,0 +1,27 @@
+{
+  "name": "lmmpar",
+  "title": "Parallel Linear Mixed Model",
+  "description": "Embarrassingly Parallel Linear Mixed Model calculations spread across local cores which repeat until convergence.",
+  "repo_url": "https://github.com/fulyagokalp/lmmpar",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/fulyagokalp/lmmpar/issues",
+  "logo_url": null,
+  "last_updated": "2017-08-03",
+  "authors": [
+    {
+      "name": "Fulya Gokalp Yavuz",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "fulyagokalp@gmail.com",
+      "directory_id": "fulya-gokalp-yavuz"
+    },
+    {
+      "name": "Barret Schloerke",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

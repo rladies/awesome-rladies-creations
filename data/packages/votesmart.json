@@ -1,0 +1,40 @@
+{
+  "name": "votesmart",
+  "title": "Wrapper for the Project 'VoteSmart' API",
+  "description": "An R interface to the Project 'VoteSmart'<https://justfacts.votesmart.org/> API.",
+  "repo_url": "https://github.com/decktools/votesmart/",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/decktools/votesmart/issues/",
+  "logo_url": "https://raw.githubusercontent.com/decktools/votesmart/HEAD/man/img/deck_logo.png",
+  "last_updated": "2023-05-01",
+  "authors": [
+    {
+      "name": "Deck Technologies",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    },
+    {
+      "name": "Amanda Dobbyn",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "amanda-dobbyn",
+      "email": "amanda@deck.tools"
+    },
+    {
+      "name": "Max Wood",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Alyssa Frazee",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "stray",
+  "title": "Anomaly Detection in High Dimensional and Temporal Data",
+  "description": "This is a modification of 'HDoutliers' package. The 'HDoutliers' algorithm is a powerful unsupervised algorithm for detecting anomalies in high-dimensional data, with a strong theoretical foundation. However, it suffers from some limitations that significantly hinder its performance level, under certain circumstances. This package implements the algorithm proposed in Talagala, Hyndman and Smith-Miles (2019) <arXiv:1908.04000> for detecting anomalies in high-dimensional data that addresses these limitations of 'HDoutliers' algorithm. We define an anomaly as an observation that deviates markedly from the majority with a large distance gap. An approach based on extreme value theory is used for the anomalous threshold calculation.",
+  "repo_url": "https://github.com/pridiltal/stray",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/pridiltal/stray/issues",
+  "logo_url": "https://raw.githubusercontent.com/pridiltal/stray/HEAD/man/figures/logo.png",
+  "last_updated": "2020-06-29",
+  "authors": [
+    {
+      "name": "Priyanga Dilini Talagala",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-2870-7449",
+      "directory_id": "priyanga-dilini-talagala",
+      "email": "pritalagala@gmail.com"
+    },
+    {
+      "name": "Rob J Hyndman",
+      "roles": [
+        "ths"
+      ],
+      "orcid": "0000-0002-2140-5352"
+    },
+    {
+      "name": "Kate Smith-Miles",
+      "roles": [
+        "ths"
+      ]
+    }
+  ]
+}

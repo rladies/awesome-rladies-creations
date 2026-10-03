@@ -1,0 +1,33 @@
+{
+  "name": "Hassani.Silva",
+  "title": "A Test for Comparing the Predictive Accuracy of Two Sets of\nForecasts",
+  "description": "A non-parametric test founded upon the principles of the Kolmogorov-Smirnov (KS) test, referred to as the KS Predictive Accuracy (KSPA) test. The KSPA test is able to serve two distinct purposes. Initially, the test seeks to determine whether there exists a statistically significant difference between the distribution of forecast errors, and secondly it exploits the principles of stochastic dominance to determine whether the forecasts with the lower error also reports a stochastically smaller error than forecasts from a competing model, and thereby enables distinguishing between the predictive accuracy of forecasts. KSPA test has been described in : Hassani and Silva (2015) <doi:10.3390/econometrics3030590>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2023-01-13",
+  "authors": [
+    {
+      "name": "Hossein Hassani",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Emmanuel Sirimal Silva",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Leila Marvian Mashhad",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "Leila.marveian@gmail.com",
+      "directory_id": "leila-marvian"
+    }
+  ]
+}

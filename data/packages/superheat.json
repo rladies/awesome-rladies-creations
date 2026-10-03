@@ -1,0 +1,27 @@
+{
+  "name": "superheat",
+  "title": "A Graphical Tool for Exploring Complex Datasets Using Heatmaps",
+  "description": "A system for generating extendable and customizable heatmaps for exploring complex datasets, including big data and data with multiple data types.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2017-02-04",
+  "authors": [
+    {
+      "name": "Rebecca Barter",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "rebecca-barter",
+      "email": "rebeccabarter@berkeley.edu"
+    },
+    {
+      "name": "Bin Yu",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

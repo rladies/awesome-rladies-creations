@@ -1,0 +1,39 @@
+{
+  "name": "metaRNASeq",
+  "title": "Meta-Analysis of RNA-Seq Data",
+  "description": "Implementation of two p-value combination techniques (inverse normal and Fisher methods). A vignette is provided to explain how to perform a meta-analysis from two independent RNA-seq experiments.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2025-03-26",
+  "authors": [
+    {
+      "name": "Guillemette Marot",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Andrea Rau",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "andrea-rau"
+    },
+    {
+      "name": "Florence Jaffrezic",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Samuel Blanck",
+      "roles": [
+        "ctb",
+        "cre"
+      ],
+      "email": "samuel.blanck@univ-lille.fr"
+    }
+  ]
+}

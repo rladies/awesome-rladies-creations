@@ -1,0 +1,22 @@
+{
+  "title": "Chaima Boughanmi",
+  "type": "blog",
+  "url": "https://chaimabgh.netlify.app/",
+  "rss_feed": "https://chaimabgh.netlify.app/index.xml",
+  "photo_url": "https://chaimabgh.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png",
+  "description": "A personnel website using created Hugo.",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Chaima Boughanmi",
+      "social_media": [
+        {
+          "linkedin": "chaima-boug",
+          "github": "BOUGHANMIChaima",
+          "mastodon": "@chaimaboughanmi@mastodon.social",
+          "website": "https://chaimabgh.netlify.app/"
+        }
+      ]
+    }
+  ]
+}

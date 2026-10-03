@@ -1,0 +1,18 @@
+{
+  "title": "RLadies+ Global Blog",
+  "type": "blog",
+  "url": "https://rladies.org/blog/",
+  "rss_feed": "https://rladies.org/blog/index.xml",
+  "photo_url": "https://rladies.org/images/og-default.png",
+  "description": "News, tutorials, and stories from the RLadies+ community — written by chapter organisers, members, and contributors around the world.",
+  "language": "en",
+  "authors": [
+    {
+      "name": "RLadies+",
+      "social_media": [{
+        "github": "rladies",
+        "website": "https://rladies.org/"
+      }]
+    }
+  ]
+}

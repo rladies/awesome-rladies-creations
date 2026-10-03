@@ -1,0 +1,47 @@
+{
+  "name": "h2o4gpu",
+  "title": "Interface to 'H2O4GPU'",
+  "description": "Interface to 'H2O4GPU' <https://github.com/h2oai/h2o4gpu>, a collection of 'GPU' solvers for machine learning algorithms.",
+  "repo_url": "https://github.com/h2oai/h2o4gpu",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/h2oai/h2o4gpu/issues",
+  "logo_url": null,
+  "last_updated": "2021-05-17",
+  "authors": [
+    {
+      "name": "Yuan Tang",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-5243-233X"
+    },
+    {
+      "name": "Navdeep Gill",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "navdeep@h2o.ai"
+    },
+    {
+      "name": "Erin LeDell",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "erin-ledell"
+    },
+    {
+      "name": "Vladimir Ovsyannikov",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "H2O.ai",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

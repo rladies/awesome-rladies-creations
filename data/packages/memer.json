@@ -1,0 +1,27 @@
+{
+  "name": "memer",
+  "title": "A tidyverse compatible package for creating memes in R using magick",
+  "description": "A tidyverse-friendly package for generating memes in R. The functions are primarily wrappers around functions in the magick package.",
+  "repo_url": "https://github.com/sctyner/memer",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": "https://raw.githubusercontent.com/sctyner/memer/HEAD/man/figures/logo.png",
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Sam Tyner",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "sctyner90@gmail.com",
+      "directory_id": "samantha-tyner"
+    },
+    {
+      "name": "Haley Jeppson",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

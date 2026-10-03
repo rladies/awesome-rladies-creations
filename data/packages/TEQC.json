@@ -1,0 +1,32 @@
+{
+  "name": "TEQC",
+  "title": "Quality control for target capture experiments",
+  "description": "Target capture experiments combine hybridization-based (in solution or on microarrays) capture and enrichment of genomic regions of interest (e.g. the exome) with high throughput sequencing of the captured DNA fragments. This package provides functionalities for assessing and visualizing the quality of the target enrichment process, like specificity and sensitivity of the capture, per-target read coverage and so on.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "M. Hummel"
+    },
+    {
+      "name": "S. Bonnin"
+    },
+    {
+      "name": "E. Lowy"
+    },
+    {
+      "name": "G. Roma"
+    },
+    {
+      "name": "Sarah Bonnin",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "sarah-bonnin",
+      "email": "Sarah.Bonnin@crg.eu"
+    }
+  ]
+}

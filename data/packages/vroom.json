@@ -1,0 +1,70 @@
+{
+  "name": "vroom",
+  "title": "Read and Write Rectangular Text Data Quickly",
+  "description": "The goal of 'vroom' is to read and write data (like 'csv', 'tsv' and 'fwf') quickly. When reading it uses a quick initial indexing step, then reads the values lazily , so only the data you actually use needs to be read. The writer formats the data in parallel and writes to disk asynchronously from formatting.",
+  "repo_url": "https://github.com/tidyverse/vroom",
+  "pkdown_url": "https://vroom.tidyverse.org",
+  "bug_reports_url": "https://github.com/tidyverse/vroom/issues",
+  "logo_url": "https://vroom.tidyverse.org/logo.png",
+  "last_updated": "2026-03-31",
+  "authors": [
+    {
+      "name": "Jim Hester",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2739-7082"
+    },
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4757-117X"
+    },
+    {
+      "name": "Jennifer Bryan",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6983-2759",
+      "directory_id": "jenny-bryan",
+      "email": "jenny@posit.co"
+    },
+    {
+      "name": "Shelby Bearrows",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "https://github.com/mandreyel/",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "Jukka Jylänki",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "Mikkel Jørgensen",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

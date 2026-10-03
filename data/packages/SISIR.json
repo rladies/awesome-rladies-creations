@@ -1,0 +1,34 @@
+{
+  "name": "SISIR",
+  "title": "Select Intervals Suited for Functional Regression",
+  "description": "Interval fusion and selection procedures for regression with functional inputs. Methods include a semiparametric approach based on Sliced Inverse Regression (SIR), as described in <doi:10.1007/s11222-018-9806-6> (standard ridge and sparse SIR are also included in the package) and a random forest based approach, as described in <doi:10.1002/sam.11705>.",
+  "repo_url": "https://forgemia.inra.fr/sfcb/sisir/-",
+  "pkdown_url": "https://forgemia.inra.fr/sfcb/sisir",
+  "bug_reports_url": "https://forgemia.inra.fr/sfcb/sisir/-/issues",
+  "logo_url": "https://forge.inrae.fr/uploads/-/system/project/avatar/6633/Screenshot_2022-10-28_12-55-53.png",
+  "last_updated": "2024-08-16",
+  "authors": [
+    {
+      "name": "Victor Picheny",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Remi Servien",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Nathalie Vialaneix",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-1156-0639",
+      "directory_id": "nathalie-vialaneix",
+      "email": "nathalie.vialaneix@inrae.fr"
+    }
+  ]
+}

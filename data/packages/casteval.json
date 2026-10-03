@@ -1,0 +1,38 @@
+{
+  "name": "casteval",
+  "title": "Modular tools for scoring and comparing infectious disease forecasts",
+  "description": "A generalized, modular set of tools to facilitate the scoring and comparing of time series forecasts.",
+  "repo_url": "https://github.com/phac-nml-phrsd/casteval",
+  "pkdown_url": "https://phac-nml-phrsd.github.io/casteval",
+  "bug_reports_url": "https://github.com/phac-nml-phrsd/casteval/issues",
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Daniel Yu",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Irena Papst",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "irena-papst"
+    },
+    {
+      "name": "David Champredon",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Government of Canada",
+      "roles": [
+        "cph"
+      ]
+    }
+  ]
+}

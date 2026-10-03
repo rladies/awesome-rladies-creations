@@ -1,0 +1,36 @@
+{
+  "name": "wingen",
+  "title": "Continuous Mapping of Genetic Diversity",
+  "description": "Generate continuous maps of genetic diversity using moving windows with options for rarefaction, interpolation, and masking as described in Bishop et al. (2023) <doi:10.1111/2041-210X.14090>.",
+  "repo_url": "https://github.com/AnushaPB/wingen",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/AnushaPB/wingen/issues",
+  "logo_url": "https://raw.githubusercontent.com/AnushaPB/wingen/HEAD/man/figures/logo.png",
+  "last_updated": "2025-08-19",
+  "authors": [
+    {
+      "name": "Anusha Bishop",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-1731-8683",
+      "directory_id": "anusha-bishop",
+      "email": "anusha.bishop@berkeley.edu"
+    },
+    {
+      "name": "Anne Chambers",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-7369-0108"
+    },
+    {
+      "name": "Ian Wang",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-2554-9414"
+    }
+  ]
+}

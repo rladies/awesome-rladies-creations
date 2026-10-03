@@ -1,0 +1,21 @@
+{
+  "name": "covid19tunisia",
+  "title": "Cases of COVID-19 in Tunisia",
+  "description": "Data personnally collected about the spread of COVID-19 (SARS-COV-2) in Tunisia.",
+  "repo_url": "https://github.com/MounaBelaid/covid19tunisia",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2020-11-30",
+  "authors": [
+    {
+      "name": "Mouna Belaid",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "mouna-belaid",
+      "email": "belaid.mounaa@gmail.com"
+    }
+  ]
+}

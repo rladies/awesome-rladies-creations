@@ -1,0 +1,21 @@
+{
+  "name": "Kmisc",
+  "title": "Kim Miscellaneous",
+  "description": "Assortment of functions that aid R programming.",
+  "repo_url": "https://github.com/sysilviakim/Kmisc",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Seo-young Silvia Kim",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "seoyoung-silvia-kim",
+      "email": "sskim.research@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "reprex",
+  "title": "Prepare Reproducible Example Code via the Clipboard",
+  "description": "Convenience wrapper that uses the 'rmarkdown' package to render small snippets of code to target formats that include both code and output. The goal is to encourage the sharing of small, reproducible, and runnable examples on code-oriented websites, such as <https://stackoverflow.com> and <https://github.com>, or in email. The user's clipboard is the default source of input code and the default target for rendered output. 'reprex' also extracts clean, runnable R code from various common formats, such as copy/paste from an R session.",
+  "repo_url": "https://github.com/tidyverse/reprex",
+  "pkdown_url": "https://reprex.tidyverse.org",
+  "bug_reports_url": "https://github.com/tidyverse/reprex/issues",
+  "logo_url": "https://reprex.tidyverse.org/logo.png",
+  "last_updated": "2024-07-06",
+  "authors": [
+    {
+      "name": "Jennifer Bryan",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6983-2759",
+      "directory_id": "jenny-bryan",
+      "email": "jenny@posit.co"
+    },
+    {
+      "name": "Jim Hester",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2739-7082"
+    },
+    {
+      "name": "David Robinson",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4757-117X"
+    },
+    {
+      "name": "Christophe Dervieux",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4474-2498"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

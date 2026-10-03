@@ -1,18 +1,26 @@
-name: "Auto message for PR's and Issues"
-on: [pull_request, issues]
+name: Hello on PR or Issue
+
+on:
+  pull_request_target:
+    types: [opened, closed]
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+  packages: read
 
 jobs:
-  send-message:
-    runs-on: ubuntu-latest
-    if: github.event.pull_request.merged
-    steps:
-      - uses: actions/github-script@v7
-        name: send-message
-        with:
-          script: |
-            await github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `Hey, thank you for opening your Pull Request ! 🙂 We will get to this as soon as we can!`
-            })
+  welcome:
+    if: github.event.action == 'opened'
+    uses: rladies/jinx/.github/workflows/reusable-welcome-contributor.yml@main
+    secrets:
+      JINX_APP_ID: ${{ secrets.JINX_APP_ID }}
+      JINX_PRIVATE_KEY: ${{ secrets.JINX_PRIVATE_KEY }}
+
+  thank:
+    if: github.event_name == 'pull_request_target' && github.event.action == 'closed' && github.event.pull_request.merged == true
+    uses: rladies/jinx/.github/workflows/reusable-thank-contributor.yml@main
+    secrets:
+      JINX_APP_ID: ${{ secrets.JINX_APP_ID }}
+      JINX_PRIVATE_KEY: ${{ secrets.JINX_PRIVATE_KEY }}

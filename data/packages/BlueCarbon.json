@@ -1,0 +1,29 @@
+{
+  "name": "BlueCarbon",
+  "title": "Collection of Functions for Blue Carbon Scientists",
+  "description": "The BlueCarbon package is a collection of functions with the main focus to help \"blue carbon\" scientists.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2023-05-03",
+  "authors": [
+    {
+      "name": "Valentina Costa",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-1513-0284",
+      "directory_id": "valentina-costa",
+      "email": "vale.costa@gmail.com"
+    },
+    {
+      "name": "Márcio Martins",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-6969-2215"
+    }
+  ]
+}

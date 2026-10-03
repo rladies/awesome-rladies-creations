@@ -1,0 +1,27 @@
+{
+  "name": "RCMIP5",
+  "title": "Tools for Manipulating and Summarizing CMIP5 Data",
+  "description": "Working with CMIP5 data can be tricky, forcing scientists to write custom scripts and programs. The `RCMIP5` package aims to ease this process, providing a standard, robust, and high-performance set of scripts to (i) explore what data have been downloaded, (ii) identify missing data, (iii) average (or apply other mathematical operations) across experimental ensembles, (iv) produce both temporal and spatial statistical summaries, and (v) produce easy-to-work-with graphical and data summaries.",
+  "repo_url": "https://github.com/ktoddbrown/RCMIP5",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Ben Bond-Lamberty",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Kathe Todd-Brown",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "kathe-toddbrown",
+      "email": "ktoddbrown@gmail.com"
+    }
+  ]
+}

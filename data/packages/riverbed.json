@@ -1,0 +1,21 @@
+{
+  "name": "riverbed",
+  "title": "Surfaces and volumes based on profiles.",
+  "description": "This package is intended to facilitate the calculation of surfaces and volumes described with profiles (such as river long profiles or river transects).",
+  "repo_url": "https://github.com/lvaudor/riverbed",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Lise Vaudor",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "lise-vaudor",
+      "email": "lise.vaudor@ens-lyon.fr"
+    }
+  ]
+}

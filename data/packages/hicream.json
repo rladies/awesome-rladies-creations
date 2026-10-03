@@ -1,0 +1,74 @@
+{
+  "name": "hicream",
+  "title": "HIC diffeREntial Analysis Method",
+  "description": "Perform Hi-C data differential analysis based on pixel-level differential analysis and a post hoc inference strategy to quantify signal in clusters of pixels. Clusters of pixels are obtained through a connectivity-constrained two-dimensional hierarchical clustering.",
+  "repo_url": "https://forge.inrae.fr/scales/hicream/-",
+  "pkdown_url": "https://scales.pages-forge.inrae.fr/hicream/",
+  "bug_reports_url": "https://forge.inrae.fr/scales/hicream/-/issues",
+  "logo_url": null,
+  "last_updated": "2026-01-30",
+  "authors": [
+    {
+      "name": "Elise Jorge",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "elise.jorge@inrae.fr"
+    },
+    {
+      "name": "Sylvain Foissac",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2631-5356"
+    },
+    {
+      "name": "Toby Hocking",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3146-0865"
+    },
+    {
+      "name": "Pierre Neuvial",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-3584-9998"
+    },
+    {
+      "name": "Nathalie Vialaneix",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1156-0639",
+      "directory_id": "nathalie-vialaneix"
+    },
+    {
+      "name": "Gilles Blanchard",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Guillermo Durand",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-4056-5631"
+    },
+    {
+      "name": "Nicolas Enjalbert-Courrech",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Etienne Roquain",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

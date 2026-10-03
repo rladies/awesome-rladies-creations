@@ -1,0 +1,33 @@
+{
+  "name": "oddstream",
+  "title": "Outlier Detection in Data Streams",
+  "description": "We proposes a framework that provides real time support for early detection of anomalous series within a large collection of streaming time series data. By definition, anomalies are rare in comparison to a system's typical behaviour. We define an anomaly as an observation that is very unlikely given the forecast distribution. The algorithm first forecasts a boundary for the system's typical behaviour using a representative sample of the typical behaviour of the system. An approach based on extreme value theory is used for this boundary prediction process. Then a sliding window is used to test for anomalous series within the newly arrived collection of series. Feature based representation of time series is used as the input to the model. To cope with concept drift, the forecast boundary for the system's typical behaviour is updated periodically. More details regarding the algorithm can be found in Talagala, P. D., Hyndman, R. J., Smith-Miles, K., et al. (2019) <doi:10.1080/10618600.2019.1617160>.",
+  "repo_url": "https://github.com/pridiltal/oddstream",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/pridiltal/oddstream/issues",
+  "logo_url": "https://raw.githubusercontent.com/pridiltal/oddstream/HEAD/man/figures/logo.png",
+  "last_updated": "2019-12-16",
+  "authors": [
+    {
+      "name": "Priyanga Dilini Talagala",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "priyanga-dilini-talagala",
+      "email": "pritalagala@gmail.com"
+    },
+    {
+      "name": "Rob J. Hyndman",
+      "roles": [
+        "ths"
+      ]
+    },
+    {
+      "name": "Kate Smith-Miles",
+      "roles": [
+        "ths"
+      ]
+    }
+  ]
+}

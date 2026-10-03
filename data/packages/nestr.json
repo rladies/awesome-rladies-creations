@@ -1,0 +1,23 @@
+{
+  "name": "nestr",
+  "title": "Build Nesting or Hierarchical Structures",
+  "description": "Facilitates building a nesting or hierarchical structure as a list or data frame by using a human friendly syntax.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2022-02-02",
+  "authors": [
+    {
+      "name": "Emi Tanaka",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0000-0002-1455-259X",
+      "directory_id": "emi-tanaka",
+      "email": "dr.emi.tanaka@gmail.com"
+    }
+  ]
+}

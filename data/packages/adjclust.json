@@ -1,0 +1,59 @@
+{
+  "name": "adjclust",
+  "title": "Adjacency-Constrained Clustering of a Block-Diagonal Similarity\nMatrix",
+  "description": "Implements a constrained version of hierarchical agglomerative clustering, in which each observation is associated to a position, and only adjacent clusters can be merged. Typical application fields in bioinformatics include Genome-Wide Association Studies or Hi-C data analysis, where the similarity between items is a decreasing function of their genomic distance. Taking advantage of this feature, the implemented algorithm is time and memory efficient. This algorithm is described in Ambroise et al (2019) <doi:10.1186/s13015-019-0157-4>.",
+  "repo_url": "https://github.com/pneuvial/adjclust",
+  "pkdown_url": "https://pneuvial.github.io/adjclust/",
+  "bug_reports_url": "https://github.com/pneuvial/adjclust/issues",
+  "logo_url": null,
+  "last_updated": "2025-11-20",
+  "authors": [
+    {
+      "name": "Christophe Ambroise",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Shubham Chaturvedi",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Alia Dehman",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Pierre Neuvial",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-3584-9998",
+      "email": "pierre.neuvial@math.univ-toulouse.fr"
+    },
+    {
+      "name": "Guillem Rigaill",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Nathalie Vialaneix",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1156-0639",
+      "directory_id": "nathalie-vialaneix"
+    },
+    {
+      "name": "Gabriel Hoffman",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

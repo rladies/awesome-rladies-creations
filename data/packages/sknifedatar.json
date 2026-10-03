@@ -1,0 +1,33 @@
+{
+  "name": "sknifedatar",
+  "title": "Swiss Knife of Data",
+  "description": "Extension of the 'modeltime' ecosystem. In addition. Allows fitting of multiple models over multiple time series. It also provides a bridge for using the 'workflowsets' package with 'modeltime'. It includes some functionalities for spatial data and visualization.",
+  "repo_url": "https://github.com/rafzamb/sknifedatar",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/rafzamb/sknifedatar/issues",
+  "logo_url": "https://raw.githubusercontent.com/rafzamb/sknifedatar/HEAD/man/figures/logo.png",
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Rafael Zambrano",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "rafazambragit@gmail.com"
+    },
+    {
+      "name": "Karina Bartolome",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "karina-bartolome"
+    },
+    {
+      "name": "Rodrigo Serrano",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

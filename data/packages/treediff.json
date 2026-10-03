@@ -1,0 +1,55 @@
+{
+  "name": "treediff",
+  "title": "Testing Differences Between Families of Trees",
+  "description": "Perform test to detect differences in structure between families of trees. The method is based on cophenetic distances and aggregated Student's tests.",
+  "repo_url": "https://forge.inrae.fr/scales/treediff/-",
+  "pkdown_url": "https://scales.pages-forge.inrae.fr/treediff",
+  "bug_reports_url": "https://forge.inrae.fr/scales/treediff/-/issues",
+  "logo_url": null,
+  "last_updated": "2026-01-30",
+  "authors": [
+    {
+      "name": "Nathalie Vialaneix",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-1156-0639",
+      "directory_id": "nathalie-vialaneix",
+      "email": "nathalie.vialaneix@inrae.fr"
+    },
+    {
+      "name": "Gwendaelle Cardenas",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Marie Chavent",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6774-597X"
+    },
+    {
+      "name": "Sylvain Foissac",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2631-5356"
+    },
+    {
+      "name": "Pierre Neuvial",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-3584-9998"
+    },
+    {
+      "name": "Nathanael Randriamihamison",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

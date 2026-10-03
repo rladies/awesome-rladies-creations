@@ -1,0 +1,39 @@
+{
+  "name": "repurrrsive",
+  "title": "Examples of Recursive Lists and Nested or Split Data Frames",
+  "description": "Recursive lists in the form of R objects, 'JSON', and 'XML', for use in teaching and examples. Examples include color palettes, Game of Thrones characters, 'GitHub' users and repositories, music collections, and entities from the Star Wars universe. Data from the 'gapminder' package is also included, as a simple data frame and in nested and split forms.",
+  "repo_url": "https://github.com/jennybc/repurrrsive",
+  "pkdown_url": "https://jennybc.github.io/repurrrsive/",
+  "bug_reports_url": "https://github.com/jennybc/repurrrsive/issues",
+  "logo_url": null,
+  "last_updated": "2023-03-09",
+  "authors": [
+    {
+      "name": "Jennifer Bryan",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6983-2759",
+      "directory_id": "jenny-bryan",
+      "email": "jenny@posit.co"
+    },
+    {
+      "name": "Charlotte Wickham",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "charlotte-wickham"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

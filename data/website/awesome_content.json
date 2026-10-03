@@ -19,6 +19,26 @@
     ]
   },
   {
+    "title": "Andrea Rau, PhD",
+    "type": "blog",
+    "url": "https://andrea-rau.com/",
+    "rss_feed": "https://andreamrau.netlify.app/index.xml",
+    "photo_url": "https://andreamrau.netlify.app/img/featured.png",
+    "description": "My research interests involve applying statistical reasoning to solve complex problems in biology and genomics, and implementing open-source software solutions in [R](http://www.r-project.org) and [Bioconductor](http://bioconductor.org).",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Andrea Rau",
+        "social_media": [
+          {
+            "twitter": "andreamrau",
+            "website": "http://www.andrea-rau.com"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Very Statisticious",
     "type": "blog",
     "url": "https://aosmith.rbind.io",
@@ -55,6 +75,7 @@
           {
             "twitter": "apreshill",
             "mastodon": "@apreshill@fosstodon.org",
+            "bluesky": "apreshill.com",
             "github": "apreshill",
             "orcid": "0000-0002-8082-1890"
           }
@@ -114,6 +135,28 @@
     ]
   },
   {
+    "title": "Emma R",
+    "type": "blog",
+    "url": "https://buzzrbeeline.blog/",
+    "rss_feed": "https://buzzrbeeline.blog/feed/",
+    "photo_url": "https://buzzrbeeline.blog/wp-content/uploads/2018/08/cropped-logo2.png?w=142",
+    "description": "Gathering little bits of R without over-thinking",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Emma Rand",
+        "social_media": [
+          {
+            "twitter": "er13_r",
+            "bluesky": "3mmarand.bsky.social",
+            "github": "3mmaRand",
+            "website": "https://buzzrbeeline.blog/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Building Stories with Data",
     "subtitle": "Pars pas les mains vides",
     "type": "blog",
@@ -153,6 +196,28 @@
             "bluesky": "cghlewis.bsky.social",
             "website": "https://www.cghlewis.com",
             "linkedin": "crystal-lewis-922b4193/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Chaima Boughanmi",
+    "type": "blog",
+    "url": "https://chaimabgh.netlify.app/",
+    "rss_feed": "https://chaimabgh.netlify.app/index.xml",
+    "photo_url": "https://chaimabgh.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png",
+    "description": "A personnel website using created Hugo.",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Chaima Boughanmi",
+        "social_media": [
+          {
+            "linkedin": "chaima-boug",
+            "github": "BOUGHANMIChaima",
+            "mastodon": "@chaimaboughanmi@mastodon.social",
+            "website": "https://chaimabgh.netlify.app/"
           }
         ]
       }
@@ -221,6 +286,28 @@
             "github": "cosimameyer",
             "website": "https://cosimameyer.com/",
             "linkedin": "cosimameyer/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cynthia D'Angelo",
+    "type": "blog",
+    "url": "https://cynthiadangelo.com/",
+    "rss_feed": "https://cynthiadangelo.com/feed/",
+    "photo_url": "https://cynthiadangelo.com/wp-content/uploads/2012/12/img_0008.jpg?w=333",
+    "description": "ramblings about my adventures",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Cynthia D'Angelo",
+        "social_media": [
+          {
+            "twitter": "dapostrophe",
+            "bluesky": "cmdangelo.bsky.social",
+            "mastodon": "@dapostrophe@mastodon.social",
+            "website": "http://cynthiadangelo.com/"
           }
         ]
       }
@@ -318,7 +405,7 @@
     "type": "blog",
     "url": "https://ellakaye.co.uk",
     "rss_feed": "https://ellakaye.co.uk/posts-r.xml",
-    "photo_url": "https://ellakaye.co.uk/images/ellakaye-profile.jpeg",
+    "photo_url": "https://ellakaye.co.uk/images/logo.png",
     "description": "Personal website, portfolio and blog",
     "language": "en",
     "authors": [
@@ -365,6 +452,26 @@
     ]
   },
   {
+    "title": "Estatística | Fernanda Kelly Romeiro Silva",
+    "type": "blog",
+    "url": "https://www.fernandakellyrs.com/",
+    "rss_feed": "https://www.fernandakellyrs.com/blog-feed.xml",
+    "photo_url": "https://static.parastorage.com/client/pfavico.ico",
+    "description": "Quem é Fernanda Kelly? Uma mulher preta com formação em estatística e entusiasta do universo de Machine e Deep Learning.",
+    "language": "pt",
+    "authors": [
+      {
+        "name": "Fernanda Kelly Romeiro Silva",
+        "social_media": [
+          {
+            "linkedin": "fernandakellyrs",
+            "website": "https://www.fernandakellyrs.com/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Federica Gazzelloni",
     "type": "blog",
     "url": "https://fgazzelloni.quarto.pub",
@@ -379,11 +486,34 @@
           {
             "twitter": "fgazzelloni",
             "mastodon": "@Fgazzelloni@fosstodon.org",
+            "bluesky": "fgazzelloni.bsky.social",
             "github": "fgazzelloni",
             "youtube": "Federica Gazzelloni",
             "website": "https://fgazzelloni.quarto.pub",
             "linkedin": "federicagazzelloni",
             "orcid": "0000-0002-4285-611X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Site | FLORENCIA GRATTAROLA",
+    "type": "blog",
+    "url": "https://flograttarola.com/",
+    "rss_feed": "https://flograttarola.com/index.xml",
+    "photo_url": "https://flograttarola.com/media/sharing.jpg",
+    "description": "Postdoc Researcher",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Florencia Grattarola",
+        "social_media": [
+          {
+            "twitter": "flograttarola",
+            "bluesky": "flograttarola.bsky.social",
+            "mastodon": "@flograttarola@ecoevo.social/",
+            "website": "https://flograttarola.com/"
           }
         ]
       }
@@ -402,9 +532,33 @@
           {
             "twitter": "cantoflor_87",
             "mastodon": "@florencia@techhub.social",
+            "bluesky": "florencia-dandrea.bsky.social",
             "github": "flor14",
             "orcid": "0000-0002-0041-097X",
             "linkedin": "florenciadandrea"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "helena * jambor",
+    "type": "blog",
+    "url": "https://helenajambor.wordpress.com/",
+    "rss_feed": "https://helenajamborwrites.netlify.app/index.xml",
+    "photo_url": "https://s0.wp.com/i/blank.jpg?m=1383295312i",
+    "description": "Scientist specialised in RNA biology and data visualization.",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Helena Jambor",
+        "social_media": [
+          {
+            "mastodon": "@helenajambor@mastodon.social",
+            "linkedin": "helenaklarajambor",
+            "github": "helenajambor",
+            "bluesky": "helenajambor.bsky.social",
+            "website": "https://helenajamborwrites.netlify.app"
           }
         ]
       }
@@ -461,7 +615,7 @@
     "type": "blog",
     "url": "https://ivelasq.rbind.io/",
     "rss_feed": "https://ivelasq.rbind.io/index.xml",
-    "photo_url": "https://ivelasq.rbind.io/images/avatar.jpg",
+    "photo_url": "https://ivelasq.rbind.io/blog/positron-theme/img/thumbnail.jpg",
     "description": "Isabella Velásquez Personal Site on R and Analytics",
     "language": "en",
     "authors": [
@@ -523,6 +677,29 @@
             "mastodon": "@jhylin@fosstodon.org",
             "bluesky": "jhylin.bsky.social",
             "github": "jhylin"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "JRaviLab",
+    "type": "blog",
+    "url": "https://jravilab.github.io/",
+    "rss_feed": "https://jravilab.github.io/index.xml",
+    "photo_url": "https://jravilab.github.io/img/jananiravi-grp-webpage-logo.png",
+    "description": "Janani Ravi",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Janani Ravi",
+        "social_media": [
+          {
+            "twitter": "janani137",
+            "bluesky": "jananiravi.bsky.social",
+            "mastodon": "@JananiRavi@genomic.social",
+            "github": "jananiravi",
+            "website": "https://jravilab.github.io"
           }
         ]
       }
@@ -639,6 +816,7 @@
           {
             "twitter": "_msquiroga",
             "mastodon": "@macarenaquiroga@datasci.social",
+            "bluesky": "macarenaquiroga.bsky.social",
             "github": "msquiroga89",
             "linkedin": "macarena-quiroga"
           }
@@ -674,7 +852,7 @@
     "type": "blog",
     "url": "https://nrennie.rbind.io",
     "rss_feed": "https://nrennie.rbind.io/categories/r/index.xml",
-    "photo_url": "https://nrennie.rbind.io/img/nicola_blue.jpg",
+    "photo_url": "https://nrennie.rbind.io/assets/img/cover.png",
     "description": "Personal website, blog, and portfolio.",
     "language": "en",
     "authors": [
@@ -687,6 +865,27 @@
             "bluesky": "@nrennie.bsky.social",
             "github": "nrennie",
             "linkedin": "nicola-rennie-076511b3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Pao Corrales",
+    "type": "blog",
+    "url": "https://paocorrales.github.io/",
+    "rss_feed": "https://paocorrales.github.io/index.xml",
+    "photo_url": "https://paocorrales.github.io/img/forecast_factory.jpg",
+    "description": "I have a PhD in Atmospheric Sciences and I work as Research Software Engineer to support research in climate and weather. I love teaching science and programming using evidence-based techniques centered on the students and their context.",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Pao Corrales",
+        "social_media": [
+          {
+            "github": "paocorrales",
+            "mastodon": "@paocorrales@fosstodon.org",
+            "website": "https://paocorrales.github.io/"
           }
         ]
       }
@@ -761,6 +960,49 @@
     ]
   },
   {
+    "title": "Rizqy Amelia Zein",
+    "type": "blog",
+    "url": "https://rameliaz.github.io/",
+    "rss_feed": "https://rameliaz.github.io/index.xml",
+    "photo_url": "https://rameliaz.github.io/img/profil.png",
+    "description": "I am a postdoc at Research Data & Methods Team, [Center of Advanced Internet Studies (CAIS)](https://www.cais-research.de/team/rizqy-amelia-zein/) and an assistant professor at [Universitas Airlangga](https://psikologi.unair.ac.id/dosen-rizqy-amelia-zein/)*. My research projects focus on three areas: examining how people relate to **scientific and religious** explanations; improving **the quality and precision** of psychological measures; and understanding people's **experiences with and epistemic relationships** to science. <br><br><br> *<i>Untuk mahasiswa Universitas Airlangga, silakan [klik disini untuk mengakses Soalan Sering Ditanya (SSD)](https://ameliazein.notion.site/2d92b8a8ff398087a827dd7d69804f02?v=2d92b8a8ff3980029952000c7fe98a16&pvs=73)<\/i>",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Rizqy Amelia Zein",
+        "social_media": [
+          {
+            "twitter": "ameliazein",
+            "bluesky": "ameliazein.bsky.social",
+            "website": "https://rameliaz.github.io/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Riinu's scripting diary",
+    "type": "blog",
+    "url": "https://www.riinu.me/",
+    "rss_feed": "https://www.riinu.me/index.xml",
+    "photo_url": "https://www.gravatar.com/avatar/5f7b9bb853156ab2b014b7a27f12ae37?s=640",
+    "description": "Riinu's scripting diary",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Riinu Pius",
+        "social_media": [
+          {
+            "twitter": "_Riinu_",
+            "bluesky": "pius.cloud",
+            "linkedin": "riinu-pius-ots-18860140",
+            "website": "https://www.riinu.me/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "R-Ladies São Paulo Blog",
     "type": "blog",
     "url": "https://rladies-sp.org/",
@@ -777,6 +1019,26 @@
             "instagram": "rladiessaopaulo",
             "youtube": "RLadiesS%C3%A3oPaulo",
             "website": "https://rladies-sp.org/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "RLadies+ Global Blog",
+    "type": "blog",
+    "url": "https://rladies.org/blog/",
+    "rss_feed": "https://rladies.org/blog/index.xml",
+    "photo_url": "https://rladies.org/images/og-default.png",
+    "description": "News, tutorials, and stories from the RLadies+ community — written by chapter organisers, members, and contributors around the world.",
+    "language": "en",
+    "authors": [
+      {
+        "name": "RLadies+",
+        "social_media": [
+          {
+            "github": "rladies",
+            "website": "https://rladies.org/"
           }
         ]
       }
@@ -828,7 +1090,7 @@
     "title": "Sam Tyner-Monroe",
     "type": "blog",
     "url": "https://sctyner.me",
-    "photo_url": "https://sctyner.me/author/sam-tyner/avatar_hufb4a28a2230dd21f7cfbe0269e6196dd_54857_270x270_fill_q90_lanczos_center.jpg",
+    "photo_url": "https://sctyner.me/images/icon_hub4dee75564deb320a93ef23c255b00cc_212747_512x512_fill_lanczos_center_2.png",
     "rss_feed": "https://sctyner.me/category/r/index.xml",
     "language": "en",
     "authors": [
@@ -887,22 +1149,24 @@
     ]
   },
   {
-    "title": "Soy Andrea blog",
+    "title": "Data by Andre blog",
     "type": "blog",
-    "url": "https://soyandrea.netlify.app/",
-    "rss_feed": "https://soyandrea.netlify.app/tag/r/index.xml",
-    "photo_url": "https://soyandrea.netlify.app/author/andrea/avatar.jpg",
-    "description": "Socióloga, web profesional & portafolio",
+    "url": "https://soyandrea.github.io/",
+    "rss_feed": "https://soyandrea.github.io/conoce-arcenso.xml",
+    "photo_url": "https://soyandrea.github.io/image/andrea.jpg",
+    "description": "Professional blog focused on R, official statistics, demographic analysis, and open-source community projects.",
     "language": "es",
     "authors": [
       {
-        "name": "Andrea Gómez Vargas",
+        "name": "Andrea Gomez Vargas",
         "social_media": [
           {
             "twitter": "me_andre",
             "mastodon": "@me_andre@mastodon.social",
+            "bluesky": "goandre.bsky.social",
             "github": "SoyAndrea",
-            "linkedin": "andreasociologa"
+            "linkedin": "andreasociologa",
+            "orcid": "0009-0007-8745-3967"
           }
         ]
       }
@@ -1000,6 +1264,28 @@
             "website": "https://thetidytrekker.com",
             "linkedin": "meghan-harris",
             "orcid": "0000-0003-3922-8101"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Willing Consulting",
+    "type": "blog",
+    "url": "https://www.willingconsulting.com/",
+    "rss_feed": "https://www.willingconsulting.com/index.xml",
+    "description": "Human Centered Open Source Leadership",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Carol Willing",
+        "social_media": [
+          {
+            "twitter": "WillingCarol",
+            "bluesky": "willingc.bsky.social",
+            "mastodon": "@willingc@hachyderm.io",
+            "linkedin": "carolwilling",
+            "website": "https://willingconsulting.com"
           }
         ]
       }

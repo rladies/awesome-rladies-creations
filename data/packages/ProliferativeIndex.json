@@ -1,0 +1,27 @@
+{
+  "name": "ProliferativeIndex",
+  "title": "Calculates and Analyzes the Proliferative Index",
+  "description": "Provides functions for calculating and analyzing the proliferative index (PI) from an RNA-seq dataset. As described in Ramaker & Lasseigne, et al. bioRxiv, 2016 <doi:10.1101/063057>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2018-08-14",
+  "authors": [
+    {
+      "name": "Brittany Lasseigne",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "brittany-lasseigne",
+      "email": "brittany.lasseigne@gmail.com"
+    },
+    {
+      "name": "Ryne Ramaker",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

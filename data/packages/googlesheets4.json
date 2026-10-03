@@ -1,0 +1,32 @@
+{
+  "name": "googlesheets4",
+  "title": "Access Google Sheets using the Sheets API V4",
+  "description": "Interact with Google Sheets through the Sheets API v4 <https://developers.google.com/sheets/api>. \"API\" is an acronym for \"application programming interface\"; the Sheets API allows users to interact with Google Sheets programmatically, instead of via a web browser. The \"v4\" refers to the fact that the Sheets API is currently at version 4. This package can read and write both the metadata and the cell data in a Sheet.",
+  "repo_url": "https://github.com/tidyverse/googlesheets4",
+  "pkdown_url": "https://googlesheets4.tidyverse.org",
+  "bug_reports_url": "https://github.com/tidyverse/googlesheets4/issues",
+  "logo_url": "https://googlesheets4.tidyverse.org/logo.png",
+  "last_updated": "2025-09-03",
+  "authors": [
+    {
+      "name": "Jennifer Bryan",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "orcid": "0000-0002-6983-2759",
+      "directory_id": "jenny-bryan",
+      "email": "jenny@posit.co"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

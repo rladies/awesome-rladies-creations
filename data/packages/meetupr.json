@@ -10,98 +10,69 @@
   "authors": [
     {
       "name": "Athanasia Mo Mowinckel",
-      "roles": [
-        "aut",
-        "cre"
-      ],
+      "roles": ["aut", "cre"],
       "orcid": "0000-0002-5756-0223",
       "directory_id": "athanasia-mo-mowinckel",
       "email": "a.m.mowinckel@psykologi.uio.no"
     },
     {
       "name": "Erin LeDell",
-      "roles": [
-        "aut"
-      ],
+      "roles": ["aut"],
       "directory_id": "erin-ledell"
     },
     {
       "name": "Olga Mierzwa-Sulima",
-      "roles": [
-        "aut"
-      ],
+      "roles": ["aut"],
       "directory_id": "olga-mierzwasulima"
     },
     {
       "name": "Lucy D'Agostino McGowan",
-      "roles": [
-        "aut"
-      ],
+      "roles": ["aut"],
       "directory_id": "lucy-dagostino-mcgowan"
     },
     {
       "name": "Claudia Vitolo",
-      "roles": [
-        "aut"
-      ]
+      "roles": ["aut"]
     },
     {
       "name": "Gabriela De Queiroz",
-      "roles": [
-        "ctb"
-      ],
+      "roles": ["ctb"],
       "directory_id": "gabriela-de-queiroz"
     },
     {
       "name": "Michael Beigelmacher",
-      "roles": [
-        "ctb"
-      ]
+      "roles": ["ctb"]
     },
     {
       "name": "Augustina Ragwitz",
-      "roles": [
-        "ctb"
-      ]
+      "roles": ["ctb"]
     },
     {
       "name": "Greg Sutcliffe",
-      "roles": [
-        "ctb"
-      ]
+      "roles": ["ctb"]
     },
     {
       "name": "Rick Pack",
-      "roles": [
-        "ctb"
-      ]
+      "roles": ["ctb"]
     },
     {
       "name": "Ben Ubah",
-      "roles": [
-        "ctb"
-      ]
+      "roles": ["ctb"]
     },
     {
       "name": "Maëlle Salmon",
-      "roles": [
-        "ctb"
-      ],
+      "roles": ["ctb"],
       "orcid": "0000-0002-2815-0399",
       "directory_id": "maelle-salmon"
     },
     {
       "name": "Barret Schloerke",
-      "roles": [
-        "ctb"
-      ],
+      "roles": ["ctb"],
       "orcid": "0000-0001-9986-114X"
     },
     {
-      "name": "R-Ladies Global",
-      "roles": [
-        "cph"
-      ]
+      "name": "RLadies+",
+      "roles": ["cph"]
     }
   ]
 }

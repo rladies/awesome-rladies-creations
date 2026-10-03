@@ -1,0 +1,27 @@
+{
+  "name": "BradleyTerry2",
+  "title": "Bradley-Terry Models",
+  "description": "Specify and fit the Bradley-Terry model, including structured versions in which the parameters are related to explanatory variables through a linear predictor and versions with contest-specific effects, such as a home advantage.",
+  "repo_url": "https://github.com/hturner/BradleyTerry2",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/hturner/BradleyTerry2/issues",
+  "logo_url": null,
+  "last_updated": "2025-04-10",
+  "authors": [
+    {
+      "name": "Heather Turner",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "heather-turner",
+      "email": "ht@heatherturner.net"
+    },
+    {
+      "name": "David Firth",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

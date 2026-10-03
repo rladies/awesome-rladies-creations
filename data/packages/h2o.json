@@ -1,0 +1,196 @@
+{
+  "name": "h2o",
+  "title": "R Interface for the 'H2O' Scalable Machine Learning Platform",
+  "description": "R interface for 'H2O', the scalable open source machine learning platform that offers parallelized implementations of many supervised and unsupervised machine learning algorithms such as Generalized Linear Models (GLM), Gradient Boosting Machines (including XGBoost), Random Forests, Deep Neural Networks (Deep Learning), Stacked Ensembles, Naive Bayes, Generalized Additive Models (GAM), ANOVA GLM, Cox Proportional Hazards, K-Means, PCA, ModelSelection, Word2Vec, as well as a fully automatic machine learning algorithm (H2O AutoML).",
+  "repo_url": "https://github.com/h2oai/h2o-3",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/h2oai/h2o-3/issues",
+  "logo_url": null,
+  "last_updated": "2024-01-11",
+  "authors": [
+    {
+      "name": "Tomas Fryda",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "tomas.fryda@h2o.ai"
+    },
+    {
+      "name": "Erin LeDell",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "erin-ledell"
+    },
+    {
+      "name": "Navdeep Gill",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Spencer Aiello",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Anqi Fu",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Arno Candel",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Cliff Click",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Tom Kraljevic",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Tomas Nykodym",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Patrick Aboyoun",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Michal Kurka",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Michal Malohlava",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Sebastien Poirier",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Wendy Wong",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Ludi Rehak",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Eric Eckstrand",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Brandon Hill",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Sebastian Vidrio",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Surekha Jadhawani",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Amy Wang",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Raymond Peck",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Jan Gorecki",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Matt Dowle",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Yuan Tang",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Lauren DiPerna",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Veronika Maurerova",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Yuliia Syzon",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Adam Valenta",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Marek Novotny",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "H2O.ai",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "escrocR",
+  "title": "EscrocR: a R package implementing the model ESCROC",
+  "description": "Escroc is a model that aims at estimating contaminant biomagnification, isotopic enrichments and diet in trophic networks.",
+  "repo_url": "https://github.com/Irstea/escroc",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/Irstea/escroc/issues",
+  "logo_url": "https://raw.githubusercontent.com/Irstea/escroc/HEAD/man/figures/logo.png",
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Hilaire Drouineau",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "hilaire.drouineau@irstea.fr"
+    },
+    {
+      "name": "Marine Ballutaud",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "marine-ballutaud"
+    },
+    {
+      "name": "Jeremy Lobry",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

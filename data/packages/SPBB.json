@@ -1,0 +1,20 @@
+{
+  "name": "SPBB",
+  "title": "Saddlepoint-Based Bootstrap (SPBB) Method",
+  "description": "Construct a confidence interval for a parameter using the saddlepoint approximation",
+  "repo_url": "https://github.com/PratheepaJ/SPBBspatial",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Pratheepa Jeganathan",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "pratheepa-jeganathan",
+      "email": "jpratheepa31@gmail.com"
+    }
+  ]
+}

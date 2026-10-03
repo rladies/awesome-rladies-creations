@@ -1,0 +1,29 @@
+{
+  "name": "HaplinMethyl",
+  "title": "Additional functions for Haplin, for using matrices of environmental data\n(e.g., DNA methylation data)",
+  "description": "Reading in and handling of large environmental data matrices that are used in Haplin analyses, e.g., gene-environment interactions.",
+  "repo_url": "https://github.com/jromanowska/HaplinMethyl/",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/jromanowska/HaplinMethyl/issues",
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Julia Romanowska",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0001-6733-1953",
+      "directory_id": "julia-romanowska",
+      "email": "Julia.Romanowska@uib.no"
+    },
+    {
+      "name": "Haakon K. Gjessing",
+      "roles": [
+        "aut",
+        "ctb"
+      ]
+    }
+  ]
+}

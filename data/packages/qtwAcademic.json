@@ -1,0 +1,22 @@
+{
+  "name": "qtwAcademic",
+  "title": "'Quarto' Website Templates for Academics",
+  "description": "Provides three 'Quarto' website templates as an R project, which are commonly used by academics. Templates for personal websites and course/workshop websites are included, as well as a template with minimal content for customization.",
+  "repo_url": "https://github.com/andreaczhang/qtwAcademic",
+  "pkdown_url": "https://andreaczhang.github.io/qtwAcademic/",
+  "bug_reports_url": "https://github.com/andreaczhang/qtwAcademic/issues",
+  "logo_url": "https://raw.githubusercontent.com/andreaczhang/qtwAcademic/HEAD/man/figures/logo_qtwAcademic.png",
+  "last_updated": "2022-12-22",
+  "authors": [
+    {
+      "name": "Chi Zhang",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-0501-5909",
+      "directory_id": "andrea-chi",
+      "email": "andreachizhang@yahoo.com"
+    }
+  ]
+}

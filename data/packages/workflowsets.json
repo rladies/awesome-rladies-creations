@@ -1,0 +1,46 @@
+{
+  "name": "workflowsets",
+  "title": "Create a Collection of 'tidymodels' Workflows",
+  "description": "A workflow is a combination of a model and preprocessors (e.g, a formula, recipe, etc.) (Kuhn and Silge (2021) <https://www.tmwr.org/>). In order to try different combinations of these, an object can be created that contains many workflows. There are functions to create workflows en masse as well as training them and visualizing the results.",
+  "repo_url": "https://github.com/tidymodels/workflowsets",
+  "pkdown_url": "https://workflowsets.tidymodels.org",
+  "bug_reports_url": "https://github.com/tidymodels/workflowsets/issues",
+  "logo_url": null,
+  "last_updated": "2025-05-27",
+  "authors": [
+    {
+      "name": "Hannah Frick",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6049-5258",
+      "directory_id": "hannah-frick",
+      "email": "hannah@posit.co"
+    },
+    {
+      "name": "Max Kuhn",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-2402-136X"
+    },
+    {
+      "name": "Simon Couch",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-5676-5107"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

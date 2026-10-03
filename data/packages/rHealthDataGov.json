@@ -1,0 +1,20 @@
+{
+  "name": "rHealthDataGov",
+  "title": "Retrieve data sets from the HealthData.gov data API",
+  "description": "An R interface for the HealthData.gov data API. For each data resource, you can filter results (server-side) to select subsets of data.",
+  "repo_url": "https://github.com/rOpenHealth/rHealthDataGov",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/rOpenHealth/rHealthDataGov/issues",
+  "logo_url": null,
+  "last_updated": "2014-12-29",
+  "authors": [
+    {
+      "name": "Erin LeDell",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "erin-ledell",
+      "email": "ledell@berkeley.edu"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "biwt",
+  "title": "Compute the Biweight Mean Vector and Covariance & Correlation\nMatrice",
+  "description": "Compute multivariate location, scale, and correlation estimates based on Tukey's biweight M-estimator.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2022-06-13",
+  "authors": [
+    {
+      "name": "Jo Hardin <jo.hardin@pomona.edu>"
+    },
+    {
+      "name": "Jo Hardin",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "jo-hardin",
+      "email": "jo.hardin@pomona.edu"
+    }
+  ]
+}

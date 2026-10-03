@@ -1,0 +1,51 @@
+{
+  "name": "rddapp",
+  "title": "Regression Discontinuity Design Application",
+  "description": "Estimation of both single- and multiple-assignment Regression Discontinuity Designs (RDDs). Provides both parametric (global) and non-parametric (local) estimation choices for both sharp and fuzzy designs, along with power analysis and assumption checks. Introductions to the underlying logic and analysis of RDDs are in Thistlethwaite, D. L., Campbell, D. T. (1960) <doi:10.1037/h0044319> and Lee, D. S., Lemieux, T. (2010) <doi:10.1257/jel.48.2.281>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2025-07-23",
+  "authors": [
+    {
+      "name": "Ze Jin",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Wang Liao",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Irena Papst",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "irena-papst"
+    },
+    {
+      "name": "Wenyu Zhang",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Kimberly Hochstedler",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Felix Thoemmes",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "fjt36@cornell.edu"
+    }
+  ]
+}

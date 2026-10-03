@@ -1,0 +1,35 @@
+{
+  "name": "TidyTuesdayAltText",
+  "title": "Alternative text for media attached to TidyTuesday tweets",
+  "description": "Alternative (alt) text for media attached to tweets participating in the TidyTuesday data visualization learning community.",
+  "repo_url": "https://github.com/spcanelon/TidyTuesdayAltText",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": "https://raw.githubusercontent.com/spcanelon/TidyTuesdayAltText/HEAD/man/figures/ttat_hex.png",
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Silvia Canelón",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-1709-1394",
+      "directory_id": "silvia-canelon",
+      "email": "sp.canelon@gmail.com"
+    },
+    {
+      "name": "Thomas Mock",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Elizabeth Hare",
+      "roles": [
+        "anl",
+        "csl"
+      ]
+    }
+  ]
+}

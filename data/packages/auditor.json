@@ -1,0 +1,55 @@
+{
+  "name": "auditor",
+  "title": "Model Audit - Verification, Validation, and Error Analysis",
+  "description": "Provides an easy to use unified interface for creating validation plots for any model. The 'auditor' helps to avoid repetitive work consisting of writing code needed to create residual plots. This visualizations allow to asses and compare the goodness of fit, performance, and similarity of models.",
+  "repo_url": "https://github.com/ModelOriented/auditor",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/ModelOriented/auditor/issues",
+  "logo_url": "https://raw.githubusercontent.com/ModelOriented/auditor/HEAD/man/figures/logo.png",
+  "last_updated": "2023-10-30",
+  "authors": [
+    {
+      "name": "Alicja Gosiewska",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0001-6563-5742",
+      "directory_id": "alicja-gosiewska",
+      "email": "alicjagosiewska@gmail.com"
+    },
+    {
+      "name": "Przemyslaw Biecek",
+      "roles": [
+        "aut",
+        "ths"
+      ],
+      "orcid": "0000-0001-8423-1823"
+    },
+    {
+      "name": "Hubert Baniecki",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6661-5364"
+    },
+    {
+      "name": "Tomasz Mikołajczyk",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Michal Burdukiewicz",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Szymon Maksymiuk",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

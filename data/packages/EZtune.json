@@ -1,0 +1,21 @@
+{
+  "name": "EZtune",
+  "title": "Tunes AdaBoost, Elastic Net, Support Vector Machines, and\nGradient Boosting Machines",
+  "description": "Contains two functions that are intended to make tuning supervised learning methods easy. The eztune function uses a genetic algorithm or Hooke-Jeeves optimizer to find the best set of tuning parameters. The user can choose the optimizer, the learning method, and if optimization will be based on accuracy obtained through validation error, cross validation, or resubstitution. The function eztune_cv will compute a cross validated error rate. The purpose of eztune_cv is to provide a cross validated accuracy or MSE when resubstitution or validation data are used for optimization because error measures from both approaches can be misleading.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2021-12-10",
+  "authors": [
+    {
+      "name": "Jill Lundell",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "jill-lundell",
+      "email": "jflundell@gmail.com"
+    }
+  ]
+}

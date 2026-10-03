@@ -1,0 +1,60 @@
+{
+  "name": "datos",
+  "title": "Traduce al Español Varios Conjuntos de Datos de Práctica",
+  "description": "Provee una versión traducida de los siguientes conjuntos de datos: 'airlines', 'airports', 'AwardsManagers', 'babynames', 'Batting', 'credit_data', 'diamonds', 'faithful', 'fueleconomy', 'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers', 'mpg', 'mtcars', 'atmos', 'palmerpenguins', 'People, 'Pitching', 'planes', 'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b', 'table5', 'vehicles', 'weather', 'who'. English: It provides a Spanish translated version of the datasets listed above.",
+  "repo_url": "https://github.com/cienciadedatos/datos",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/cienciadedatos/datos/issues",
+  "logo_url": "https://raw.githubusercontent.com/cienciadedatos/datos/HEAD/man/figures/logo.png",
+  "last_updated": "2023-07-17",
+  "authors": [
+    {
+      "name": "Riva Quiroga",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-1147-4135",
+      "directory_id": "riva-quiroga",
+      "email": "riva.quiroga@uc.cl"
+    },
+    {
+      "name": "Edgar Ruiz",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Mauricio Vargas",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Mauro Lepore",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-1986-7988"
+    },
+    {
+      "name": "Rayna Harris",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "rayna-harris"
+    },
+    {
+      "name": "Daniela Vasquez",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Joshua Kunst",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

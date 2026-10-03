@@ -20,6 +20,14 @@ jobs:
       (github.event.action == 'labeled' && github.event.label.name == 'package-submission')
     runs-on: ubuntu-latest
     steps:
+      - name: Generate app token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.JINX_APP_ID }}
+          private-key: ${{ secrets.JINX_PRIVATE_KEY }}
+          owner: rladies
+
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
@@ -34,36 +42,40 @@ jobs:
           script: |
             const body = process.env.ISSUE_BODY || '';
             const fields = {};
-            const re = /^###\s+(.+?)\s*\n+([\s\S]*?)(?=\n### |\n*$)/gm;
+            const re = /(?:^|\n)###\s+(.+?)\s*\n+([\s\S]*?)(?=\n### |$)/g;
             for (const m of body.matchAll(re)) {
               const key = m[1].trim().toLowerCase();
               let value = (m[2] || '').trim();
               if (value === '_No response_') value = '';
+              // Strip ```text ... ``` fences that GitHub adds around `render: text`
+              // textareas so downstream parsers see the raw lines.
+              value = value.replace(/^```[a-z]*\s*\n?/i, '').replace(/\n?```\s*$/, '').trim();
               fields[key] = value;
             }
-            const pkg = fields['package name'] || '';
-            const owner = fields['r-universe owner / github org or user'] || '';
-            const repoUrl = fields['repository url'] || '';
+            const packages = fields['packages'] || '';
+            const owner = fields['default r-universe owner / github org or user'] || '';
+            const repoUrl = fields['repository url (single-package only)'] || '';
             const directoryIds = fields['directory ids'] || '';
-            core.setOutput('pkg_name', pkg);
+            core.setOutput('pkg_names', packages);
             core.setOutput('pkg_owner', owner);
             core.setOutput('pkg_repo_url', repoUrl);
             core.setOutput('directory_ids', directoryIds);
-            core.info(`Parsed: name='${pkg}' owner='${owner}' repo='${repoUrl}' directory_ids='${directoryIds.replace(/\n/g, ' | ')}'`);
+            core.info(`Parsed ${packages.split('\n').filter(Boolean).length} package line(s); owner='${owner}'`);
 
-      - name: Bail out if package name is missing
-        if: steps.parse.outputs.pkg_name == ''
+      - name: Bail out if no packages listed
+        if: steps.parse.outputs.pkg_names == ''
         uses: actions/github-script@v7
         with:
+          github-token: ${{ steps.app-token.outputs.token }}
           script: |
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
               body: "Hi @" + context.payload.issue.user.login +
-                ", I couldn't find a **Package Name** in the form — could you edit the issue to fill that field in? Once it's set I'll re-run automatically when the `package-submission` label is re-applied."
+                ", I couldn't find any package names in the **Packages** field — could you edit the issue and list one package per line? Once it's set I'll re-run automatically when the `package-submission` label is re-applied."
             });
-            core.setFailed('Package name missing.');
+            core.setFailed('No packages listed.');
 
       - name: Install cURL headers
         run: |
@@ -78,10 +90,10 @@ jobs:
       - name: Setup renv
         uses: r-lib/actions/setup-renv@v2
 
-      - name: Generate package JSON
+      - name: Generate package JSON(s)
         id: generate
         env:
-          PKG_NAME: ${{ steps.parse.outputs.pkg_name }}
+          PKG_NAMES: ${{ steps.parse.outputs.pkg_names }}
           PKG_OWNER: ${{ steps.parse.outputs.pkg_owner }}
           PKG_REPO_URL: ${{ steps.parse.outputs.pkg_repo_url }}
           DIRECTORY_IDS: ${{ steps.parse.outputs.directory_ids }}
@@ -91,100 +103,136 @@ jobs:
         if: failure() && steps.generate.outcome == 'failure'
         uses: actions/github-script@v7
         env:
-          PKG_NAME: ${{ steps.parse.outputs.pkg_name }}
+          PKG_NAMES: ${{ steps.parse.outputs.pkg_names }}
           PKG_OWNER: ${{ steps.parse.outputs.pkg_owner }}
         with:
+          github-token: ${{ steps.app-token.outputs.token }}
           script: |
-            const pkg = process.env.PKG_NAME;
-            const owner = process.env.PKG_OWNER;
+            const list = (process.env.PKG_NAMES || '')
+              .split('\n').map(l => l.trim()).filter(Boolean)
+              .map(l => '- `' + l + '`').join('\n');
+            const owner = process.env.PKG_OWNER || '<none>';
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
               body: "Hi @" + context.payload.issue.user.login +
-                ", I couldn't find **`" + pkg + "`** on r-universe (owner: `" +
-                (owner || '<none>') + "`) or CRAN. " +
-                "Please double-check the package name and the r-universe owner, " +
+                ", I couldn't find any of these packages on r-universe (default owner: `" +
+                owner + "`) or CRAN:\n\n" + list +
+                "\n\nPlease double-check the package names and r-universe owners, " +
                 "then remove and re-apply the `package-submission` label to retry."
             });
 
-      - name: Check for changes and prepare branch
-        id: branch
-        env:
-          FILE_PATH: ${{ steps.generate.outputs.file_path }}
-          PKG: ${{ steps.generate.outputs.package_name }}
-          ISSUE: ${{ github.event.issue.number }}
+      - name: Stage changes
+        id: stage
         run: |
           set -euo pipefail
-          branch="auto/new-package-${PKG}-${ISSUE}"
-          echo "branch=${branch}" >> "$GITHUB_OUTPUT"
-          echo "file=${FILE_PATH}" >> "$GITHUB_OUTPUT"
-          if git diff --quiet -- "$FILE_PATH" && ! git ls-files --others --exclude-standard --error-unmatch "$FILE_PATH" >/dev/null 2>&1; then
+          git add data/packages/
+          if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+          branch="auto/new-packages-${{ github.event.issue.number }}"
+          echo "branch=${branch}" >> "$GITHUB_OUTPUT"
 
       - name: Comment when nothing changed
-        if: steps.branch.outputs.changed == 'false'
+        if: steps.stage.outputs.changed == 'false'
         uses: actions/github-script@v7
-        env:
-          FILE_PATH: ${{ steps.branch.outputs.file }}
         with:
+          github-token: ${{ steps.app-token.outputs.token }}
           script: |
-            const file = process.env.FILE_PATH;
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
               body: "Hi @" + context.payload.issue.user.login +
-                ", I looked the package up but `" + file + "` already matches the metadata on r-universe/CRAN — nothing to add. " +
-                "If something still needs changing, edit the file directly via a PR or describe the change here."
+                ", I looked the package(s) up but the data already matches what's on r-universe/CRAN — nothing to add. " +
+                "If something still needs changing, edit the file(s) directly via a PR or describe the change here."
             });
 
       - name: Push branch
-        if: steps.branch.outputs.changed == 'true'
+        if: steps.stage.outputs.changed == 'true'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: ${{ steps.branch.outputs.branch }}
-          FILE_PATH: ${{ steps.branch.outputs.file }}
-          PKG: ${{ steps.generate.outputs.package_name }}
+          BRANCH: ${{ steps.stage.outputs.branch }}
           ISSUE: ${{ github.event.issue.number }}
+          PKG_NAMES_OUT: ${{ steps.generate.outputs.package_names }}
         run: |
           set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Jinx[bot]"
+          git config user.email "jinx@rladies.org"
           git checkout -b "$BRANCH"
-          git add "$FILE_PATH"
-          git commit -m "Add ${PKG} (issue #${ISSUE})"
+          count=$(printf '%s\n' "$PKG_NAMES_OUT" | grep -c . || true)
+          if [ "$count" = "1" ]; then
+            msg="Add ${PKG_NAMES_OUT} (issue #${ISSUE})"
+          else
+            msg="Add ${count} packages (issue #${ISSUE})"
+          fi
+          git commit -m "$msg"
           git push --force-with-lease origin "$BRANCH"
 
       - name: Open or update draft PR
-        if: steps.branch.outputs.changed == 'true'
+        if: steps.stage.outputs.changed == 'true'
         uses: actions/github-script@v7
         env:
-          BRANCH: ${{ steps.branch.outputs.branch }}
-          FILE_PATH: ${{ steps.branch.outputs.file }}
-          PKG: ${{ steps.generate.outputs.package_name }}
-          SOURCE: ${{ steps.generate.outputs.source }}
+          BRANCH: ${{ steps.stage.outputs.branch }}
+          PKG_NAMES_OUT: ${{ steps.generate.outputs.package_names }}
+          FILE_PATHS: ${{ steps.generate.outputs.file_paths }}
+          SOURCES: ${{ steps.generate.outputs.sources }}
+          FAILED: ${{ steps.generate.outputs.failed }}
         with:
+          github-token: ${{ steps.app-token.outputs.token }}
           script: |
             const branch = process.env.BRANCH;
-            const file = process.env.FILE_PATH;
-            const pkg = process.env.PKG;
-            const source = process.env.SOURCE;
+            const pkgs = (process.env.PKG_NAMES_OUT || '').split('\n').filter(Boolean);
+            const files = (process.env.FILE_PATHS || '').split('\n').filter(Boolean);
+            const sources = (process.env.SOURCES || '').split('\n').filter(Boolean);
+            const failed = (process.env.FAILED || '').split('\n').filter(Boolean);
             const issueNumber = context.issue.number;
             const author = context.payload.issue.user.login;
 
-            const body = [
+            const sourceMap = Object.fromEntries(
+              sources.map(s => {
+                const i = s.indexOf('=');
+                return i === -1 ? [s, '?'] : [s.slice(0, i), s.slice(i + 1)];
+              })
+            );
+
+            const rows = pkgs.map((p, i) =>
+              `- **\`${p}\`** — \`${files[i] || '?'}\` (from \`${sourceMap[p] || '?'}\`)`
+            ).join('\n');
+
+            const title = pkgs.length === 1
+              ? `Add ${pkgs[0]} (issue #${issueNumber})`
+              : `Add ${pkgs.length} packages (issue #${issueNumber})`;
+
+            const bodyParts = [
               `Auto-generated from #${issueNumber}.`,
               ``,
-              `Pulled metadata for **\`${pkg}\`** from \`${source}\` and wrote it to \`${file}\`.`,
+              pkgs.length === 1
+                ? `Pulled metadata for the package below and wrote it to the listed file.`
+                : `Pulled metadata for ${pkgs.length} packages and wrote them to the listed files.`,
               ``,
-              `@${author} please review the file and request edits in this PR if anything is wrong (e.g. additional authors who need \`directory_id\`, missing logo, wrong description).`,
+              rows,
+              ``
+            ];
+            if (failed.length > 0) {
+              bodyParts.push(
+                `> :warning: Could not look up the following — please open a follow-up issue or comment with corrections:`,
+                failed.map(f => `> - \`${f}\``).join('\n'),
+                ``
+              );
+            }
+            bodyParts.push(
+              `@${author} please review the file(s) and request edits in this PR if anything is wrong (e.g. additional authors who need \`directory_id\`, missing logo, wrong description).`,
+              ``,
+              `### :white_check_mark: When you're happy with the data`,
+              ``,
+              `This PR is **opened as a draft** so you have a chance to look over the auto-generated metadata first. Once it looks correct, click the **Ready for review** button at the bottom of the conversation — that's the signal to maintainers that it can be merged.`,
               ``,
               `Closes #${issueNumber}.`
-            ].join('\n');
+            );
+            const body = bodyParts.join('\n');
 
             const existing = await github.rest.pulls.list({
               owner: context.repo.owner,
@@ -201,6 +249,7 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 pull_number: pr.number,
+                title,
                 body
               });
               core.info(`Updated existing PR #${pr.number}`);
@@ -208,7 +257,7 @@ jobs:
               const created = await github.rest.pulls.create({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                title: `Add ${pkg} (issue #${issueNumber})`,
+                title,
                 head: branch,
                 base: context.payload.repository.default_branch,
                 body,
@@ -219,8 +268,6 @@ jobs:
               core.info(`Opened PR #${pr.number}`);
             }
 
-            // Assign the issue author to the PR so it shows up on their dashboard.
-            // Silently no-ops for users without write access (GitHub ignores them).
             try {
               await github.rest.issues.addAssignees({
                 owner: context.repo.owner,
@@ -232,15 +279,19 @@ jobs:
               core.info(`Could not assign @${author} to PR #${pr.number}: ${e.message}`);
             }
 
+            const summary = pkgs.length === 1
+              ? `\`${pkgs[0]}\``
+              : `${pkgs.length} packages`;
+            const failNote = failed.length > 0
+              ? ` (${failed.length} couldn't be looked up — see PR description)`
+              : '';
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issueNumber,
-              body: `Hi @${author}, I drafted [\`${file}\`](${pr.html_url}/files) on branch \`${branch}\` and opened ${pr.html_url} for review. Take a look and request adjustments on the PR — the file is generated from \`${source}\` so things like additional authors' \`directory_id\` may need a manual touch-up. I'm closing this issue; let's continue on the PR.`
+              body: `Hi @${author}, I drafted ${summary}${failNote} on branch \`${branch}\` and opened ${pr.html_url} as a draft. Take a look — fields like additional authors' \`directory_id\` may need a manual touch-up. **When the data looks good, click _Ready for review_ at the bottom of the PR** so maintainers know it can be merged. I'm closing this issue; let's continue on the PR.`
             });
 
-            // Move communication to the PR by closing the issue once the PR is up.
-            // Only on first creation — if a maintainer reopened the issue, leave it.
             if (prCreated) {
               await github.rest.issues.update({
                 owner: context.repo.owner,

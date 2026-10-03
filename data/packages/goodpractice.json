@@ -1,0 +1,76 @@
+{
+  "name": "goodpractice",
+  "title": "Advice on R Package Building",
+  "description": "Give advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc.",
+  "repo_url": "https://github.com/ropensci-review-tools/goodpractice",
+  "pkdown_url": "https://docs.ropensci.org/goodpractice/",
+  "bug_reports_url": "https://github.com/ropensci-review-tools/goodpractice/issues",
+  "logo_url": "https://docs.ropensci.org/goodpractice/logo.png",
+  "last_updated": "2024-06-04",
+  "authors": [
+    {
+      "name": "Mark Padgham",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-2172-5265",
+      "email": "mark@ropensci.org"
+    },
+    {
+      "name": "Ascent Digital Services UK Limited",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "Karina Marks",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Daniel de Bortoli",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Gabor Csardi",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Hannah Frick",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "hannah-frick"
+    },
+    {
+      "name": "Owen Jones",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Hannah Alexander",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Ana Simmons",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Fabian Scheipl",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

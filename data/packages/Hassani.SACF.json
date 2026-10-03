@@ -1,0 +1,39 @@
+{
+  "name": "Hassani.SACF",
+  "title": "Computing Lower Bound of Ljung-Box Test",
+  "description": "The Ljung-Box test is one of the most important tests for time series diagnostics and model selection. The Hassani SACF (Sum of the Sample Autocorrelation Function) Theorem , however, indicates that the sum of sample autocorrelation function is always fix for any stationary time series with arbitrary length. This package confirms for sensitivity of the Ljung-Box test to the number of lags involved in the test and therefore it should be used with extra caution. The Hassani SACF Theorem has been described in : Hassani, Yeganegi and M. R. (2019) <doi:10.1016/j.physa.2018.12.028>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2023-06-12",
+  "authors": [
+    {
+      "name": "Hossein Hassani",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Masoud Yarmohammdi",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Mohammad Reza Yeganegi",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Leila Marvian Mashhad",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "Leila.marveian@gmail.com",
+      "directory_id": "leila-marvian"
+    }
+  ]
+}

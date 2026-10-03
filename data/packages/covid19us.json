@@ -1,0 +1,21 @@
+{
+  "name": "covid19us",
+  "title": "Cases of COVID-19 in the United States",
+  "description": "A wrapper around the 'COVID Tracking Project API' <https://covidtracking.com/api/> providing data on cases of COVID-19 in the US.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2022-08-05",
+  "authors": [
+    {
+      "name": "Amanda Dobbyn",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "amanda-dobbyn",
+      "email": "amanda.e.dobbyn@gmail.com"
+    }
+  ]
+}

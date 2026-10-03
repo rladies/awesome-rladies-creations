@@ -1,0 +1,33 @@
+{
+  "name": "BLModel",
+  "title": "Black-Litterman Posterior Distribution",
+  "description": "Posterior distribution in the Black-Litterman model is computed from a prior distribution given in the form of a time series of asset returns and a continuous distribution of views provided by the user as an external function.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2017-03-29",
+  "authors": [
+    {
+      "name": "Andrzej Palczewski",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "A.Palczewski@mimuw.edu.pl"
+    },
+    {
+      "name": "Jan Palczewski",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Alicja Gosiewska",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "alicja-gosiewska"
+    }
+  ]
+}

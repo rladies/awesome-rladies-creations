@@ -1,0 +1,126 @@
+{
+  "name": "gtsummary",
+  "title": "Presentation-Ready Data Summary and Analytic Result Tables",
+  "description": "Creates presentation-ready tables summarizing data sets, regression models, and more. The code to create the tables is concise and highly customizable. Data frames can be summarized with any function, e.g. mean(), median(), even user-written functions. Regression models are summarized and include the reference rows for categorical variables. Common regression models, such as logistic regression and Cox proportional hazards regression, are automatically identified and the tables are pre-filled with appropriate column headers.",
+  "repo_url": "https://github.com/ddsjoberg/gtsummary",
+  "pkdown_url": "https://www.danieldsjoberg.com/gtsummary/",
+  "bug_reports_url": "https://github.com/ddsjoberg/gtsummary/issues",
+  "logo_url": "https://www.danieldsjoberg.com/gtsummary/logo.png",
+  "last_updated": "2025-12-05",
+  "authors": [
+    {
+      "name": "Daniel D. Sjoberg",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-0862-2018",
+      "email": "danield.sjoberg@gmail.com"
+    },
+    {
+      "name": "Joseph Larmarange",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-7097-700X"
+    },
+    {
+      "name": "Michael Curry",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-0261-4044"
+    },
+    {
+      "name": "Emily de la Rua",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0009-0000-8738-5561"
+    },
+    {
+      "name": "Jessica Lavery",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2746-5647"
+    },
+    {
+      "name": "Karissa Whiting",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-4683-1868"
+    },
+    {
+      "name": "Emily C. Zabor",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-1402-4498"
+    },
+    {
+      "name": "Xing Bai",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Malcolm Barrett",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-0299-5825"
+    },
+    {
+      "name": "Esther Drill",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-3315-4538"
+    },
+    {
+      "name": "Jessica Flynn",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-8310-6684"
+    },
+    {
+      "name": "Margie Hannum",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-2953-0449",
+      "directory_id": "margie-hannum"
+    },
+    {
+      "name": "Stephanie Lobaugh",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Shannon Pileggi",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-7732-4164",
+      "directory_id": "shannon-pileggi"
+    },
+    {
+      "name": "Amy Tin",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-8005-0694"
+    },
+    {
+      "name": "Gustavo Zapata Wainberg",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-2524-3637"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Pao Corrales",
+  "type": "blog",
+  "url": "https://paocorrales.github.io/",
+  "rss_feed": "https://paocorrales.github.io/index.xml",
+  "photo_url": "https://paocorrales.github.io/img/forecast_factory.jpg",
+  "description": "I have a PhD in Atmospheric Sciences and I work as Research Software Engineer to support research in climate and weather. I love teaching science and programming using evidence-based techniques centered on the students and their context.",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Pao Corrales",
+      "social_media": [
+        {
+          "github": "paocorrales",
+          "mastodon": "@paocorrales@fosstodon.org",
+          "website": "https://paocorrales.github.io/"
+        }
+      ]
+    }
+  ]
+}

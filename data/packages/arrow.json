@@ -1,0 +1,103 @@
+{
+  "name": "arrow",
+  "title": "Integration to 'Apache' 'Arrow'",
+  "description": "'Apache' 'Arrow' <https://arrow.apache.org/> is a cross-language development platform for in-memory data. It specifies a standardized language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware. This package provides an interface to the 'Arrow C++' library.",
+  "repo_url": "https://github.com/apache/arrow/",
+  "pkdown_url": "https://arrow.apache.org/docs/r/",
+  "bug_reports_url": "https://github.com/apache/arrow/issues",
+  "logo_url": null,
+  "last_updated": "2026-04-29",
+  "authors": [
+    {
+      "name": "Neal Richardson",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Ian Cook",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Nic Crane",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "nic-crane"
+    },
+    {
+      "name": "Dewey Dunnington",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9415-4582"
+    },
+    {
+      "name": "Romain François",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2444-4226"
+    },
+    {
+      "name": "Jonathan Keane",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "jkeane@gmail.com"
+    },
+    {
+      "name": "Bryce Mecum",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Dragoș Moldovan-Grünfeld",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jeroen Ooms",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jacob Wujciak-Jens",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Javier Luraschi",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Karl Dunkle Werner",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-0523-7309"
+    },
+    {
+      "name": "Jeffrey Wong",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Apache Arrow",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    }
+  ]
+}

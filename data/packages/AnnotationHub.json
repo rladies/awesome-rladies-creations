@@ -1,0 +1,62 @@
+{
+  "name": "AnnotationHub",
+  "title": "Client to access AnnotationHub resources",
+  "description": "This package provides a client for the Bioconductor AnnotationHub web resource. The AnnotationHub web resource provides a central location where genomic files (e.g., VCF, bed, wig) and other resources from standard locations (e.g., UCSC, Ensembl) can be discovered. The resource includes metadata about each resource, e.g., a textual description, tags, and date of modification. The client creates and manages a local cache of files retrieved by the user, helping with quick and reproducible access.",
+  "repo_url": "https://github.com/Bioconductor/AnnotationHub",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/Bioconductor/AnnotationHub/issues",
+  "logo_url": null,
+  "last_updated": "2025-10-29",
+  "authors": [
+    {
+      "name": "Bioconductor Package Maintainer",
+      "roles": [
+        "cre"
+      ],
+      "email": "maintainer@bioconductor.org"
+    },
+    {
+      "name": "Martin Morgan",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Marc Carlson",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Dan Tenenbaum",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Sonali Arora",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Valerie Oberchain",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Kayla Morrell",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Lori Shepherd",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "lori-shepherd"
+    }
+  ]
+}

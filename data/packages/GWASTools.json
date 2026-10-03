@@ -1,0 +1,111 @@
+{
+  "name": "GWASTools",
+  "title": "Tools for Genome Wide Association Studies",
+  "description": "Classes for storing very large GWAS data sets and annotation, and functions for GWAS data cleaning and analysis.",
+  "repo_url": "https://github.com/smgogarten/GWASTools",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Stephanie M. Gogarten",
+      "roles": [
+        "aut"
+      ],
+      "email": "sdmorris@uw.edu"
+    },
+    {
+      "name": "Cathy Laurie",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Tushar Bhangale",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Matthew P. Conomos",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Cecelia Laurie",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Michael Lawrence",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Caitlin McHugh",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Ian Painter",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Xiuwen Zheng",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jess Shen",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Rohit Swarnkar",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Adrienne Stilp",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Sarah Nelson",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "sarah-nelson"
+    },
+    {
+      "name": "David Levine",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Sonali Kumari",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Stephanie M. Gogarten",
+      "roles": [
+        "cre"
+      ],
+      "email": "sdmorris@uw.edu"
+    }
+  ]
+}

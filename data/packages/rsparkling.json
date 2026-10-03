@@ -1,0 +1,57 @@
+{
+  "name": "rsparkling",
+  "title": "R Interface for H2O Sparkling Water",
+  "description": "An extension package for 'sparklyr' that provides an R interface to H2O Sparkling Water machine learning library (see <https://github.com/h2oai/sparkling-water> for more information).",
+  "repo_url": "https://github.com/h2oai/sparkling-water/tree/master/r",
+  "pkdown_url": null,
+  "bug_reports_url": "http://jira.h2o.ai",
+  "logo_url": null,
+  "last_updated": "2020-01-28",
+  "authors": [
+    {
+      "name": "Jakub Hava",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "jakub@h2o.ai"
+    },
+    {
+      "name": "Navdeep Gill",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Erin LeDell",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "erin-ledell"
+    },
+    {
+      "name": "Michal Malohlava",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "JJ Allaire",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "H2O.ai",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "RStudio",
+      "roles": [
+        "cph"
+      ]
+    }
+  ]
+}

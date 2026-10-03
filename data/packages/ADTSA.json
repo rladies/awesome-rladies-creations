@@ -1,0 +1,39 @@
+{
+  "name": "ADTSA",
+  "title": "Time Series Analysis",
+  "description": "Analyzes autocorrelation and partial autocorrelation using surrogate methods and bootstrapping, and computes the acceleration constants for the vectorized moving block bootstrap provided by this package. It generates percentile, bias-corrected, and accelerated intervals and estimates partial autocorrelations using Durbin-Levinson. This package calculates the autocorrelation power spectrum, computes cross-correlations between two time series, computes bandwidth for any time series, and performs autocorrelation frequency analysis. It also calculates the periodicity of a time series.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-01-08",
+  "authors": [
+    {
+      "name": "Hossein Hassani",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Masoud Yarmohammadi",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Mohammad Reza Yeganegi",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Leila Marvian Mashhad",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "Leila.marveian@gmail.com",
+      "directory_id": "leila-marvian"
+    }
+  ]
+}

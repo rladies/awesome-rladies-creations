@@ -1,0 +1,25 @@
+{
+  "name": "dada2",
+  "title": "Accurate, high-resolution sample inference from amplicon\nsequencing data",
+  "description": "The dada2 package infers exact amplicon sequence variants (ASVs) from high-throughput amplicon sequencing data, replacing the coarser and less accurate OTU clustering approach. The dada2 pipeline takes as input demultiplexed fastq files, and outputs the sequence variants and their sample-wise abundances after removing substitution and chimera errors. Taxonomic classification is available via a native implementation of the RDP naive Bayesian classifier, and species-level assignment to 16S rRNA gene fragments by exact matching.",
+  "repo_url": "https://github.com/benjjneb/dada2",
+  "pkdown_url": "http://benjjneb.github.io/dada2/",
+  "bug_reports_url": "https://github.com/benjjneb/dada2/issues",
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Benjamin Callahan <benjamin.j.callahan@gmail.com>",
+      "roles": [
+        "cre"
+      ]
+    },
+    {
+      "name": "Paul McMurdie"
+    },
+    {
+      "name": "Susan Holmes",
+      "directory_id": "susan-holmes"
+    }
+  ]
+}

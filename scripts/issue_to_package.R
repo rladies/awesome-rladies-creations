@@ -6,8 +6,6 @@ source(here::here("scripts", "discover_helpers.R"))
 packages_dir <- here::here("data/packages")
 directory_dir <- here::here("..", "directory", "data", "json")
 
-# Inputs come from env vars set by the calling workflow. Falling back to
-# commandArgs makes the script convenient to invoke locally.
 env_or_arg <- function(env_name, arg_index) {
   v <- Sys.getenv(env_name, unset = "")
   if (nzchar(v)) {
@@ -17,61 +15,63 @@ env_or_arg <- function(env_name, arg_index) {
   if (length(args) >= arg_index) args[arg_index] else ""
 }
 
-pkg_name <- trimws(env_or_arg("PKG_NAME", 1))
-owner_hint <- trimws(env_or_arg("PKG_OWNER", 2))
-repo_url_hint <- trimws(env_or_arg("PKG_REPO_URL", 3))
-directory_ids_text <- env_or_arg("DIRECTORY_IDS", 4)
-
-if (!nzchar(pkg_name)) {
-  stop("Package name is required (env PKG_NAME or first positional arg).")
-}
-
-cat("Looking up package:", pkg_name, "\n")
-if (nzchar(owner_hint)) cat("  with owner hint:", owner_hint, "\n")
-if (nzchar(repo_url_hint)) cat("  with repo url hint:", repo_url_hint, "\n")
-
-# If we got a github URL but no explicit owner, pull owner out of the URL so
-# we can hit the right r-universe namespace.
-if (!nzchar(owner_hint) && nzchar(repo_url_hint)) {
-  owner_repo <- github_owner_repo(repo_url_hint)
-  if (!is.na(owner_repo)) {
-    owner_hint <- strsplit(owner_repo, "/", fixed = TRUE)[[1]][1]
-    cat("  derived owner from repo URL:", owner_hint, "\n")
+# Each line of the textarea is either `pkg` or `pkg @ owner`. Owners on a line
+# override the default; lines with no owner inherit `default_owner`.
+parse_package_lines <- function(text, default_owner) {
+  if (is_blank(text)) {
+    return(list())
   }
-}
-
-dir_lookup <- build_directory_lookup(directory_dir)
-
-cand <- NULL
-
-# 1. R-universe (under the requested owner) is the richest source: gives us
-#    the rebuilt DESCRIPTION fields plus _owner and Date/Publication.
-if (nzchar(owner_hint)) {
-  cat("Querying r-universe for", owner_hint, "/", pkg_name, "...\n")
-  pkg <- fetch_universe_package(owner_hint, pkg_name)
-  if (!is.null(pkg) && !is_blank(pkg$Package)) {
-    cand <- normalise_pkg(
-      pkg,
-      "r-universe",
-      pkg$Maintainer %||% NA_character_,
-      owner_hint,
-      NA_character_
-    )
-    cat("  found in r-universe\n")
-  } else {
-    cat("  not found in r-universe\n")
+  lines <- trimws(strsplit(text, "[\r\n]+")[[1]])
+  lines <- lines[nzchar(lines)]
+  out <- list()
+  for (line in lines) {
+    if (grepl("@", line, fixed = TRUE)) {
+      halves <- trimws(strsplit(line, "@", fixed = TRUE)[[1]])
+      pkg <- halves[1]
+      owner <- if (length(halves) >= 2) halves[2] else ""
+    } else {
+      pkg <- line
+      owner <- default_owner
+    }
+    if (!nzchar(pkg)) next
+    out[[length(out) + 1]] <- list(name = pkg, owner = owner)
   }
+  out
 }
 
-# 2. CRAN fallback when r-universe didn't have it. Cheaper to call once than
-#    to retry under guessed owners.
-if (is.null(cand)) {
-  cat("Falling back to CRAN package db...\n")
-  cran <- tryCatch(tools::CRAN_package_db(), error = function(e) NULL)
-  if (!is.null(cran)) {
-    hit <- which(tolower(cran$Package) == tolower(pkg_name))
+lookup_one <- function(pkg_name, owner_hint, repo_url_hint, cran_db) {
+  if (!nzchar(owner_hint) && nzchar(repo_url_hint)) {
+    owner_repo <- github_owner_repo(repo_url_hint)
+    if (!is.na(owner_repo)) {
+      owner_hint <- strsplit(owner_repo, "/", fixed = TRUE)[[1]][1]
+      cat("  derived owner from repo URL:", owner_hint, "\n")
+    }
+  }
+
+  cand <- NULL
+
+  if (nzchar(owner_hint)) {
+    cat("Querying r-universe for", owner_hint, "/", pkg_name, "...\n")
+    pkg <- fetch_universe_package(owner_hint, pkg_name)
+    if (!is.null(pkg) && !is_blank(pkg$Package)) {
+      cand <- normalise_pkg(
+        pkg,
+        "r-universe",
+        pkg$Maintainer %||% NA_character_,
+        owner_hint,
+        NA_character_
+      )
+      cat("  found in r-universe\n")
+    } else {
+      cat("  not found in r-universe\n")
+    }
+  }
+
+  if (is.null(cand) && !is.null(cran_db)) {
+    cat("Falling back to CRAN package db...\n")
+    hit <- which(tolower(cran_db$Package) == tolower(pkg_name))
     if (length(hit) > 0) {
-      row <- cran[hit[1], ]
+      row <- cran_db[hit[1], ]
       cand <- list(
         package = row$Package,
         title = row$Title,
@@ -92,52 +92,151 @@ if (is.null(cand)) {
       cat("  not found on CRAN\n")
     }
   }
+
+  if (is.null(cand)) {
+    return(NULL)
+  }
+
+  if (is_blank(cand$url) && nzchar(repo_url_hint)) {
+    cand$url <- repo_url_hint
+  }
+
+  cand
 }
 
-if (is.null(cand)) {
-  stop(sprintf(
-    "Could not find package '%s' in r-universe (owner: %s) or CRAN.",
-    pkg_name,
-    if (nzchar(owner_hint)) owner_hint else "<none>"
-  ))
+write_gha_output <- function(key, value, gha_out) {
+  if (!nzchar(gha_out)) return(invisible())
+  delim <- paste0("EOF_", key, "_", as.integer(Sys.time()))
+  lines <- c(
+    paste0(key, "<<", delim),
+    if (length(value) > 0) value else character(0),
+    delim
+  )
+  con <- file(gha_out, open = "a")
+  on.exit(close(con), add = TRUE)
+  writeLines(lines, con)
 }
 
-# Honour an explicit repo URL hint when r-universe/CRAN didn't surface one.
-if (is_blank(cand$url) && nzchar(repo_url_hint)) {
-  cand$url <- repo_url_hint
+pkg_names_text <- env_or_arg("PKG_NAMES", 1)
+default_owner <- trimws(env_or_arg("PKG_OWNER", 2))
+repo_url_hint <- trimws(env_or_arg("PKG_REPO_URL", 3))
+directory_ids_text <- env_or_arg("DIRECTORY_IDS", 4)
+
+requests <- parse_package_lines(pkg_names_text, default_owner)
+if (length(requests) == 0) {
+  stop("No package names provided (env PKG_NAMES).")
 }
 
-entry <- to_package_shape(cand, dir_lookup)
+# repo_url hint only makes sense for a single package.
+if (length(requests) > 1 && nzchar(repo_url_hint)) {
+  cat(
+    "Note: repository URL hint is ignored when more than one package is",
+    "submitted in the same issue.\n"
+  )
+  repo_url_hint <- ""
+}
 
-# Apply explicit directory_id pairings from the issue form. These run after
-# the automatic name/handle lookup so submitters can fix mismatches that the
-# directory's own data doesn't catch (e.g. CRAN packages where the Author
-# field has a different transliteration of someone's name).
+cat("Processing", length(requests), "package(s)\n")
+
+dir_lookup <- build_directory_lookup(directory_dir)
 pairs <- parse_directory_id_pairs(directory_ids_text, dir_lookup)
-if (length(pairs) > 0) {
-  cat("Applying", length(pairs), "directory_id pairings from the form\n")
-  entry$authors <- apply_directory_id_pairs(entry$authors, pairs)
-}
 
-path <- write_pkg(entry, packages_dir)
+# Pre-load CRAN once for all lookups; some requests may not need it but loading
+# it here avoids re-downloading per package.
+cran_db <- tryCatch(tools::CRAN_package_db(), error = function(e) NULL)
 
-cat("Wrote", path, "\n")
+succeeded <- list()
+failed <- list()
 
-# The workflow reads these on stdout to drive the branch name and PR body.
-gha_out <- Sys.getenv("GITHUB_OUTPUT", unset = "")
-if (nzchar(gha_out)) {
+for (req in requests) {
+  pkg_name <- req$name
+  owner_hint <- req$owner
+  cat("\n--- ", pkg_name, " ---\n", sep = "")
+
+  cand <- tryCatch(
+    lookup_one(pkg_name, owner_hint, repo_url_hint, cran_db),
+    error = function(e) {
+      cat("  error during lookup:", conditionMessage(e), "\n")
+      NULL
+    }
+  )
+
+  if (is.null(cand)) {
+    failed[[length(failed) + 1]] <- list(
+      name = pkg_name,
+      owner = owner_hint
+    )
+    next
+  }
+
+  entry <- to_package_shape(cand, dir_lookup)
+  if (length(pairs) > 0) {
+    entry$authors <- apply_directory_id_pairs(entry$authors, pairs)
+  }
+  path <- write_pkg(entry, packages_dir)
+  cat("  wrote", path, "\n")
+
   rel_path <- sub(
     paste0("^", here::here(), "/?"),
     "",
     path,
     fixed = FALSE
   )
-  writeLines(
-    c(
-      sprintf("file_path=%s", rel_path),
-      sprintf("package_name=%s", entry$name),
-      sprintf("source=%s", cand$source)
+  succeeded[[length(succeeded) + 1]] <- list(
+    name = entry$name,
+    file_path = rel_path,
+    source = cand$source
+  )
+}
+
+cat(
+  "\nSummary: ",
+  length(succeeded),
+  " succeeded, ",
+  length(failed),
+  " failed.\n",
+  sep = ""
+)
+
+gha_out <- Sys.getenv("GITHUB_OUTPUT", unset = "")
+if (nzchar(gha_out)) {
+  write_gha_output(
+    "file_paths",
+    vapply(succeeded, `[[`, character(1), "file_path"),
+    gha_out
+  )
+  write_gha_output(
+    "package_names",
+    vapply(succeeded, `[[`, character(1), "name"),
+    gha_out
+  )
+  write_gha_output(
+    "sources",
+    vapply(
+      succeeded,
+      function(s) sprintf("%s=%s", s$name, s$source),
+      character(1)
     ),
     gha_out
   )
+  write_gha_output(
+    "failed",
+    vapply(
+      failed,
+      function(f) {
+        sprintf(
+          "%s%s",
+          f$name,
+          if (nzchar(f$owner)) sprintf(" @ %s", f$owner) else ""
+        )
+      },
+      character(1)
+    ),
+    gha_out
+  )
+}
+
+# Fail the step only if nothing succeeded — partial successes still produce a PR.
+if (length(succeeded) == 0) {
+  stop("No packages could be looked up.")
 }

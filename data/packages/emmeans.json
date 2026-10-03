@@ -1,0 +1,88 @@
+{
+  "name": "emmeans",
+  "title": "Estimated Marginal Means, aka Least-Squares Means",
+  "description": "Obtain estimated marginal means (EMMs) for many linear, generalized linear, and mixed models. Compute contrasts or linear functions of EMMs, trends, and comparisons of slopes. Plots and other displays. Least-squares means are discussed, and the term \"estimated marginal means\" is suggested, in Searle, Speed, and Milliken (1980) Population marginal means in the linear model: An alternative to least squares means, The American Statistician 34(4), 216-221 <doi:10.1080/00031305.1980.10483031>.",
+  "repo_url": "https://github.com/rvlenth/emmeans/",
+  "pkdown_url": "https://rvlenth.github.io/emmeans/",
+  "bug_reports_url": "https://github.com/rvlenth/emmeans/issues",
+  "logo_url": "https://rvlenth.github.io/emmeans/logo.png",
+  "last_updated": "2026-04-09",
+  "authors": [
+    {
+      "name": "Russell V. Lenth",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Julia Piaskowski",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "directory_id": "julia-piaskowski",
+      "email": "julia.piask@gmail.com"
+    },
+    {
+      "name": "Balazs Banfai",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Ben Bolker",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Paul Buerkner",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Iago Giné-Vázquez",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Maxime Hervé",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Maarten Jung",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Jonathon Love",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Fernando Miguez",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Hannes Riebl",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Henrik Singmann",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

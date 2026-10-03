@@ -1,0 +1,379 @@
+{
+  "name": "rticles",
+  "title": "Article Formats for R Markdown",
+  "description": "A suite of custom R Markdown formats and templates for authoring journal articles and conference submissions.",
+  "repo_url": "https://github.com/rstudio/rticles",
+  "pkdown_url": "https://pkgs.rstudio.com/rticles/",
+  "bug_reports_url": "https://github.com/rstudio/rticles/issues",
+  "logo_url": "https://pkgs.rstudio.com/rticles/logo.png",
+  "last_updated": "2024-04-06",
+  "authors": [
+    {
+      "name": "JJ Allaire",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Yihui Xie",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0645-5666"
+    },
+    {
+      "name": "Christophe Dervieux",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-4474-2498",
+      "email": "cderv@posit.co"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    },
+    {
+      "name": "R Foundation",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Journal of Statistical Software",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Ramnath Vaidyanathan",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Association for Computing Machinery",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Carl Boettiger",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Elsevier",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Karl Broman",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Kirill Mueller",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Bastiaan Quast",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Randall Pruim",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Ben Marwick",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Charlotte Wickham",
+      "roles": [
+        "aut",
+        "cph"
+      ],
+      "directory_id": "charlotte-wickham"
+    },
+    {
+      "name": "Oliver Keyes",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Miao Yu",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Daniel Emaasit",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Thierry Onkelinx",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Alessandro Gasparini",
+      "roles": [
+        "aut",
+        "cph"
+      ],
+      "orcid": "0000-0002-8319-7624"
+    },
+    {
+      "name": "Marc-Andre Desautels",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Dominik Leutnant",
+      "roles": [
+        "aut",
+        "cph"
+      ],
+      "orcid": "0000-0003-3293-2315"
+    },
+    {
+      "name": "MDPI",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Taylor and Francis",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Oğuzhan Öğreden",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9949-3348"
+    },
+    {
+      "name": "Dalton Hance",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Daniel Nüst",
+      "roles": [
+        "aut",
+        "cph"
+      ],
+      "orcid": "0000-0002-0024-5046"
+    },
+    {
+      "name": "Petter Uvesten",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Elio Campitelli",
+      "roles": [
+        "aut",
+        "cph"
+      ],
+      "orcid": "0000-0002-7742-9230"
+    },
+    {
+      "name": "John Muschelli",
+      "roles": [
+        "aut",
+        "cph"
+      ],
+      "orcid": "0000-0001-6469-1750"
+    },
+    {
+      "name": "Alex Hayes",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-4985-5160"
+    },
+    {
+      "name": "Zhian N. Kamvar",
+      "roles": [
+        "aut",
+        "cph"
+      ],
+      "orcid": "0000-0003-1458-7108"
+    },
+    {
+      "name": "Noam Ross",
+      "roles": [
+        "aut",
+        "cph"
+      ],
+      "orcid": "0000-0002-2136-0000"
+    },
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "aut",
+        "cph"
+      ],
+      "orcid": "0000-0003-3641-729X"
+    },
+    {
+      "name": "Duncan Luguern",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "David M. Kaplan",
+      "roles": [
+        "aut",
+        "ctb"
+      ],
+      "orcid": "0000-0001-6087-359X"
+    },
+    {
+      "name": "Sebastian Kreutzer",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-0734-2199"
+    },
+    {
+      "name": "Shixiang Wang",
+      "roles": [
+        "aut",
+        "ctb"
+      ],
+      "orcid": "0000-0001-9855-7357"
+    },
+    {
+      "name": "Jay Hesselberth",
+      "roles": [
+        "aut",
+        "ctb"
+      ],
+      "orcid": "0000-0002-6299-179X"
+    },
+    {
+      "name": "Alfredo Hernández",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-2660-4545"
+    },
+    {
+      "name": "Stefano Coretta",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-9627-5532"
+    },
+    {
+      "name": "Greg Macfarlane",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Matthias Templ",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-8638-5276"
+    },
+    {
+      "name": "Alvaro Uzaheta",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "JooYoung Seo",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-4064-6012"
+    },
+    {
+      "name": "Callum Arnold",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Rob Hyndman",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2140-5352"
+    },
+    {
+      "name": "Dmytro Perepolkin",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-8558-6183"
+    },
+    {
+      "name": "Tom Palmer",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-4655-4511"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "RUVcorr",
+  "title": "Removal of unwanted variation for gene-gene correlations and\nrelated analysis",
+  "description": "RUVcorr allows to apply global removal of unwanted variation (ridged version of RUV) to real and simulated gene expression data.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Saskia Freytag",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "saskia-freytag",
+      "email": "saskia.freytag@perkins.uwa.edu.au"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "levelup",
+  "title": "Create and report on CPD activities",
+  "description": "Tools for creating, analysing and reporting on CPD activities.",
+  "repo_url": "https://github.com/trianglegirl/levelup",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/trianglegirl/levelup/issues",
+  "logo_url": null,
+  "last_updated": "2024-08-20",
+  "authors": [
+    {
+      "name": "Rhian Davies",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "rhian-davies",
+      "email": "statsrhian@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "dataMaid",
+  "title": "A Suite of Checks for Identification of Potential Errors in a\nData Frame as Part of the Data Screening Process",
+  "description": "Data screening is an important first step of any statistical analysis. dataMaid auto generates a customizable data report with a thorough summary of the checks and the results that a human can use to identify possible errors. It provides an extendable suite of test for common potential errors in a dataset.",
+  "repo_url": "https://github.com/ekstroem/dataMaid",
+  "pkdown_url": "https://doi.org/10.18637/jss.v090.i06",
+  "bug_reports_url": "https://github.com/ekstroem/dataMaid/issues",
+  "logo_url": "https://raw.githubusercontent.com/ekstroem/dataMaid/HEAD/man/figures/logo.png",
+  "last_updated": "2025-04-13",
+  "authors": [
+    {
+      "name": "Anne Helby Petersen",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "anne-helby-petersen"
+    },
+    {
+      "name": "Claus Thorn Ekstrøm",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "ekstrom@sund.ku.dk"
+    }
+  ]
+}

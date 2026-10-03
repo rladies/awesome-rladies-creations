@@ -1,0 +1,39 @@
+{
+  "name": "googledrive",
+  "title": "An Interface to Google Drive",
+  "description": "Manage Google Drive files from R.",
+  "repo_url": "https://github.com/tidyverse/googledrive",
+  "pkdown_url": "https://googledrive.tidyverse.org",
+  "bug_reports_url": "https://github.com/tidyverse/googledrive/issues",
+  "logo_url": "https://googledrive.tidyverse.org/logo.png",
+  "last_updated": "2025-09-10",
+  "authors": [
+    {
+      "name": "Lucy D'Agostino McGowan",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "lucy-dagostino-mcgowan"
+    },
+    {
+      "name": "Jennifer Bryan",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6983-2759",
+      "directory_id": "jenny-bryan",
+      "email": "jenny@posit.co"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

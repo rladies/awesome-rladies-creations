@@ -1,0 +1,27 @@
+{
+  "name": "cellranger",
+  "title": "Translate Spreadsheet Cell Ranges to Rows and Columns",
+  "description": "Helper functions to work with spreadsheets and the \"A1:D10\" style of cell range specification.",
+  "repo_url": "https://github.com/rsheets/cellranger",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/rsheets/cellranger/issues",
+  "logo_url": "http://i.imgur.com/RJJy15I.jpg",
+  "last_updated": "2016-07-27",
+  "authors": [
+    {
+      "name": "Jennifer Bryan",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "directory_id": "jenny-bryan",
+      "email": "jenny@stat.ubc.ca"
+    },
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

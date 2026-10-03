@@ -1,0 +1,22 @@
+{
+  "title": "Riinu's scripting diary",
+  "type": "blog",
+  "url": "https://www.riinu.me/",
+  "rss_feed": "https://www.riinu.me/index.xml",
+  "photo_url": "https://www.gravatar.com/avatar/5f7b9bb853156ab2b014b7a27f12ae37?s=640",
+  "description": "Riinu's scripting diary",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Riinu Pius",
+      "social_media": [
+        {
+          "twitter": "_Riinu_",
+          "bluesky": "pius.cloud",
+          "linkedin": "riinu-pius-ots-18860140",
+          "website": "https://www.riinu.me/"
+        }
+      ]
+    }
+  ]
+}

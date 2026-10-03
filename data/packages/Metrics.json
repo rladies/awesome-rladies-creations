@@ -1,0 +1,34 @@
+{
+  "name": "Metrics",
+  "title": "Evaluation Metrics for Machine Learning",
+  "description": "An implementation of evaluation metrics in R that are commonly used in supervised machine learning. It implements metrics for regression, time series, binary classification, classification, and information retrieval problems. It has zero dependencies and a consistent, simple interface for all functions.",
+  "repo_url": "https://github.com/mfrasco/Metrics",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/mfrasco/Metrics/issues",
+  "logo_url": null,
+  "last_updated": "2018-07-09",
+  "authors": [
+    {
+      "name": "Ben Hamner",
+      "roles": [
+        "aut",
+        "cph"
+      ]
+    },
+    {
+      "name": "Michael Frasco",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "mfrasco6@gmail.com"
+    },
+    {
+      "name": "Erin LeDell",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "erin-ledell"
+    }
+  ]
+}

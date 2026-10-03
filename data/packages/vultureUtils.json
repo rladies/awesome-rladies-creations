@@ -1,0 +1,20 @@
+{
+  "name": "vultureUtils",
+  "title": "A Package for Network Analysis of TAU/UCLA Griffon Vulture Data",
+  "description": "This package is designed to work with the TAU/UCLA joint NSF/BSF-supported dataset of GPS-tracked griffon vultures (_Gyps fulvus_). It automates data cleaning and the creation of social networks.",
+  "repo_url": "https://github.com/kaijagahm/vultureUtils",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": "https://docs.google.com/drawings/d/e/2PACX-1vR5G-CkBKaXHMP6ca0KCQcBu0rRDqc5coOn4f6PIuv-Ji-LLGx0GYDh1104hfEqghkBAlqoMVH3ICpQ/pub?w=2311&amp;h=1433",
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Kaija Gahm",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "kaija-gahm",
+      "email": "kgahm@ucla.edu"
+    }
+  ]
+}

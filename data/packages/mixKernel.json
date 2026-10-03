@@ -1,0 +1,45 @@
+{
+  "name": "mixKernel",
+  "title": "Omics Data Integration Using Kernel Methods",
+  "description": "Kernel-based methods are powerful methods for integrating heterogeneous types of data. mixKernel aims at providing methods to combine kernel for unsupervised exploratory analysis. Different solutions are provided to compute a meta-kernel, in a consensus way or in a way that best preserves the original topology of the data. mixKernel also integrates kernel PCA to visualize similarities between samples in a non linear space and from the multiple source point of view <doi:10.1093/bioinformatics/btx682>. A method to select (as well as funtions to display) important variables is also provided <doi:10.1093/nargab/lqac014>.",
+  "repo_url": "https://forgemia.inra.fr/genotoul-bioinfo/mixKernel/-",
+  "pkdown_url": "http://mixkernel.clementine.wf",
+  "bug_reports_url": "https://forgemia.inra.fr/genotoul-bioinfo/mixKernel/-/issues",
+  "logo_url": null,
+  "last_updated": "2025-04-19",
+  "authors": [
+    {
+      "name": "Nathalie Vialaneix",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "nathalie-vialaneix",
+      "email": "nathalie.vialaneix@inrae.fr"
+    },
+    {
+      "name": "Celine Brouard",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Remi Flamary",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Julien Henry",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jerome Mariette",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

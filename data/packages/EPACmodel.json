@@ -1,0 +1,26 @@
+{
+  "name": "EPACmodel",
+  "title": "Use the Early Pandemic Age-structured Compartmental (EPAC) model",
+  "description": "Simulate versions of the EPAC model.",
+  "repo_url": "https://github.com/phac-modelling-hub/EPACmodel",
+  "pkdown_url": "https://phac-modelling-hub.github.io/EPACmodel",
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Irena Papst",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "irena-papst"
+    },
+    {
+      "name": "Michael WZ Li",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

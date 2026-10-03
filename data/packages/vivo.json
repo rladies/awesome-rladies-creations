@@ -1,0 +1,28 @@
+{
+  "name": "vivo",
+  "title": "Variable Importance via Oscillations",
+  "description": "Provides an easy to calculate local variable importance measure based on Ceteris Paribus profile and global variable importance measure based on Partial Dependence Profiles.",
+  "repo_url": "https://github.com/ModelOriented/vivo",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/ModelOriented/vivo/issues",
+  "logo_url": "https://raw.githubusercontent.com/ModelOriented/vivo/HEAD/man/figures/logo.png",
+  "last_updated": "2020-09-07",
+  "authors": [
+    {
+      "name": "Anna Kozak",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "anna-kozak",
+      "email": "anna1993kozak@gmail.com"
+    },
+    {
+      "name": "Przemyslaw Biecek",
+      "roles": [
+        "aut",
+        "ths"
+      ]
+    }
+  ]
+}

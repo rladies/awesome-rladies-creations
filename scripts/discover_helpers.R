@@ -16,51 +16,6 @@ is_blank <- function(x) {
     !nzchar(trimws(paste(x, collapse = "")))
 }
 
-read_authors <- function(dir) {
-  files <- list.files(dir, pattern = "\\.json$", full.names = TRUE)
-  out <- list()
-  for (f in files) {
-    blog <- jsonlite::read_json(f)
-    for (a in blog$authors %||% list()) {
-      sm <- a$social_media[[1]] %||% list()
-      out[[length(out) + 1]] <- list(
-        name = a$name,
-        github = sm$github %||% NA_character_,
-        orcid = sm$orcid %||% NA_character_,
-        blog = blog$url
-      )
-    }
-  }
-  out
-}
-
-# Read directory entries that have a github handle, returning a list of
-# (slug, name, github) tuples. Used to seed package discovery for community
-# members who don't (yet) have a blog listed in data/content/.
-read_directory_entries <- function(dir) {
-  if (!dir.exists(dir)) {
-    return(list())
-  }
-  files <- list.files(dir, pattern = "\\.json$", full.names = TRUE)
-  out <- list()
-  for (f in files) {
-    entry <- tryCatch(jsonlite::read_json(f), error = function(e) NULL)
-    if (is.null(entry)) {
-      next
-    }
-    gh <- entry$social_media$github
-    if (is_blank(gh)) {
-      next
-    }
-    out[[length(out) + 1]] <- list(
-      slug = sub("\\.json$", "", basename(f)),
-      name = entry$name %||% NA_character_,
-      github = trimws(gh)
-    )
-  }
-  out
-}
-
 # Build a name/handle -> directory slug lookup from the sibling rladies/directory
 # repo. The slug (filename minus .json) is the canonical directory_id.
 build_directory_lookup <- function(dir) {
@@ -177,11 +132,13 @@ apply_directory_id_pairs <- function(authors, pairs) {
     matched <- FALSE
     candidates <- c(p$dir_name, if (nzchar(p$explicit_name)) p$explicit_name)
     for (i in seq_along(authors)) {
-      if (any(vapply(
-        candidates,
-        function(c) names_match(c, authors[[i]]$name),
-        logical(1)
-      ))) {
+      if (
+        any(vapply(
+          candidates,
+          function(c) names_match(c, authors[[i]]$name),
+          logical(1)
+        ))
+      ) {
         authors[[i]]$directory_id <- p$slug
         matched <- TRUE
         break
@@ -262,6 +219,13 @@ fetch_universe_package <- function(owner, pkg) {
     jsonlite::fromJSON(paste(resp, collapse = "\n"), simplifyVector = FALSE),
     error = function(e) NULL
   )
+}
+
+# Bioconductor packages are mirrored at bioc.r-universe.dev with the same
+# fields as any other r-universe sub-universe, so we reuse the universe shape.
+# Returns a list of package metadata entries, one per Bioconductor package.
+fetch_bioc_db <- function() {
+  fetch_universe("bioc")
 }
 
 head_ok <- function(url) {
@@ -408,11 +372,67 @@ owner_match <- function(pkg, handle) {
   isTRUE(tolower(pkg$`_owner` %||% "") == tolower(handle))
 }
 
+# DESCRIPTION Author fields are hard-wrapped, so a name can arrive split over a
+# line break ("Steffi\nLaZerte [aut]"). Collapse whitespace before matching or
+# those authors are silently missed.
+norm_ws <- function(x) {
+  trimws(gsub("[[:space:]]+", " ", x))
+}
+
 name_in <- function(needle, haystack) {
   if (is_blank(needle) || is_blank(haystack)) {
     return(FALSE)
   }
-  grepl(tolower(ascii(needle)), tolower(ascii(haystack)), fixed = TRUE)
+  grepl(
+    norm_ws(tolower(ascii(needle))),
+    norm_ws(tolower(ascii(haystack))),
+    fixed = TRUE
+  )
+}
+
+# Registering an R-Universe is a blanket opt-in, so a package is included unless
+# its entry opts out. packages.json is hand-written, so accept the forms people
+# actually type: a missed opt-out publishes someone's package against their
+# stated wish, which is far worse than a missed opt-in.
+opt_out_values <- c("false", "no", "off", "exclude", "0")
+
+pkg_opted_out <- function(entry) {
+  if (!is.list(entry)) {
+    return(FALSE)
+  }
+  v <- entry$rladies
+  if (is.null(v) || length(v) != 1 || is.na(v)) {
+    return(FALSE)
+  }
+  if (is.logical(v)) {
+    return(!v)
+  }
+  tolower(trimws(as.character(v))) %in% opt_out_values
+}
+
+# Package names from a remote packages.json / r-universe API end up in
+# file.path(dir, paste0(name, ".json")), and this sync commits straight to main.
+# "../../.github/workflows/x" would escape data/packages/, so hold names to the
+# R naming rules (letter first, then letters/digits/periods, no trailing period)
+# rather than trusting the upstream to have validated them.
+valid_pkg_name <- function(name) {
+  if (is_blank(name) || length(name) != 1) {
+    return(FALSE)
+  }
+  grepl("^[A-Za-z][A-Za-z0-9.]*$", name) && !grepl("\\.$", name)
+}
+
+# packages.json should be an array of entries. A single JSON object parses to a
+# named list, which would otherwise be iterated field-by-field and blow up on
+# `entry$rladies`. Wrap it so one malformed config can't take the sync down.
+as_pkg_entries <- function(cfg) {
+  if (is.null(cfg)) {
+    return(list())
+  }
+  if (!is.null(names(cfg))) {
+    return(list(cfg))
+  }
+  Filter(is.list, cfg)
 }
 
 accepted_roles <- c("cre", "aut")
@@ -421,8 +441,8 @@ roles_for <- function(name, author_text) {
   if (is_blank(author_text)) {
     return("unknown")
   }
-  hay <- tolower(ascii(author_text))
-  needle <- tolower(ascii(name))
+  hay <- norm_ws(tolower(ascii(author_text)))
+  needle <- norm_ws(tolower(ascii(name)))
   pos <- regexpr(needle, hay, fixed = TRUE)
   if (pos == -1) {
     return(character(0))
@@ -501,6 +521,7 @@ parse_authors <- function(text) {
     orcid <- if (length(orcid_m) > 0) orcid_m else NA_character_
     boundary <- regexpr("[\\[\\(]", p, perl = TRUE)
     name <- if (boundary > 0) trimws(substr(p, 1, boundary - 1)) else trimws(p)
+    name <- trimws(sub("\\s*<[^>]*>\\s*$", "", name))
     list(name = name, roles = as.list(roles), orcid = orcid)
   })
 }
@@ -571,17 +592,31 @@ to_package_shape <- function(cand, dir_lookup) {
 
   parsed <- cand$authors
   # Some old DESCRIPTION fields are role-less; if we know who the maintainer is
-  # from the Maintainer field but they're missing from Author, inject them.
+  # from the Maintainer field but they're missing from Author, attach "cre" to
+  # the matching entry. If the maintainer isn't in Author at all, append them.
   has_cre <- any(vapply(
     parsed,
     function(a) "cre" %in% unlist(a$roles),
     logical(1)
   ))
   if (!has_cre && !is.na(m$name)) {
-    parsed <- c(
+    match_idx <- which(vapply(
       parsed,
-      list(list(name = m$name, roles = list("cre"), orcid = NA_character_))
-    )
+      function(a) names_match(a$name, m$name),
+      logical(1)
+    ))
+    if (length(match_idx) > 0) {
+      idx <- match_idx[1]
+      parsed[[idx]]$roles <- as.list(unique(c(
+        unlist(parsed[[idx]]$roles),
+        "cre"
+      )))
+    } else {
+      parsed <- c(
+        parsed,
+        list(list(name = m$name, roles = list("cre"), orcid = NA_character_))
+      )
+    }
   }
 
   authors <- lapply(parsed, function(a) {
@@ -636,6 +671,25 @@ write_pkg <- function(entry, dir) {
   path <- file.path(dir, paste0(entry$name, ".json"))
   existing <- if (file.exists(path)) jsonlite::read_json(path) else list()
   merged <- merge_pkg(existing, entry)
+  # Normalise scalar fields to NA_character_ when missing/NULL so write_json
+  # serialises them as `null` (per `na = "null"` below) rather than `{}`,
+  # which would otherwise happen on a read+rewrite cycle and fail schema
+  # validation (string|null fields can't be empty objects).
+  scalar_fields <- c(
+    "name",
+    "title",
+    "description",
+    "repo_url",
+    "pkdown_url",
+    "bug_reports_url",
+    "logo_url",
+    "last_updated"
+  )
+  for (f in scalar_fields) {
+    if (is.null(merged[[f]]) || length(merged[[f]]) == 0) {
+      merged[[f]] <- NA_character_
+    }
+  }
   if (!dir.exists(dir)) {
     dir.create(dir, recursive = TRUE)
   }

@@ -1,0 +1,22 @@
+{
+  "name": "speechmatics",
+  "title": "Client for the 'Speechmatics' Speech-to-Text API",
+  "description": "Transcribe audio files using the 'Speechmatics' speech-to-text API <https://www.speechmatics.com/>. Supports custom vocabulary, speaker diarization, punctuation control, and audio filtering.",
+  "repo_url": "https://github.com/thisisnic/speechmatics",
+  "pkdown_url": "https://thisisnic.github.io/speechmatics",
+  "bug_reports_url": "https://github.com/thisisnic/speechmatics/issues",
+  "logo_url": null,
+  "last_updated": "2026-06-06",
+  "authors": [
+    {
+      "name": "Nic Crane",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "directory_id": "nic-crane",
+      "email": "thisisnic@gmail.com"
+    }
+  ]
+}

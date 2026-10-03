@@ -1,0 +1,29 @@
+{
+  "name": "bootLong",
+  "title": "The Block Bootstrap Method for Longitudinal Count Data",
+  "description": "This implements the block bootstrap method, subsampling method for choosing optimal block length, and exploratory tools such as correlogram, lag-plot, variogram for longitudinal count data.",
+  "repo_url": "https://github.com/PratheepaJ/bootLong",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/PratheepaJ/bootLong/issues",
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Jeganathan Pratheepa",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "directory_id": "pratheepa-jeganathan"
+    },
+    {
+      "name": "Holmes"
+    },
+    {
+      "name": "Susan",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

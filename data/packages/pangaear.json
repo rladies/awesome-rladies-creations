@@ -1,0 +1,46 @@
+{
+  "name": "pangaear",
+  "title": "Client for the 'Pangaea' Database",
+  "description": "Tools to interact with the 'Pangaea' Database (<https://www.pangaea.de>), including functions for searching for data, fetching 'datasets' by 'dataset' 'ID', and working with the 'Pangaea' 'OAI-PMH' service.",
+  "repo_url": "https://github.com/ropensci/pangaear (devel)",
+  "pkdown_url": "https://docs.ropensci.org/pangaear/ (documentation)",
+  "bug_reports_url": "https://github.com/ropensci/pangaear/issues",
+  "logo_url": null,
+  "last_updated": "2021-05-14",
+  "authors": [
+    {
+      "name": "Scott Chamberlain",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-1444-9135",
+      "email": "myrmecocystus@gmail.com"
+    },
+    {
+      "name": "Kara Woo",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "kara-woo"
+    },
+    {
+      "name": "Andrew MacDonald",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Naupaka Zimmerman",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Gavin Simpson",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

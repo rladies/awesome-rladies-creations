@@ -1,0 +1,29 @@
+{
+  "name": "BayesCVI",
+  "title": "Bayesian Cluster Validity Index",
+  "description": "Algorithms for computing and generating plots with and without error bars for Bayesian cluster validity index (BCVI) (O. Preedasawakul, and N. Wiroonsri, A Bayesian Cluster Validity Index, Computational Statistics & Data Analysis, 202, 108053, 2025. <doi:10.1016/j.csda.2024.108053>) based on several underlying cluster validity indexes (CVIs) including Calinski-Harabasz, Chou-Su-Lai, Davies-Bouldin, Dunn, Pakhira-Bandyopadhyay-Maulik, Point biserial correlation, the score function, Starczewski, and Wiroonsri indices for hard clustering, and Correlation Cluster Validity, the generalized C, HF, KWON, KWON2, Modified Pakhira-Bandyopadhyay-Maulik, Pakhira-Bandyopadhyay-Maulik, Tang, Wiroonsri-Preedasawakul, Wu-Li, and Xie-Beni indices for soft clustering. The package is compatible with K-means, fuzzy C means, EM clustering, and hierarchical clustering (single, average, and complete linkage). Though BCVI is compatible with any underlying existing CVIs, we recommend users to use either WI or WP as the underlying CVI.",
+  "repo_url": "https://github.com/o-preedasawakul/BayesCVI",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-09-05",
+  "authors": [
+    {
+      "name": "Nathakhun Wiroonsri",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-2167-9641"
+    },
+    {
+      "name": "Onthada Preedasawakul",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "orcid": "0000-0002-4186-3158",
+      "email": "o.preedasawakul@gmail.com",
+      "directory_id": "onthada-preedasawakul"
+    }
+  ]
+}

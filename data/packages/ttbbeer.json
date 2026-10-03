@@ -1,0 +1,21 @@
+{
+  "name": "ttbbeer",
+  "title": "US Beer Statistics from TTB",
+  "description": "U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB) collects data and reports on monthly beer industry production and operations. This data package includes a collection of 10 years (2006 - 2015) worth of data on materials used at U.S. breweries in pounds reported by the Brewer's Report of Operations and the Quarterly Brewer's Report of Operations forms, ready for data analysis. This package also includes historical tax rates on distilled spirits, wine, beer, champagne, and tobacco products as individual data sets.",
+  "repo_url": "https://github.com/jasdumas/ttbbeer",
+  "pkdown_url": "http://jasminedaly.com/ttbbeer/",
+  "bug_reports_url": "https://github.com/jasdumas/ttbbeer/issues",
+  "logo_url": "http://jasminedaly.com/ttbbeer/logo.png",
+  "last_updated": "2025-06-30",
+  "authors": [
+    {
+      "name": "Jasmine Daly",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "jasmine-dumas",
+      "email": "jasmine.dumas@gmail.com"
+    }
+  ]
+}

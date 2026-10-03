@@ -1,0 +1,36 @@
+{
+  "name": "ern",
+  "title": "Effective Reproduction Number Estimation",
+  "description": "Estimate the effective reproduction number from wastewater and clinical data sources.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2025-01-16",
+  "authors": [
+    {
+      "name": "David Champredon",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-7090-8757",
+      "email": "david.champredon@canada.ca"
+    },
+    {
+      "name": "Warsame Yusuf",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-5571-8122"
+    },
+    {
+      "name": "Irena Papst",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-5901-7585",
+      "directory_id": "irena-papst"
+    }
+  ]
+}

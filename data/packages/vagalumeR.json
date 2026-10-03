@@ -1,0 +1,20 @@
+{
+  "name": "vagalumeR",
+  "title": "Access to the 'Vagalume' API",
+  "description": "Provides access to the 'Vagalume' API <https://api.vagalume.com.br>. The data extracted is basically lyrics of songs and information about artists/bands.",
+  "repo_url": "https://github.com/r-music/vagalumeR",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/r-music/vagalumeR/issues",
+  "logo_url": "https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif",
+  "last_updated": "2019-02-03",
+  "authors": [
+    {
+      "name": "Bruna Wundervald",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "bruna-wundervald",
+      "email": "brunadaviesw@gmail.com"
+    }
+  ]
+}

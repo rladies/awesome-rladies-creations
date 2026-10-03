@@ -20,6 +20,14 @@ jobs:
       (github.event.action == 'labeled' && github.event.label.name == 'content-submission')
     runs-on: ubuntu-latest
     steps:
+      - name: Generate app token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.JINX_APP_ID }}
+          private-key: ${{ secrets.JINX_PRIVATE_KEY }}
+          owner: rladies
+
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
@@ -34,7 +42,7 @@ jobs:
           script: |
             const body = process.env.ISSUE_BODY || '';
             const fields = {};
-            const re = /^###\s+(.+?)\s*\n+([\s\S]*?)(?=\n### |\n*$)/gm;
+            const re = /(?:^|\n)###\s+(.+?)\s*\n+([\s\S]*?)(?=\n### |$)/g;
             for (const m of body.matchAll(re)) {
               const key = m[1].trim().toLowerCase();
               let value = (m[2] || '').trim();
@@ -70,6 +78,7 @@ jobs:
           steps.parse.outputs.author_name == ''
         uses: actions/github-script@v7
         with:
+          github-token: ${{ steps.app-token.outputs.token }}
           script: |
             await github.rest.issues.createComment({
               owner: context.repo.owner,
@@ -120,6 +129,7 @@ jobs:
         env:
           URL: ${{ steps.parse.outputs.content_url }}
         with:
+          github-token: ${{ steps.app-token.outputs.token }}
           script: |
             const url = process.env.URL;
             await github.rest.issues.createComment({
@@ -155,6 +165,7 @@ jobs:
         env:
           FILE_PATH: ${{ steps.branch.outputs.file }}
         with:
+          github-token: ${{ steps.app-token.outputs.token }}
           script: |
             const file = process.env.FILE_PATH;
             await github.rest.issues.createComment({
@@ -169,15 +180,15 @@ jobs:
       - name: Push branch
         if: steps.branch.outputs.changed == 'true'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           BRANCH: ${{ steps.branch.outputs.branch }}
           FILE_PATH: ${{ steps.branch.outputs.file }}
           FILENAME: ${{ steps.generate.outputs.filename }}
           ISSUE: ${{ github.event.issue.number }}
         run: |
           set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Jinx[bot]"
+          git config user.email "jinx@rladies.org"
           git checkout -b "$BRANCH"
           git add "$FILE_PATH"
           git commit -m "Add ${FILENAME} (issue #${ISSUE})"
@@ -192,6 +203,7 @@ jobs:
           FILENAME: ${{ steps.generate.outputs.filename }}
           CONTENT_TYPE: ${{ steps.generate.outputs.content_type }}
         with:
+          github-token: ${{ steps.app-token.outputs.token }}
           script: |
             const branch = process.env.BRANCH;
             const file = process.env.FILE_PATH;

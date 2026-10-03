@@ -1,0 +1,55 @@
+{
+  "name": "dySEM",
+  "title": "Dyadic Structural Equation Modeling",
+  "description": "Scripting of structural equation models via 'lavaan' for Dyadic Data Analysis, and helper functions for supplemental calculations, tabling, and model visualization.",
+  "repo_url": "https://github.com/jsakaluk/dySEM",
+  "pkdown_url": "https://jsakaluk.github.io/dySEM/",
+  "bug_reports_url": "https://github.com/jsakaluk/dySEM/issues",
+  "logo_url": "https://jsakaluk.github.io/dySEM/logo.png",
+  "last_updated": "2025-12-22",
+  "authors": [
+    {
+      "name": "John Sakaluk",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0000-0002-2515-9822",
+      "email": "jksakaluk@gmail.com"
+    },
+    {
+      "name": "Omar Camanto",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0009-0009-4012-9777"
+    },
+    {
+      "name": "Christopher Quinn-Nilas",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-8056-2008"
+    },
+    {
+      "name": "Merissa Prine",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Robyn Kilshaw",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Alexandra Fisher",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "alexandra-fisher"
+    }
+  ]
+}

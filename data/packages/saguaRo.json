@@ -1,0 +1,21 @@
+{
+  "name": "saguaRo",
+  "title": "Arizona desert colors in R",
+  "description": "Combining Arizona's desert beauty and the exciting world of data visualization. This package highlights the beautiful images taken in the Sonoran desert as captured by Tucson residents and friends of the Arizona-Sonora Desert Museum.",
+  "repo_url": "https://github.com/sborrego/saguaRo",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/sborrego/saguaRo/issues",
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Stacey Borrego",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "stacey-borrego",
+      "email": "staceyborrego@gmail.com"
+    }
+  ]
+}

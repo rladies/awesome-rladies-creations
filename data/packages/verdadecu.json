@@ -1,0 +1,28 @@
+{
+  "name": "verdadecu",
+  "title": "Data from the Ecuador Truth Commission",
+  "description": "Provides access to data collected by the Ecuadorian Truth Commission. Allows users to extract and analyze systematized information for human rights research in Ecuador. The package contains datasets documenting human rights violations from 1984-2008, including victim information, violation types, perpetrators, and geographic distribution.",
+  "repo_url": "https://github.com/Demografiando/verdadecu",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/Demografiando/verdadecu/issues",
+  "logo_url": null,
+  "last_updated": "2025-09-18",
+  "authors": [
+    {
+      "name": "Adriana Robles",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-7202-6523",
+      "directory_id": "adriana-robles"
+    },
+    {
+      "name": "Javier Borja",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "javier@demografiando.pro"
+    }
+  ]
+}

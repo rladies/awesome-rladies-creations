@@ -1,0 +1,35 @@
+{
+  "name": "phoenics",
+  "title": "Pathways Longitudinal and Differential Analysis in Metabolomics",
+  "description": "Perform a differential analysis at pathway level based on metabolite quantifications and information on pathway metabolite composition. The method, described in Guilmineau et al (2025) <doi:10.1186/s12859-025-06118-z> is based on a Principal Component Analysis step and on a linear mixed model. Automatic query of metabolic pathways is also implemented.",
+  "repo_url": "https://forge.inrae.fr/panoramics/phoenics/-",
+  "pkdown_url": "https://forge.inrae.fr/panoramics/phoenics",
+  "bug_reports_url": "https://forge.inrae.fr/panoramics/phoenics/-/issues",
+  "logo_url": "https://forge.inrae.fr/uploads/-/system/project/avatar/10293/phoenics.png",
+  "last_updated": "2025-08-19",
+  "authors": [
+    {
+      "name": "Camille Guilmineau",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Remi Servien",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-1270-1843",
+      "email": "remi.servien@inrae.fr"
+    },
+    {
+      "name": "Nathalie Vialaneix",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1156-0639",
+      "directory_id": "nathalie-vialaneix"
+    }
+  ]
+}

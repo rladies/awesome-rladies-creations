@@ -1,0 +1,37 @@
+{
+  "name": "ech",
+  "title": "Downloading and Processing Microdata from ECH-INE (Uruguay)",
+  "description": "A consistent tool for downloading ECH data, processing them and generating new indicators: poverty, education, employment, etc. All data are downloaded from the official site of the National Institute of Statistics at <https://www.gub.uy/instituto-nacional-estadistica/datos-y-estadisticas/encuestas/encuesta-continua-hogares>.",
+  "repo_url": "https://github.com/calcita/ech",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": "https://raw.githubusercontent.com/calcita/ech/HEAD/man/figures/ech_logo.png",
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Gabriela Mathieu",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0000-0003-3965-9024",
+      "directory_id": "gabriela-mathieu",
+      "email": "calcita@gmx.li"
+    },
+    {
+      "name": "Richard Detomasi",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-6725-0261"
+    },
+    {
+      "name": "Tati Micheletti",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-4838-8342"
+    }
+  ]
+}

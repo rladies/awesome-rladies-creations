@@ -1,0 +1,22 @@
+{
+  "title": "Willing Consulting",
+  "type": "blog",
+  "url": "https://www.willingconsulting.com/",
+  "rss_feed": "https://www.willingconsulting.com/index.xml",
+  "description": "Human Centered Open Source Leadership",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Carol Willing",
+      "social_media": [
+        {
+          "twitter": "WillingCarol",
+          "bluesky": "willingc.bsky.social",
+          "mastodon": "@willingc@hachyderm.io",
+          "linkedin": "carolwilling",
+          "website": "https://willingconsulting.com"
+        }
+      ]
+    }
+  ]
+}

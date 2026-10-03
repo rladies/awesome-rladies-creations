@@ -1,0 +1,48 @@
+{
+  "name": "qsmooth",
+  "title": "Smooth quantile normalization",
+  "description": "Smooth quantile normalization is a generalization of quantile normalization, which is average of the two types of assumptions about the data generation process: quantile normalization and quantile normalization between groups.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Stephanie C. Hicks",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-7858-0231",
+      "email": "shicks19@jhu.edu",
+      "directory_id": "stephanie-hicks"
+    },
+    {
+      "name": "Kwame Okrah",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Koen Van den Berge",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Hector Corrada Bravo",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-1255-4444"
+    },
+    {
+      "name": "Rafael Irizarry",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3944-4309"
+    }
+  ]
+}

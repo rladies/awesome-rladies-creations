@@ -1,0 +1,199 @@
+{
+  "name": "blogdown",
+  "title": "Create Blogs and Websites with R Markdown",
+  "description": "Write blog posts and web pages in R Markdown. This package supports the static site generator 'Hugo' (<https://gohugo.io>) best, and it also supports 'Jekyll' (<https://jekyllrb.com>) and 'Hexo' (<https://hexo.io>).",
+  "repo_url": "https://github.com/rstudio/blogdown",
+  "pkdown_url": "https://pkgs.rstudio.com/blogdown/",
+  "bug_reports_url": "https://github.com/rstudio/blogdown/issues",
+  "logo_url": "https://pkgs.rstudio.com/blogdown/logo.svg",
+  "last_updated": "2026-01-18",
+  "authors": [
+    {
+      "name": "Yihui Xie",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-0645-5666",
+      "email": "xie@yihui.name"
+    },
+    {
+      "name": "Christophe Dervieux",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4474-2498"
+    },
+    {
+      "name": "Alison Presmanes Hill",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-8082-1890",
+      "directory_id": "alison-presmanes-hill"
+    },
+    {
+      "name": "Amber Thomas",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "amber-thomas"
+    },
+    {
+      "name": "Beilei Bian",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Brandon Greenwell",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Brian Barkley",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Deependra Dhakal",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Eric Nantz",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Forest Fang",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Garrick Aden-Buie",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Hiroaki Yutani",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Ian Lyttle",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Jake Barlow",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "James Balamuta",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "JJ Allaire",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Jon Calder",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Jozef Hajnala",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Juan Manuel Vazquez",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Kevin Ushey",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Leonardo Collado-Torres",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Maëlle Salmon",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "maelle-salmon"
+    },
+    {
+      "name": "Maria Paula Caldas",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "maria-paula-caldas"
+    },
+    {
+      "name": "Nicolas Roelandt",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Oliver Madsen",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Raniere Silva",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "TC Zhang",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Xianying Tan",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

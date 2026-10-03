@@ -1,0 +1,37 @@
+{
+  "name": "seer",
+  "title": "Feature-Based Forecast Model Selection",
+  "description": "A novel meta-learning framework for forecast model selection using time series features. Many applications require a large number of time series to be forecast. Providing better forecasts for these time series is important in decision and policy making. We propose a classification framework which selects forecast models based on features calculated from the time series. We call this framework FFORMS (Feature-based FORecast Model Selection). FFORMS builds a mapping that relates the features of time series to the best forecast model using a random forest. 'seer' package is the implementation of the FFORMS algorithm. For more details see our paper at <https://www.monash.edu/business/econometrics-and-business-statistics/research/publications/ebs/wp06-2018.pdf>.",
+  "repo_url": "https://github.com/thiyangt/seer",
+  "pkdown_url": "https://thiyangt.github.io/seer/",
+  "bug_reports_url": "https://github.com/thiyangt/seer/issues",
+  "logo_url": "https://raw.githubusercontent.com/thiyangt/seer/HEAD/logo/seer.png",
+  "last_updated": "2022-10-01",
+  "authors": [
+    {
+      "name": "Thiyanga Talagala",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-0656-9789",
+      "directory_id": "thiyanga-talagala",
+      "email": "tstalagala@gmail.com"
+    },
+    {
+      "name": "Rob J Hyndman",
+      "roles": [
+        "ths",
+        "aut"
+      ],
+      "orcid": "0000-0002-2140-5352"
+    },
+    {
+      "name": "George Athanasopoulos",
+      "roles": [
+        "ths",
+        "aut"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Haplin",
+  "title": "Analyzing Case-Parent Triad and/or Case-Control Data with SNP\nHaplotypes",
+  "description": "Performs genetic association analyses of case-parent triad (trio) data with multiple markers. It can also incorporate complete or incomplete control triads, for instance independent control children. Estimation is based on haplotypes, for instance SNP haplotypes, even though phase is not known from the genetic data. 'Haplin' estimates relative risk (RR + conf.int.) and p-value associated with each haplotype. It uses maximum likelihood estimation to make optimal use of data from triads with missing genotypic data, for instance if some SNPs has not been typed for some individuals. 'Haplin' also allows estimation of effects of maternal haplotypes and parent-of-origin effects, particularly appropriate in perinatal epidemiology. 'Haplin' allows special models, like X-inactivation, to be fitted on the X-chromosome. A GxE analysis allows testing interactions between environment and all estimated genetic effects. The models were originally described in \"Gjessing HK and Lie RT. Case-parent triads: Estimating single- and double-dose effects of fetal and maternal disease gene haplotypes. Annals of Human Genetics (2006) 70, pp. 382-396\".",
+  "repo_url": null,
+  "pkdown_url": "https://haplin.bitbucket.io",
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-08-20",
+  "authors": [
+    {
+      "name": "Hakon K. Gjessing",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "hakon.gjessing@uib.no"
+    },
+    {
+      "name": "Miriam Gjerdevik",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Julia Romanowska",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-6733-1953",
+      "directory_id": "julia-romanowska"
+    },
+    {
+      "name": "Oivind Skare",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

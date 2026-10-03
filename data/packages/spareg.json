@@ -1,0 +1,35 @@
+{
+  "name": "spareg",
+  "title": "Sparse Projected Averaged Regression",
+  "description": "A flexible framework combining variable screening and random projection techniques for fitting ensembles of predictive generalized linear models to high-dimensional data. Designed for extensibility, the package implements key techniques as S3 classes with user-friendly constructors, enabling easy integration and development of new procedures for high-dimensional applications. For more details see Parzer et al (2024a) <doi:10.48550/arXiv.2312.00130> and Parzer et al (2024b) <doi:10.48550/arXiv.2410.00971>.",
+  "repo_url": "https://github.com/lauravana/spareg",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/lauravana/spareg/issues",
+  "logo_url": null,
+  "last_updated": "2025-08-19",
+  "authors": [
+    {
+      "name": "Laura Vana-Gür",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-9613-7604",
+      "email": "laura.vana.guer@tuwien.ac.at"
+    },
+    {
+      "name": "Roman Parzer",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0893-3190"
+    },
+    {
+      "name": "Peter Filzmoser",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-8014-4682"
+    }
+  ]
+}

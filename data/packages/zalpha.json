@@ -1,0 +1,25 @@
+{
+  "name": "zalpha",
+  "title": "Run a Suite of Selection Statistics",
+  "description": "A suite of statistics for identifying areas of the genome under selective pressure. See Jacobs, Sluckin and Kivisild (2016) <doi:10.1534/genetics.115.185900>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2021-12-02",
+  "authors": [
+    {
+      "name": "Clare Horscroft",
+      "directory_id": "clare-horscroft",
+      "email": "chorscroft@aol.co.uk"
+    },
+    {
+      "name": "Clare Horscroft",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "clare-horscroft",
+      "email": "chorscroft@aol.co.uk"
+    }
+  ]
+}

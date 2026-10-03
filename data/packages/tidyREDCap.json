@@ -1,0 +1,71 @@
+{
+  "name": "tidyREDCap",
+  "title": "Helper Functions for Working with 'REDCap' Data",
+  "description": "Helper functions for processing 'REDCap' data in R. 'REDCap' is a web-enabled application for building and managing surveys and databases developed at Vanderbilt University.",
+  "repo_url": "https://github.com/RaymondBalise/tidyREDCap",
+  "pkdown_url": "https://raymondbalise.github.io/tidyREDCap/",
+  "bug_reports_url": "https://github.com/RaymondBalise/tidyREDCap/issues",
+  "logo_url": "https://raymondbalise.github.io/tidyREDCap/logo.png",
+  "last_updated": "2026-02-22",
+  "authors": [
+    {
+      "name": "Raymond Balise",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-9856-5901",
+      "email": "balise@miami.edu"
+    },
+    {
+      "name": "Gabriel Odom",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1341-4555"
+    },
+    {
+      "name": "Kyle Grealis",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9223-8854"
+    },
+    {
+      "name": "Anna Calderon",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-0139-3841"
+    },
+    {
+      "name": "Layla Bouzoubaa",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-6616-0950",
+      "directory_id": "layla-bouzoubaa"
+    },
+    {
+      "name": "Wayne DeFreitas",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2584-6278"
+    },
+    {
+      "name": "Lauren Nahodyl",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-6241-2615"
+    },
+    {
+      "name": "Daniel Maya",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-0164-7768"
+    }
+  ]
+}

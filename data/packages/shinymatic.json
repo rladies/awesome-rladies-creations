@@ -1,0 +1,21 @@
+{
+  "name": "shinymatic",
+  "title": "Generate Shiny Dashboard Inputs Based on Dataframe",
+  "description": "Extension of shiny. Allows the automatic generation of inputs based on a dataframe.",
+  "repo_url": "https://github.com/karbartolome/shinymatic",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/karbartolome/shinymatic/issues",
+  "logo_url": "https://raw.githubusercontent.com/karbartolome/shinymatic/HEAD/man/figures/logo.png",
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Karina Bartolome",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "karina-bartolome",
+      "email": "karpackages@gmail.com"
+    }
+  ]
+}

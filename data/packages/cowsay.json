@@ -1,0 +1,118 @@
+{
+  "name": "cowsay",
+  "title": "Messages, Warnings, Strings with Ascii Animals",
+  "description": "Allows printing of character strings as messages/warnings/etc. with ASCII animals, including cats, cows, frogs, chickens, ghosts, and more.",
+  "repo_url": "https://github.com/sckott/cowsay",
+  "pkdown_url": "https://sckott.github.io/cowsay/",
+  "bug_reports_url": "https://github.com/sckott/cowsay/issues",
+  "logo_url": null,
+  "last_updated": "2025-10-29",
+  "authors": [
+    {
+      "name": "Scott Chamberlain",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "myrmecocystus@gmail.com"
+    },
+    {
+      "name": "Amanda Dobbyn",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "amanda-dobbyn"
+    },
+    {
+      "name": "Tyler Rinker",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Thomas Leeper",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Noam Ross",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Rich FitzJohn",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Carson Sievert",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Kiyoko Gotanda",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Andy Teucher",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Karl Broman",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Franz-Sebastian Krah",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Lucy D'Agostino McGowan",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "lucy-dagostino-mcgowan"
+    },
+    {
+      "name": "Guangchuang Yu",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Philipp Boersch-Supan",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Andreas Brandmaier",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Marion Louveaux",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "David Schoch",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

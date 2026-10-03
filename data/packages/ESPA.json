@@ -1,0 +1,29 @@
+{
+  "name": "ESPA",
+  "title": "An Empirical Saddlepoint Approximation Based Method for Smoothing Survival Functions Under Right Censoring.",
+  "description": "This implements the empirical saddlepoint approximation based method for producing a smooth survival function, density function for right-censored data.",
+  "repo_url": "https://github.com/PratheepaJ/ESPA",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/PratheepaJ/ESPA/issues",
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Jeganathan Pratheepa",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "directory_id": "pratheepa-jeganathan"
+    },
+    {
+      "name": "Trindade"
+    },
+    {
+      "name": "Alex",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

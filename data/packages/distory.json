@@ -1,0 +1,32 @@
+{
+  "name": "distory",
+  "title": "Distance Between Phylogenetic Histories",
+  "description": "Geodesic distance between phylogenetic trees and associated functions. The theoretical background of 'distory' is published in Billera et al. (2001) \"Geometry of the space of phylogenetic trees.\" <doi:10.1006/aama.2001.0759>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-10-07",
+  "authors": [
+    {
+      "name": "John Chakerian",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Susan Holmes",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "susan-holmes"
+    },
+    {
+      "name": "Emmanuel Paradis",
+      "roles": [
+        "cre"
+      ],
+      "email": "Emmanuel.Paradis@ird.fr"
+    }
+  ]
+}

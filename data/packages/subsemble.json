@@ -1,0 +1,32 @@
+{
+  "name": "subsemble",
+  "title": "An Ensemble Method for Combining Subset-Specific Algorithm Fits",
+  "description": "The Subsemble algorithm is a general subset ensemble prediction method, which can be used for small, moderate, or large datasets. Subsemble partitions the full dataset into subsets of observations, fits a specified underlying algorithm on each subset, and uses a unique form of k-fold cross-validation to output a prediction function that combines the subset-specific fits. An oracle result provides a theoretical performance guarantee for Subsemble. The paper, \"Subsemble: An ensemble method for combining subset-specific algorithm fits\" is authored by Stephanie Sapp, Mark J. van der Laan & John Canny (2014) <doi:10.1080/02664763.2013.864263>.",
+  "repo_url": "https://github.com/ledell/subsemble",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/ledell/subsemble/issues",
+  "logo_url": null,
+  "last_updated": "2022-01-21",
+  "authors": [
+    {
+      "name": "Erin LeDell",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "erin-ledell",
+      "email": "oss@ledell.org"
+    },
+    {
+      "name": "Stephanie Sapp",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Mark van der Laan",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

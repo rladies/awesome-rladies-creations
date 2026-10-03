@@ -1,0 +1,22 @@
+{
+  "name": "shinyfa",
+  "title": "Analyze the File Contents of 'shiny' Directories",
+  "description": "Provides tools for analyzing and understanding the file contents of large 'shiny' application directories. The package extracts key information about render functions, reactive functions, and their inputs from app files, organizing them into structured data frames for easy reference. This streamlines the onboarding process for new contributors and helps identify areas for optimization in complex 'shiny' codebases with multiple files and sourcing chains.",
+  "repo_url": "https://github.com/dalyanalytics/shinyfa",
+  "pkdown_url": "https://dalyanalytics.github.io/shinyfa/",
+  "bug_reports_url": "https://github.com/dalyanalytics/shinyfa/issues",
+  "logo_url": "https://dalyanalytics.github.io/shinyfa/logo.png",
+  "last_updated": "2025-11-09",
+  "authors": [
+    {
+      "name": "Jasmine Daly",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0001-8006-2428",
+      "directory_id": "jasmine-dumas",
+      "email": "jasmine.dumas@gmail.com"
+    }
+  ]
+}

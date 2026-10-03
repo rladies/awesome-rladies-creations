@@ -1,0 +1,62 @@
+{
+  "name": "ExperimentHub",
+  "title": "Client to access ExperimentHub resources",
+  "description": "This package provides a client for the Bioconductor ExperimentHub web resource. ExperimentHub provides a central location where curated data from experiments, publications or training courses can be accessed. Each resource has associated metadata, tags and date of modification. The client creates and manages a local cache of files retrieved enabling quick and reproducible access.",
+  "repo_url": "https://github.com/Bioconductor/ExperimentHub",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/Bioconductor/ExperimentHub/issues",
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Bioconductor Package Maintainer",
+      "roles": [
+        "cre"
+      ],
+      "email": "maintainer@bioconductor.org"
+    },
+    {
+      "name": "Martin Morgan",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Marc Carlson",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Dan Tenenbaum",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Sonali Arora",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Valerie Oberchain",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Kayla Morrell",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Lori Shepherd",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "lori-shepherd"
+    }
+  ]
+}

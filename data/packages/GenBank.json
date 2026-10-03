@@ -1,0 +1,23 @@
+{
+  "name": "GenBank",
+  "title": "Sequence retrieval from GenBank",
+  "description": "Interfaces with e-utilities on the NCBI website to download sequence data from the Nucleotide database on GenBank.",
+  "repo_url": "https://github.com/lucymli/GenBank",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Lucy M Li",
+      "directory_id": "lucy-li"
+    },
+    {
+      "name": "Who to complain to",
+      "roles": [
+        "cre"
+      ],
+      "email": "ml3109@ic.ac.uk"
+    }
+  ]
+}

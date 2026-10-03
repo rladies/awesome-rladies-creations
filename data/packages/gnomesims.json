@@ -1,0 +1,21 @@
+{
+  "name": "gnomesims",
+  "title": "Power Calculations for Genotyped Family Data",
+  "description": "The package simulates genotyped family data of parents and offspring pairs. Simulated data may include gene-environment covariance. The package also calculates the power of finding cultural transmission and sibling interaction in the data using different models.",
+  "repo_url": "https://github.com/josefinabernardo/gnomesims",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": "https://raw.githubusercontent.com/josefinabernardo/gnomesims/HEAD/man/figures/logo.png",
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Josefina Bernardo",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0009-0007-1894-9790",
+      "directory_id": "josefina-bernardo"
+    }
+  ]
+}

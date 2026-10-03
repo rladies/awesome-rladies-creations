@@ -1,0 +1,32 @@
+{
+  "name": "highriskzone",
+  "title": "Determining and Evaluating High-Risk Zones",
+  "description": "Functions for determining and evaluating high-risk zones and simulating and thinning point process data, as described in 'Determining high risk zones using point process methodology - Realization by building an R package' Seibold (2012) <http://highriskzone.r-forge.r-project.org/Bachelorarbeit.pdf> and 'Determining high-risk zones for unexploded World War II bombs by using point process methodology', Mahling et al. (2013) <doi:10.1111/j.1467-9876.2012.01055.x>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2023-08-29",
+  "authors": [
+    {
+      "name": "Heidi Seibold",
+      "directory_id": "heidi-seibold"
+    },
+    {
+      "name": "Monia Mahling"
+    },
+    {
+      "name": "Sebastian Linne"
+    },
+    {
+      "name": "Felix Guenther"
+    },
+    {
+      "name": "Rickmer Schulte",
+      "roles": [
+        "cre"
+      ],
+      "email": "R.Schulte@campus.lmu.de"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "logmult",
+  "title": "Log-Multiplicative Models, Including Association Models",
+  "description": "Functions to fit log-multiplicative models using 'gnm', with support for convenient printing, plots, and jackknife/bootstrap standard errors. For complex survey data, models can be fitted from design objects from the 'survey' package. Currently supported models include UNIDIFF (Erikson & Goldthorpe, 1992), a.k.a. log-multiplicative layer effect model (Xie, 1992) <doi:10.2307/2096242>, and several association models: Goodman (1979) <doi:10.2307/2286971> row-column association models of the RC(M) and RC(M)-L families with one or several dimensions; two skew-symmetric association models proposed by Yamaguchi (1990) <doi:10.2307/271086> and by van der Heijden & Mooijaart (1995) <doi:10.1177/0049124195024001002> Functions allow computing the intrinsic association coefficient (see Bouchet-Valat (2022) <doi:10.1177/0049124119852389>) and the Altham (1970) index <doi:10.1111/j.2517-6161.1970.tb00816.x>, including via the Bayes shrinkage estimator proposed by Zhou (2015) <doi:10.1177/0081175015570097>; and the RAS/IPF/Deming-Stephan algorithm.",
+  "repo_url": "https://github.com/nalimilan/logmult",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/nalimilan/logmult/issues",
+  "logo_url": null,
+  "last_updated": "2025-08-25",
+  "authors": [
+    {
+      "name": "Milan Bouchet-Valat",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "nalimilan@club.fr"
+    },
+    {
+      "name": "Heather Turner",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "heather-turner"
+    },
+    {
+      "name": "Michael Friendly",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Jim Lemon",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "Gabor Csardi",
+      "roles": [
+        "cph"
+      ]
+    }
+  ]
+}

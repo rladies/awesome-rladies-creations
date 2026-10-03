@@ -1,42 +1,54 @@
 name: New Package
-description: Submit an R package authored by an R-Ladies community member
+description: Submit one or more R packages authored by R-Ladies community members
 title: "[New Package]: "
 labels: ["package-submission"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for submitting a new R package! :tada:
+        Thanks for submitting! :tada: You can list **one package per line** —
+        no need to open a separate issue for each.
 
-        Once you open this issue, a bot will try to look the package up on
-        r-universe and CRAN, generate a JSON file under `data/packages/`, push
-        it to a new branch, and open a draft pull request linked to this
-        issue. You'll be tagged on the PR so you can review the file (e.g.
-        adding `directory_id` for additional authors) before it is merged.
-  - type: input
-    id: package
+        Once you open this issue, a bot will look each package up on r-universe
+        and CRAN, generate a JSON file under `data/packages/`, push them to a
+        new branch, and open a single **draft** pull request linked to this issue.
+        You'll be tagged on the PR so you can review the files (e.g. adding
+        `directory_id` for additional authors). When the data looks good,
+        click **Ready for review** at the bottom of the PR — that's the signal
+        for maintainers to merge it.
+  - type: textarea
+    id: packages
     attributes:
-      label: Package Name
-      description: The package's `Package:` field, e.g. `meetupr`.
-      placeholder: ex. meetupr
+      label: Packages
+      description: |
+        One package per line. Each line is either:
+        - `pkg` — uses the default r-universe owner below (or CRAN as fallback)
+        - `pkg @ owner` — overrides the default owner for that package
+      placeholder: |
+        meetupr
+        praise @ rladies
+        myotherpkg @ someorg
+      render: text
     validations:
       required: true
   - type: input
     id: owner
     attributes:
-      label: R-universe Owner / GitHub Org or User
+      label: Default R-universe Owner / GitHub Org or User
       description: |
-        The r-universe namespace or GitHub user/org that hosts the package.
-        Used to query `https://<owner>.r-universe.dev`. If left empty we'll
-        fall back to CRAN.
+        Default r-universe namespace used for any line that doesn't specify
+        `@ owner`. Used to query `https://<owner>.r-universe.dev`. If left
+        empty we'll fall back to CRAN.
       placeholder: ex. rladies
     validations:
       required: false
   - type: input
     id: repo_url
     attributes:
-      label: Repository URL
-      description: GitHub/GitLab/Codeberg URL for the package source.
+      label: Repository URL (single-package only)
+      description: |
+        GitHub/GitLab/Codeberg URL for the package source. Only used when
+        you've listed exactly one package above — otherwise leave blank.
       placeholder: ex. https://github.com/rladies/meetupr
     validations:
       required: false
@@ -46,7 +58,8 @@ body:
       label: Directory IDs
       description: |
         If you (or co-authors) have an entry in the [R-Ladies directory](https://github.com/rladies/directory),
-        list one directory id per line so we can link the package to your profile(s).
+        list one directory id per line so we can link the package(s) to your
+        profile(s). These apply to **every** package in this issue.
         Use the slug (filename without `.json`) from the directory.
 
         Each line is either:

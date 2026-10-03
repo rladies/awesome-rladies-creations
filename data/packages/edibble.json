@@ -1,0 +1,23 @@
+{
+  "name": "edibble",
+  "title": "Encapsulating Elements of Experimental Design",
+  "description": "A system to facilitate designing comparative (and non-comparative) experiments using the grammar of experimental designs <https://emitanaka.org/edibble-book/>. An experimental design is treated as an intermediate, mutable object that is built progressively by fundamental experimental components like units, treatments, and their relation. The system aids in experimental planning, management and workflow.",
+  "repo_url": "https://github.com/emitanaka/edibble",
+  "pkdown_url": "https://edibble.emitanaka.org/",
+  "bug_reports_url": "https://github.com/emitanaka/edibble/issues",
+  "logo_url": "https://edibble.emitanaka.org/logo.png",
+  "last_updated": "2025-03-30",
+  "authors": [
+    {
+      "name": "Emi Tanaka",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0000-0002-1455-259X",
+      "directory_id": "emi-tanaka",
+      "email": "dr.emi.tanaka@gmail.com"
+    }
+  ]
+}

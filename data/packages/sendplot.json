@@ -1,0 +1,32 @@
+{
+  "name": "sendplot",
+  "title": "Tool for sending interactive plots with tool-tip content.",
+  "description": "A tool for visualizing data",
+  "repo_url": "https://github.com/lshep/sendplot",
+  "pkdown_url": "http://sphhp.buffalo.edu/biostat/research/software/sendplot/index.php",
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Daniel P Gaile"
+    },
+    {
+      "name": "Lori A. Shepherd",
+      "roles": [
+        "cre"
+      ],
+      "email": "las65@buffalo.edu",
+      "directory_id": "lori-shepherd"
+    },
+    {
+      "name": "Lara Sucheston"
+    },
+    {
+      "name": "Andrew Bruno"
+    },
+    {
+      "name": "Kenneth F. Manly"
+    }
+  ]
+}

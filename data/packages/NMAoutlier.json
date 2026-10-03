@@ -1,0 +1,42 @@
+{
+  "name": "NMAoutlier",
+  "title": "Detecting Outliers in Network Meta-Analysis",
+  "description": "A set of functions providing several outlier (i.e., studies with extreme findings) and influential detection measures and methodologies in network meta-analysis : - simple outlier and influential detection measures - outlier and influential detection measures by considering study deletion (shift the mean) - plots for outlier and influential detection measures - Q-Q plot for network meta-analysis - Forward Search algorithm in network meta-analysis. - forward plots to monitor statistics in each step of the forward search algorithm - forward plots for summary estimates and their confidence intervals in each step of forward search algorithm.",
+  "repo_url": "https://github.com/petropouloumaria/NMAoutlier",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": "https://raw.githubusercontent.com/petropouloumaria/NMAoutlier/HEAD/man/figures/NMAoutlier_logo.png",
+  "last_updated": "2025-09-12",
+  "authors": [
+    {
+      "name": "Maria Petropoulou",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-7147-3644",
+      "directory_id": "maria-petropoulou",
+      "email": "maria.petropoulou@uniklinik-freiburg.de"
+    },
+    {
+      "name": "Guido Schwarzer",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6214-9087"
+    },
+    {
+      "name": "Agapios Panos",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Dimitris Mavridis",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1041-4592"
+    }
+  ]
+}

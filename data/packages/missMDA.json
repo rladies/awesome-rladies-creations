@@ -1,0 +1,28 @@
+{
+  "name": "missMDA",
+  "title": "Handling Missing Values with Multivariate Data Analysis",
+  "description": "Imputation of incomplete continuous or categorical datasets; Missing values are imputed with a principal component analysis (PCA), a multiple correspondence analysis (MCA) model or a multiple factor analysis (MFA) model; Perform multiple imputation with and in PCA or MCA.",
+  "repo_url": "https://github.com/husson/missMDA",
+  "pkdown_url": "http://factominer.free.fr/missMDA/index.html",
+  "bug_reports_url": "https://github.com/husson/missMDA/issues",
+  "logo_url": null,
+  "last_updated": "2026-02-12",
+  "authors": [
+    {
+      "name": "Francois Husson",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-7271-8877",
+      "email": "francois.husson@institut-agro.fr"
+    },
+    {
+      "name": "Julie Josse",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "julie-josse"
+    }
+  ]
+}

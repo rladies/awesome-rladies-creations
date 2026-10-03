@@ -1,0 +1,111 @@
+{
+  "name": "nimble",
+  "title": "MCMC, Particle Filtering, and Programmable Hierarchical Modeling",
+  "description": "A system for writing hierarchical statistical models largely compatible with 'BUGS' and 'JAGS', writing nimbleFunctions to operate models and do basic R-style math, and compiling both models and nimbleFunctions via custom-generated C++. 'NIMBLE' includes default methods for MCMC, Laplace Approximation, deterministic nested approximations, Monte Carlo Expectation Maximization, and some other tools. The nimbleFunction system makes it easy to do things like implement new MCMC samplers from R, customize the assignment of samplers to different parts of a model from R, and compile the new samplers automatically via C++ alongside the samplers 'NIMBLE' provides. 'NIMBLE' extends the 'BUGS'/'JAGS' language by making it extensible: New distributions and functions can be added, including as calls to external compiled code. Although most people think of MCMC as the main goal of the 'BUGS'/'JAGS' language for writing models, one can use 'NIMBLE' for writing arbitrary other kinds of model-generic algorithms as well. A full User Manual is available at <https://r-nimble.org>.",
+  "repo_url": "https://github.com/nimble-dev/nimble",
+  "pkdown_url": "https://r-nimble.org",
+  "bug_reports_url": "https://github.com/nimble-dev/nimble/issues",
+  "logo_url": null,
+  "last_updated": "2026-04-01",
+  "authors": [
+    {
+      "name": "Perry de Valpine",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Christopher Paciorek",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "paciorek@stat.berkeley.edu"
+    },
+    {
+      "name": "Daniel Turek",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Nick Michaud",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Cliff Anderson-Bergman",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Fritz Obermeyer",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Claudia Wehrhahn Cortes",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Abel Rodríguez",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Duncan Temple Lang",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Wei Zhang",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Sally Paganin",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "sally-paganin"
+    },
+    {
+      "name": "Joshua Hug",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Paul van Dam-Bates",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jagadish Babu",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Lauren Ponisio",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Peter Sujan",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

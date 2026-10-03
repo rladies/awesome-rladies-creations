@@ -1,0 +1,78 @@
+{
+  "name": "vcdExtra",
+  "title": "'vcd' Extensions and Additions",
+  "description": "Provides additional data sets, methods and documentation to complement the 'vcd' package for Visualizing Categorical Data and the 'gnm' package for Generalized Nonlinear Models. In particular, 'vcdExtra' extends mosaic, assoc and sieve plots from 'vcd' to handle 'glm()' and 'gnm()' models and adds a 3D version in 'mosaic3d'. Additionally, methods are provided for comparing and visualizing lists of 'glm' and 'loglm' objects. This package is now a support package for the book, \"Discrete Data Analysis with R\" by Michael Friendly and David Meyer.",
+  "repo_url": "https://github.com/friendly/vcdExtra",
+  "pkdown_url": "https://friendly.github.io/vcdExtra/",
+  "bug_reports_url": "https://github.com/friendly/vcdExtra/issues",
+  "logo_url": "https://friendly.github.io/vcdExtra/logo.png",
+  "last_updated": "2026-03-18",
+  "authors": [
+    {
+      "name": "Michael Friendly",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-3237-0941",
+      "email": "friendly@yorku.ca"
+    },
+    {
+      "name": "David Meyer",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Achim Zeileis",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-0918-3766"
+    },
+    {
+      "name": "Duncan Murdoch",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Heather Turner",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-1256-3375",
+      "directory_id": "heather-turner"
+    },
+    {
+      "name": "David Firth",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Daniel Sabanes Bove",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Matt Kumar",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Shuguang Sun",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Gavin Klorfine",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "gnm",
+  "title": "Generalized Nonlinear Models",
+  "description": "Functions to specify and fit generalized nonlinear models, including models with multiplicative interaction terms such as the UNIDIFF model from sociology and the AMMI model from crop science, and many others. Over-parameterized representations of models are used throughout; functions are provided for inference on estimable parameter combinations, as well as standard methods for diagnostics etc.",
+  "repo_url": "https://github.com/hturner/gnm",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/hturner/gnm/issues",
+  "logo_url": null,
+  "last_updated": "2023-09-16",
+  "authors": [
+    {
+      "name": "Heather Turner",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-1256-3375",
+      "directory_id": "heather-turner",
+      "email": "ht@heatherturner.net"
+    },
+    {
+      "name": "David Firth",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0302-2312"
+    },
+    {
+      "name": "Brian Ripley",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Bill Venables",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Douglas M. Bates",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Martin Maechler",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-8685-9910"
+    }
+  ]
+}

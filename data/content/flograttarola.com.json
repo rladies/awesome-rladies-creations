@@ -1,0 +1,22 @@
+{
+  "title": "Site | FLORENCIA GRATTAROLA",
+  "type": "blog",
+  "url": "https://flograttarola.com/",
+  "rss_feed": "https://flograttarola.com/index.xml",
+  "photo_url": "https://flograttarola.com/media/sharing.jpg",
+  "description": "Postdoc Researcher",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Florencia Grattarola",
+      "social_media": [
+        {
+          "twitter": "flograttarola",
+          "bluesky": "flograttarola.bsky.social",
+          "mastodon": "@flograttarola@ecoevo.social/",
+          "website": "https://flograttarola.com/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "infiltrodiscR",
+  "title": "Minidisc Infiltrometer Data Management",
+  "description": "A set of functions for the modeling of data derived from the Minidisc Infiltrometer device. It calculates cumulative infiltration and square root of time. Also, it calculates the A parameter based on soil physical properties.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-07-21",
+  "authors": [
+    {
+      "name": "Carolina V. Giraldo",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-0627-8762"
+    },
+    {
+      "name": "Sara E. Acevedo",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-3203-2106",
+      "email": "seaceved@uc.cl",
+      "directory_id": "sara-acevedo"
+    },
+    {
+      "name": "Carlos A. Bonilla",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-3107-999X"
+    }
+  ]
+}

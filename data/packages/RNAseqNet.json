@@ -1,0 +1,27 @@
+{
+  "name": "RNAseqNet",
+  "title": "Log-Linear Poisson Graphical Model with Hot-Deck Multiple\nImputation",
+  "description": "Infer log-linear Poisson Graphical Model with an auxiliary data set. Hot-deck multiple imputation method is used to improve the reliability of the inference with an auxiliary dataset. Standard log-linear Poisson graphical model can also be used for the inference and the Stability Approach for Regularization Selection (StARS) is implemented to drive the selection of the regularization parameter. The method is fully described in <doi:10.1093/bioinformatics/btx819>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-02-20",
+  "authors": [
+    {
+      "name": "Alyssa Imbert",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Nathalie Vialaneix",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "nathalie-vialaneix",
+      "email": "nathalie.vialaneix@inrae.fr"
+    }
+  ]
+}

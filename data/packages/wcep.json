@@ -1,0 +1,55 @@
+{
+  "name": "wcep",
+  "title": "Survival Analysis for Weighted Composite Endpoints",
+  "description": "Analyze given data frame with multiple endpoints and return Kaplan-Meier survival probabilities together with the specified confidence interval. See Nabipoor M, Westerhout CM, Rathwell S, and Bakal JA (2023) <doi:10.1186/s12874-023-01857-0>.",
+  "repo_url": "https://github.com/sarah-0k/wcep",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/sarah-0k/wcep/issues",
+  "logo_url": null,
+  "last_updated": "2026-01-28",
+  "authors": [
+    {
+      "name": "Jeffrey Bakal",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3658-2554"
+    },
+    {
+      "name": "Cynthia Westerhout",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1082-5981"
+    },
+    {
+      "name": "Sarah Rathwell",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "orcid": "0000-0003-3176-994X",
+      "directory_id": "sarah-rathwell",
+      "email": "srathwel@ualberta.ca"
+    },
+    {
+      "name": "Caroline Falvey",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Huiman Barnhart",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Na Zhang",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-7850-280X"
+    }
+  ]
+}

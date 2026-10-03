@@ -1,0 +1,20 @@
+{
+  "name": "USCensus2020",
+  "title": "Provides access to the 2020 census data in R",
+  "description": "This packages provides the access to the 2020 redistricting data and the helper functions which are used to better access and format the data",
+  "repo_url": "https://github.com/shreshtha48/USCensus2020",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "shreshtha modi",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "shreshtha-modi",
+      "email": "modishreshtha48@gmail.com"
+    }
+  ]
+}

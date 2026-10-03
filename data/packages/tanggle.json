@@ -1,0 +1,65 @@
+{
+  "name": "tanggle",
+  "title": "Visualization of Phylogenetic Networks",
+  "description": "Offers functions for plotting split (or implicit) networks (unrooted, undirected) and explicit networks (rooted, directed) with reticulations extending. 'ggtree' and using functions from 'ape' and 'phangorn'. It extends the 'ggtree' package [@Yu2017] to allow the visualization of phylogenetic networks using the 'ggplot2' syntax. It offers an alternative to the plot functions already available in 'ape' Paradis and Schliep (2019) <doi:10.1093/bioinformatics/bty633> and 'phangorn' Schliep (2011) <doi:10.1093/bioinformatics/btq706>.",
+  "repo_url": "https://github.com/KlausVigo/tanggle",
+  "pkdown_url": "https://klausvigo.github.io/tanggle/",
+  "bug_reports_url": "https://github.com/KlausVigo/tanggle/issues",
+  "logo_url": "https://klausvigo.github.io/tanggle/logo.png",
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Klaus Schliep",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-2941-0161",
+      "email": "klaus.schliep@gmail.com"
+    },
+    {
+      "name": "Marta Vidal-Garcia",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "marta-vidalgarcia"
+    },
+    {
+      "name": "Claudia Solis-Lemus",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9789-8915"
+    },
+    {
+      "name": "Leann Biancani",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Eren Ada",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "L. Francisco Henao Diaz",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Guangchuang Yu",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Joshua Justison",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "regscoreR",
+  "title": "Regression Scores",
+  "description": "An R package to compute scores for different regression models.",
+  "repo_url": "https://github.com/UBC-MDS/regscoreR",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/UBC-MDS/regscoreR/issues",
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Simran Sethi",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "simran-sethi",
+      "email": "simrannsethi@gmail.com"
+    },
+    {
+      "name": "Ha Dinh",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Ruoqi Xu",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

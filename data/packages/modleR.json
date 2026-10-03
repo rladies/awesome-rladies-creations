@@ -1,0 +1,54 @@
+{
+  "name": "modleR",
+  "title": "A Workflow for Ecological Niche Models",
+  "description": "This package implements a workflow to perform ecological niche modeling (ENM), including some procedures of data preparation and cleaning, the setup of several experimental designs (crossvalidation, repeated crossvalidation and bootstrap), the application of inclusion and exclusion buffers to background selection, fitting algorithms that are already implemented in dismo, randomForest, e1071, kernlab packages, namely: Bioclim, Domain, GLM, Mahalanobis Distance, Maxent, Random Forest, and two versions of Support Vector Machines (here svmk and svme). It uses the structure provided by package dismo for model evaluation and projects the models into other sets of environmental variables. A function to join individual partitions in several ways is provided in final_model(). Finally, ensemble_model() assembles models from distinct algorithms and provides summary rasters.",
+  "repo_url": "https://github.com/Model-R/modleR",
+  "pkdown_url": "https://model-r.github.io/modleR/index.html",
+  "bug_reports_url": "https://github.com/Model-R/modleR/issues",
+  "logo_url": "https://raw.githubusercontent.com/Model-R/modleR/HEAD/vignettes/modleR.png",
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Andrea Sánchez-Tapia",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-3521-4338",
+      "directory_id": "andrea-sancheztapia",
+      "email": "andreasancheztapia@gmail.com"
+    },
+    {
+      "name": "Sara Mortara",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6221-7537"
+    },
+    {
+      "name": "Diogo Rocha",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-2913-4072"
+    },
+    {
+      "name": "Felipe Barros",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Guilherme Gall",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Tiago Castro Silva",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

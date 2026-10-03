@@ -1,0 +1,22 @@
+{
+  "name": "scDD",
+  "title": "Mixture modeling of single-cell RNA-seq data to identify genes\nwith differential distributions",
+  "description": "This package implements a method to analyze single-cell RNA- seq Data utilizing flexible Dirichlet Process mixture models. Genes with differential distributions of expression are classified into several interesting patterns of differences between two conditions. The package also includes functions for simulating data with these patterns from negative binomial distributions.",
+  "repo_url": "https://github.com/kdkorthauer/scDD",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/kdkorthauer/scDD/issues",
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Keegan Korthauer",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "orcid": "0000-0002-4565-1654",
+      "directory_id": "keegan-korthauer",
+      "email": "keegan@stat.ubc.ca"
+    }
+  ]
+}

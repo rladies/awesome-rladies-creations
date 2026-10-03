@@ -1,0 +1,21 @@
+{
+  "name": "chartkickR",
+  "title": "What the Package Does (One Line, Title Case)",
+  "description": "This is an implementation of the Chartkick.js library in R using the htmlwidgets framework.",
+  "repo_url": "https://github.com/BWOlatunji/chartkickR",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/BWOlatunji/chartkickR/issues",
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Bilikisu Olatunji",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0009-0005-9144-6423",
+      "directory_id": "bilikisu-wunmi-aderinto"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "agroclimatico",
+  "title": "Índices y Estadísticos Climáticos e Hidrológicos",
+  "description": "Conjunto de funciones para calcular índices y estadísticos climáticos hidrológicos a partir de datos tidy. Incluye una función para graficar resultados georeferenciados y e información cartográfica.",
+  "repo_url": "https://github.com/ropensci/agroclimatico",
+  "pkdown_url": "https://docs.ropensci.org/agroclimatico/",
+  "bug_reports_url": "https://github.com/ropensci/agroclimatico/issues",
+  "logo_url": "https://docs.ropensci.org/agroclimatico/logo.png",
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Yanina Bellini Saibene",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "yanina-bellini-saibene"
+    },
+    {
+      "name": "Elio Campitelli",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-7742-9230"
+    },
+    {
+      "name": "Paola Corrales",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "email": "paola.corrales@cima.fcen.uba.ar"
+    },
+    {
+      "name": "Natalia Gattinoni",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Ruida Zhong",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "Verónica Cruz-Alonso",
+      "roles": [
+        "rev"
+      ]
+    },
+    {
+      "name": "Priscilla Minotti",
+      "roles": [
+        "rev"
+      ]
+    }
+  ]
+}

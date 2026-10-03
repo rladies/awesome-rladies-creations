@@ -1,0 +1,29 @@
+{
+  "name": "HTSCluster",
+  "title": "Clustering High-Throughput Transcriptome Sequencing (HTS) Data",
+  "description": "A Poisson mixture model is implemented to cluster genes from high- throughput transcriptome sequencing (RNA-seq) data. Parameter estimation is performed using either the EM or CEM algorithm, and the slope heuristics are used for model selection (i.e., to choose the number of clusters).",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2023-09-05",
+  "authors": [
+    {
+      "name": "Andrea Rau",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "andrea-rau",
+      "email": "andrea.rau@jouy.inra.fr"
+    },
+    {
+      "name": "Gilles Celeux"
+    },
+    {
+      "name": "Marie-Laure Martin-Magniette"
+    },
+    {
+      "name": "Cathy Maugis- Rabusseau"
+    }
+  ]
+}

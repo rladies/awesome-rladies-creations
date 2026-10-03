@@ -1,0 +1,40 @@
+{
+  "name": "HTSFilter",
+  "title": "Filter replicated high-throughput transcriptome sequencing data",
+  "description": "This package implements a filtering procedure for replicated transcriptome sequencing data based on a global Jaccard similarity index in order to identify genes with low, constant levels of expression across one or more experimental conditions.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Andrea Rau",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "orcid": "0000-0001-6469-488X",
+      "directory_id": "andrea-rau",
+      "email": "andrea.rau@inrae.fr"
+    },
+    {
+      "name": "Melina Gallopin",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Gilles Celeux",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Florence Jaffrézic",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

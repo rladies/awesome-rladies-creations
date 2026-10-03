@@ -1,0 +1,20 @@
+{
+  "name": "dobtools",
+  "title": "dobtools",
+  "description": "A smattering of analysis helpers to improve reproducibility.",
+  "repo_url": "https://github.com/aedobbyn/dobtools",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Amanda Dobbyn",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "amanda-dobbyn",
+      "email": "amanda.e.dobbyn@gmail.com"
+    }
+  ]
+}

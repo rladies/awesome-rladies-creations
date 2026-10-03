@@ -1,0 +1,88 @@
+{
+  "name": "aws.s3",
+  "title": "'AWS S3' Client Package",
+  "description": "A simple client package for the Amazon Web Services ('AWS') Simple Storage Service ('S3') 'REST' 'API' <https://aws.amazon.com/s3/>.",
+  "repo_url": "https://github.com/cloudyr/aws.s3",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/cloudyr/aws.s3/issues",
+  "logo_url": null,
+  "last_updated": "2025-08-19",
+  "authors": [
+    {
+      "name": "Thomas J. Leeper",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4097-6326"
+    },
+    {
+      "name": "Boettiger Carl",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Andrew Martin",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Mark Thompson",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Tyler Hunt",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Steven Akins",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Bao Nguyen",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Thierry Onkelinx",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Andrii Degtiarov",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Dhruv Aggarwal",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Alyssa Columbus",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "alyssa-columbus"
+    },
+    {
+      "name": "Simon Urbanek",
+      "roles": [
+        "cre",
+        "ctb"
+      ],
+      "email": "simon.urbanek@R-project.org"
+    }
+  ]
+}

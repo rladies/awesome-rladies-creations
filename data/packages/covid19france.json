@@ -1,0 +1,21 @@
+{
+  "name": "covid19france",
+  "title": "Cases of COVID-19 in France",
+  "description": "Imports and cleans 'opencovid19-fr' <https://github.com/opencovid19-fr/data> data on COVID-19 in France.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2020-04-14",
+  "authors": [
+    {
+      "name": "Amanda Dobbyn",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "amanda-dobbyn",
+      "email": "amanda.e.dobbyn@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "mvord",
+  "title": "Multivariate Ordinal Regression Models",
+  "description": "A flexible framework for fitting multivariate ordinal regression models with composite likelihood methods. Methodological details are given in Hirk, Hornik, Vana (2020) <doi:10.18637/jss.v093.i04>.",
+  "repo_url": "https://github.com/lauravana/mvord",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/lauravana/mvord/issues",
+  "logo_url": null,
+  "last_updated": "2025-06-02",
+  "authors": [
+    {
+      "name": "Rainer Hirk",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Kurt Hornik",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4198-9911"
+    },
+    {
+      "name": "Laura Vana",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-9613-7604",
+      "directory_id": "laura-vana",
+      "email": "laura.vana@tuwien.ac.at"
+    },
+    {
+      "name": "Alan Gentz",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

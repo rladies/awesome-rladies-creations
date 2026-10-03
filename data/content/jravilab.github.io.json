@@ -1,0 +1,23 @@
+{
+  "title": "JRaviLab",
+  "type": "blog",
+  "url": "https://jravilab.github.io/",
+  "rss_feed": "https://jravilab.github.io/index.xml",
+  "photo_url": "https://jravilab.github.io/img/jananiravi-grp-webpage-logo.png",
+  "description": "Janani Ravi",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Janani Ravi",
+      "social_media": [
+        {
+          "twitter": "janani137",
+          "bluesky": "jananiravi.bsky.social",
+          "mastodon": "@JananiRavi@genomic.social",
+          "github": "jananiravi",
+          "website": "https://jravilab.github.io"
+        }
+      ]
+    }
+  ]
+}

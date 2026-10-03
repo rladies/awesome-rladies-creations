@@ -1,0 +1,33 @@
+{
+  "name": "implicitMeasures",
+  "title": "Compute Scores for Different Implicit Measures",
+  "description": "A tool for computing the scores for the Implicit Association Test (IAT; Greenwald, McGhee & Schwartz (1998) <doi:10.1037/0022-3514.74.6.1464>) and the Single Category-IAT (SC-IAT: Karpinski & Steinman (2006) <doi:10.1037/0022-3514.91.1.16>). Functions for preparing the data (both for the IAT and the SC-IAT), plotting the results, and obtaining a table with the scores of implicit measures descriptive statistics are provided.",
+  "repo_url": "https://github.com/OttaviaE/implicitMeasures",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": null,
+  "authors": [
+    {
+      "name": "Ottavia M. Epifania",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "otta.epifania@gmail.com",
+      "directory_id": "ottavia-epifania"
+    },
+    {
+      "name": "Pasquale Anselmi",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Egidio Robusto",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

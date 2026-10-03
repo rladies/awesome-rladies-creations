@@ -1,0 +1,33 @@
+{
+  "name": "ordinalClust",
+  "title": "Ordinal Data Clustering, Co-Clustering and Classification",
+  "description": "Ordinal data classification, clustering and co-clustering using model-based approach with the BOS (Binary Ordinal Search) distribution for ordinal data (Christophe Biernacki and Julien Jacques (2016) <doi:10.1007/s11222-015-9585-2>).",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-04-21",
+  "authors": [
+    {
+      "name": "Margot Selosse",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "margot-selosse"
+    },
+    {
+      "name": "Julien Jacques",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "julien.jacques@univ-lyon2.fr"
+    },
+    {
+      "name": "Christophe Biernacki",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

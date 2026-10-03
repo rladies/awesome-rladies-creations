@@ -1,0 +1,50 @@
+{
+  "name": "tailor",
+  "title": "Iterative Steps for Postprocessing Model Predictions",
+  "description": "Postprocessors refine predictions outputted from machine learning models to improve predictive performance or better satisfy distributional limitations. This package introduces 'tailor' objects, which compose iterative adjustments to model predictions. A number of pre-written adjustments are provided with the package, such as calibration. See Lichtenstein, Fischhoff, and Phillips (1977) <doi:10.1007/978-94-010-1276-8_19>. Other methods and utilities to compose new adjustments are also included. Tailors are tightly integrated with the 'tidymodels' framework.",
+  "repo_url": "https://github.com/tidymodels/tailor",
+  "pkdown_url": "https://tailor.tidymodels.org",
+  "bug_reports_url": "https://github.com/tidymodels/tailor/issues",
+  "logo_url": null,
+  "last_updated": "2025-08-25",
+  "authors": [
+    {
+      "name": "Simon Couch",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Hannah Frick",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "hannah-frick"
+    },
+    {
+      "name": "Emil HvitFeldt",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Max Kuhn",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-2402-136X",
+      "email": "max@posit.co"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

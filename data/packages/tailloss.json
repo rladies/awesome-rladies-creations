@@ -1,0 +1,27 @@
+{
+  "name": "tailloss",
+  "title": "Estimate the Probability in the Upper Tail of the Aggregate Loss\nDistribution",
+  "description": "Set of tools to estimate the probability in the upper tail of the aggregate loss distribution using different methods: Panjer recursion, Monte Carlo simulations, Markov bound, Cantelli bound, Moment bound, and Chernoff bound.",
+  "repo_url": "http://github.com/igollini/tailloss",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2015-07-08",
+  "authors": [
+    {
+      "name": "Isabella Gollini",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "isabella-gollini",
+      "email": "igollini.stats@gmail.com"
+    },
+    {
+      "name": "Jonathan Rougier",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "coseq",
+  "title": "Co-Expression Analysis of Sequencing Data",
+  "description": "Co-expression analysis for expression profiles arising from high-throughput sequencing data. Feature (e.g., gene) profiles are clustered using adapted transformations and mixture models or a K-means algorithm, and model selection criteria (to choose an appropriate number of clusters) are provided.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Andrea Rau",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "orcid": "0000-0001-6469-488X",
+      "directory_id": "andrea-rau",
+      "email": "andrea.rau@inrae.fr"
+    },
+    {
+      "name": "Cathy Maugis-Rabusseau",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Antoine Godichon-Baggioni",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

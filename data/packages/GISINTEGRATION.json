@@ -1,0 +1,39 @@
+{
+  "name": "GISINTEGRATION",
+  "title": "GIS Integration",
+  "description": "Designed to facilitate the preprocessing and linking of GIS (Geographic Information System) databases <https://www.sciencedirect.com/topics/computer-science/gis-database>, the R package 'GISINTEGRATION' offers a robust solution for efficiently preparing GIS data for advanced spatial analyses. This package excels in simplifying intrica procedures like data cleaning, normalization, and format conversion, ensuring that the data are optimally primed for precise and thorough analysis.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-01-10",
+  "authors": [
+    {
+      "name": "Hossein Hassani",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Leila Marvian Mashhad",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "Leila.marveian@gmail.com",
+      "directory_id": "leila-marvian"
+    },
+    {
+      "name": "Sara Stewart",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Steve Macfeelys",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "dmrseq",
+  "title": "Detection and inference of differentially methylated regions\nfrom Whole Genome Bisulfite Sequencing",
+  "description": "This package implements an approach for scanning the genome to detect and perform accurate inference on differentially methylated regions from Whole Genome Bisulfite Sequencing data. The method is based on comparing detected regions to a pooled null distribution, that can be implemented even when as few as two samples per population are available. Region-level statistics are obtained by fitting a generalized least squares (GLS) regression model with a nested autoregressive correlated error structure for the effect of interest on transformed methylation proportions.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Keegan Korthauer",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "orcid": "0000-0002-4565-1654",
+      "directory_id": "keegan-korthauer",
+      "email": "keegan@stat.ubc.ca"
+    },
+    {
+      "name": "Rafael Irizarry",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3944-4309"
+    },
+    {
+      "name": "Yuval Benjamini",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Sutirtha Chakraborty",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ebdbNet",
+  "title": "Empirical Bayes Estimation of Dynamic Bayesian Networks",
+  "description": "Infer the adjacency matrix of a network from time course data using an empirical Bayes estimation procedure based on Dynamic Bayesian Networks.",
+  "repo_url": "https://github.com/andreamrau/ebdbNet",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2023-09-04",
+  "authors": [
+    {
+      "name": "Andrea Rau",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "andrea-rau",
+      "email": "andrea.rau@inra.fr"
+    }
+  ]
+}

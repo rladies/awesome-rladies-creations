@@ -1,0 +1,27 @@
+{
+  "name": "PreProcessRecordLinkage",
+  "title": "Preprocessing Record Linkage",
+  "description": "In this record linkage package, data preprocessing has been meticulously executed to cover a wide range of datasets, ensuring that variable names are standardized using synonyms. This approach facilitates seamless data integration and analysis across various datasets. While users have the flexibility to modify variable names, the system intelligently ensures that changes are only permitted when they do not compromise data consistency or essential variable essence.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2023-09-13",
+  "authors": [
+    {
+      "name": "Hossein Hassani",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Leila Marvian Mashhad",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "Leila.marveian@gmail.com",
+      "directory_id": "leila-marvian"
+    }
+  ]
+}

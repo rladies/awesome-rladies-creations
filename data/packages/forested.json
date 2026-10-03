@@ -1,0 +1,46 @@
+{
+  "name": "forested",
+  "title": "Forest Attributes in U.S. States",
+  "description": "A small subset of plots throughout the U.S. are sampled and assessed \"on-the-ground\" as forested or non-forested by the U.S. Department of Agriculture, Forest Service, Forest Inventory and Analysis (FIA) Program, but the FIA also has access to remotely sensed data for all land in the country. The 'forested' package contains data frames intended for use in predictive modeling applications where the more easily-accessible remotely sensed data can be used to predict whether a plot is forested or non-forested. Currently, the package provides data for Washington and Georgia.",
+  "repo_url": "https://github.com/simonpcouch/forested",
+  "pkdown_url": "https://simonpcouch.github.io/forested/",
+  "bug_reports_url": "https://github.com/simonpcouch/forested/issues",
+  "logo_url": "https://simonpcouch.github.io/forested/logo.png",
+  "last_updated": "2025-08-19",
+  "authors": [
+    {
+      "name": "Grayson White",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4993-2792"
+    },
+    {
+      "name": "Hannah Frick",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-6049-5258",
+      "directory_id": "hannah-frick"
+    },
+    {
+      "name": "Simon Couch",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0001-5676-5107",
+      "email": "simon.couch@posit.co"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}
