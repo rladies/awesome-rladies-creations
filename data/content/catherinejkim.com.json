@@ -1,0 +1,20 @@
+{
+  "title": "My page | Dr Catherine Kim",
+  "type": "blog",
+  "url": "https://www.catherinejkim.com/",
+  "rss_feed": "https://www.catherinejkim.com/index.xml",
+  "photo_url": "https://www.catherinejkim.com/media/logo_huad77e0538bd460e75d335659453816ce_23555_300x300_fit_lanczos_3.png",
+  "description": "Marine Science & Data Science",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Catherine Kim",
+      "social_media": [
+        {
+          "twitter": "fishiintheC",
+          "website": "http://www.catherinejkim.com"
+        }
+      ]
+    }
+  ]
+}
