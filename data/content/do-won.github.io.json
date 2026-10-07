@@ -1,0 +1,20 @@
+{
+  "title": "Do Won Kim",
+  "type": "blog",
+  "url": "https://do-won.github.io/",
+  "rss_feed": "https://do-won.github.io/index.xml",
+  "description": "I am a PhD candidate in Information at University of Maryland. I study computational social science and political behavior.",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Do Won Kim",
+      "social_media": [
+        {
+          "github": "DO-WON",
+          "bluesky": "dowonkim.bsky.social",
+          "website": "do-won.github.io"
+        }
+      ]
+    }
+  ]
+}
