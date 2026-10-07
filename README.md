@@ -41,6 +41,7 @@ aggregated file is written to `data/website/awesome_content.json`.
 - [Darya Vanichkina’s blog](https://www.daryavanichkina.com/posts.html)
   by Darya Vanichkina
 - [Data Pedagogy](https://www.datapedagogy.com/) by Mine Dogucu
+- [Do Won Kim](https://do-won.github.io/) by Do Won Kim
 - [Dr. Mowinckel’s blog](https://drmowinckels.io) by Athanasia Monika
   Mowinckel
 - [Elena Dudukina’s blog](https://elenadudukina.com) by Elena Dudukina
