@@ -346,6 +346,35 @@
     ]
   },
   {
+    "name": "arcenso",
+    "title": "Data from Argentina’s Population Census",
+    "description": "Provides access to tidy and curated data from Argentina's official population censuses, currently covering 1970 (national and subnational) and 1980 (national level). The package is designed to facilitate the exploration and reuse of historical census information through tools for data retrieval, validation, and interactive visualization.",
+    "repo_url": "https://github.com/SoyAndrea/arcenso",
+    "pkdown_url": "https://soyandrea.github.io/arcenso",
+    "bug_reports_url": "https://github.com/SoyAndrea/arcenso/issues",
+    "logo_url": "https://soyandrea.github.io/arcenso/logo.png",
+    "last_updated": "2026-01-29",
+    "authors": [
+      {
+        "name": "Andrea Gomez Vargas",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "email": "andrea.gomezv11@gmail.com",
+        "directory_id": "andrea-gomez-vargas",
+        "orcid": "0009-0007-8745-3967"
+      },
+      {
+        "name": "Emanuel Ciardullo",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0009-0004-9447-7420"
+      }
+    ]
+  },
+  {
     "name": "arrow",
     "title": "Integration to 'Apache' 'Arrow'",
     "description": "'Apache' 'Arrow' <https://arrow.apache.org/> is a cross-language development platform for in-memory data. It specifies a standardized language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware. This package provides an interface to the 'Arrow C++' library.",

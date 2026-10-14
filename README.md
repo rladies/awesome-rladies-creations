@@ -140,6 +140,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [aochelpers](https://github.com/EllaKaye/aochelpers) by Ella Kaye
 - [aperol](https://github.com/EllaKaye/aperol) by Ella Kaye, Kelly
   Bodwin, Collin Schwantes
+- [arcenso](https://github.com/SoyAndrea/arcenso) by Andrea Gomez
+  Vargas, Emanuel Ciardullo
 - [arrow](https://github.com/apache/arrow/) by Neal Richardson, Ian
   Cook, Nic Crane, Dewey Dunnington, Romain François, Jonathan Keane,
   Bryce Mecum, Dragoș Moldovan-Grünfeld, Jeroen Ooms, Jacob
