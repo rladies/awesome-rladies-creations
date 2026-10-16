@@ -1,0 +1,29 @@
+{
+  "name": "netdose",
+  "title": "Dose-Response Network Meta-Analysis in a Frequentist Way",
+  "description": "A set of functions providing the implementation of the network meta-analysis model with dose-response relationships, predicted values of the fitted model and dose-response plots in a frequentist way (Petropoulou et al., 2026) <doi:10.1186/s12874-025-02754-4>.",
+  "repo_url": "https://github.com/petropouloumaria/netdose",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-02-10",
+  "authors": [
+    {
+      "name": "Maria Petropoulou",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-7147-3644",
+      "directory_id": "maria-petropoulou",
+      "email": "m.petropoulou.a@gmail.com"
+    },
+    {
+      "name": "Guido Schwarzer",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6214-9087"
+    }
+  ]
+}
