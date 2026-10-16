@@ -1,0 +1,40 @@
+{
+  "name": "nlgeocoder",
+  "title": "Geocoding for the Netherlands",
+  "description": "Interface to the open location server API of 'Publieke Diensten Op de Kaart' (<http://www.pdok.nl>). It offers geocoding, address suggestions and lookup of geographical objects. Included is an utility function for displaying leaflet tiles restricted to the Netherlands.",
+  "repo_url": "https://github.com/uRosConf/nlgeocoder",
+  "pkdown_url": "https://urosconf.github.io/nlgeocoder/",
+  "bug_reports_url": "https://github.com/uRosConf/nlgeocoder/issues",
+  "logo_url": null,
+  "last_updated": "2025-12-16",
+  "authors": [
+    {
+      "name": "Willy Tadema",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "willy-tadema"
+    },
+    {
+      "name": "Egge-Jan Pollé",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Edwin de Jonge",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6580-4718",
+      "email": "edwindjonge@gmail.com"
+    },
+    {
+      "name": "Juris Breidaks",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}
