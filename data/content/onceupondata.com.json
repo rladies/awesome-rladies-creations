@@ -1,0 +1,19 @@
+{
+  "title": "https://www.onceupondata.com/",
+  "type": "blog",
+  "url": "https://www.onceupondata.com/",
+  "rss_feed": "https://www.onceupondata.com/index.xml",
+  "photo_url": "https://onceupondata.com/img/logo.png",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Omayma Said",
+      "social_media": [
+        {
+          "twitter": "OmaymaS_",
+          "website": "http://www.onceupondata.com/"
+        }
+      ]
+    }
+  ]
+}
