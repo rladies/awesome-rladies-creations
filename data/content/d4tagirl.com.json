@@ -1,0 +1,24 @@
+{
+  "title": "d4tagirl",
+  "type": "blog",
+  "url": "https://d4tagirl.com/",
+  "rss_feed": "https://d4tagirl.com/feed",
+  "photo_url": "https://d4tagirl.com/images/avatar.png",
+  "description": "A blog about a girl who found her way into data science :)",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Daniela Vázquez",
+      "social_media": [
+        {
+          "twitter": "d4tagirl",
+          "bluesky": "d4tagirl.bsky.social",
+          "mastodon": "@d4tagirl@hachyderm.io",
+          "linkedin": "d4tagirl",
+          "github": "d4tagirl",
+          "website": "https://d4tagirl.com"
+        }
+      ]
+    }
+  ]
+}
