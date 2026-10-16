@@ -1,0 +1,27 @@
+{
+  "name": "lvplot",
+  "title": "Letter Value 'Boxplots'",
+  "description": "Implements the letter value 'boxplot' which extends the standard 'boxplot' to deal with both larger and smaller number of data points by dynamically selecting the appropriate number of letter values to display.",
+  "repo_url": "https://github.com/hadley/lvplot",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/hadley/lvplot/issues",
+  "logo_url": null,
+  "last_updated": "2025-09-03",
+  "authors": [
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "hadley@rstudio.com"
+    },
+    {
+      "name": "Heike Hofmann",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "heike-hofmann"
+    }
+  ]
+}

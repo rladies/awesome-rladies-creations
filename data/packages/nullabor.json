@@ -1,0 +1,53 @@
+{
+  "name": "nullabor",
+  "title": "Tools for Graphical Inference",
+  "description": "Tools for visual inference. Generate null data sets and null plots using permutation and simulation. Calculate distance metrics for a lineup, and examine the distributions of metrics.",
+  "repo_url": "https://github.com/dicook/nullabor",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/dicook/nullabor/issues",
+  "logo_url": "https://raw.githubusercontent.com/dicook/nullabor/HEAD/man/figures/nullabor_hex.png",
+  "last_updated": "2025-02-10",
+  "authors": [
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "aut",
+        "ctb"
+      ],
+      "orcid": "0000-0003-4757-117X"
+    },
+    {
+      "name": "Niladri Roy Chowdhury",
+      "roles": [
+        "aut",
+        "ctb"
+      ]
+    },
+    {
+      "name": "Di Cook",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-3813-7155",
+      "email": "dicook@monash.edu"
+    },
+    {
+      "name": "Heike Hofmann",
+      "roles": [
+        "aut",
+        "ctb"
+      ],
+      "orcid": "0000-0001-6216-5183",
+      "directory_id": "heike-hofmann"
+    },
+    {
+      "name": "Måns Thulin",
+      "roles": [
+        "aut",
+        "ctb"
+      ],
+      "orcid": "0000-0002-2756-3933"
+    }
+  ]
+}

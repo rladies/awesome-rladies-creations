@@ -1,0 +1,27 @@
+{
+  "name": "productplots",
+  "title": "Product Plots for R",
+  "description": "Framework for visualising tables of counts, proportions and probabilities. The framework is called product plots, alluding to the computation of area as a product of height and width, and the statistical concept of generating a joint distribution from the product of conditional and marginal distributions. The framework, with extensions, is sufficient to encompass over 20 visualisations previously described in fields of statistical graphics and 'infovis', including bar charts, mosaic plots, 'treemaps', equal area plots and fluctuation diagrams.",
+  "repo_url": "https://github.com/hadley/productplots",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/hadley/productplots/issues",
+  "logo_url": null,
+  "last_updated": "2025-10-27",
+  "authors": [
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "hadley@posit.co"
+    },
+    {
+      "name": "Heike Hofmann",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "heike-hofmann"
+    }
+  ]
+}

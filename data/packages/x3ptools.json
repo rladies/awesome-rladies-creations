@@ -1,0 +1,50 @@
+{
+  "name": "x3ptools",
+  "title": "Tools for Working with 3D Surface Measurements",
+  "description": "The x3p file format is specified in ISO standard 5436:2000 to describe 3d surface measurements. 'x3ptools' allows reading, writing and basic modifications to the 3D surface measurements.",
+  "repo_url": "https://github.com/heike/x3ptools",
+  "pkdown_url": "https://heike.github.io/x3ptools/",
+  "bug_reports_url": "https://github.com/heike/x3ptools/issues",
+  "logo_url": "https://img.shields.io/github/r-package/v/heike/x3ptools?logo=github",
+  "last_updated": "2024-10-02",
+  "authors": [
+    {
+      "name": "Heike Hofmann",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0000-0001-6216-5183",
+      "directory_id": "heike-hofmann",
+      "email": "hofmann@iastate.edu"
+    },
+    {
+      "name": "Susan Vanderplas",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3803-0972"
+    },
+    {
+      "name": "Yuhang Lin",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3600-9889"
+    },
+    {
+      "name": "Ganesh Krishnan",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Eric Hare",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-4277-3146"
+    }
+  ]
+}

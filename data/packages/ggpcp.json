@@ -1,0 +1,35 @@
+{
+  "name": "ggpcp",
+  "title": "Parallel Coordinate Plots in the 'ggplot2' Framework",
+  "description": "Modern Parallel Coordinate Plots have been introduced in the 1980s as a way to visualize arbitrarily many numeric variables. This Grammar of Graphics implementation also incorporates categorical variables into the plots in a principled manner. By separating the data managing part from the visual rendering, we give full access to the users while keeping the number of parameters manageably low.",
+  "repo_url": "https://github.com/heike/ggpcp",
+  "pkdown_url": "https://heike.github.io/ggpcp/",
+  "bug_reports_url": "https://github.com/heike/ggpcp/issues",
+  "logo_url": null,
+  "last_updated": "2025-07-31",
+  "authors": [
+    {
+      "name": "Heike Hofmann",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0001-6216-5183",
+      "directory_id": "heike-hofmann",
+      "email": "hhofmann4@unl.edu"
+    },
+    {
+      "name": "Susan VanderPlas",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3803-0972"
+    },
+    {
+      "name": "Yawei Ge",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}
