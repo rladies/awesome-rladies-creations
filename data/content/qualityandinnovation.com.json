@@ -1,0 +1,21 @@
+{
+  "title": "Quality and Innovation",
+  "type": "blog",
+  "url": "https://qualityandinnovation.com/",
+  "rss_feed": "https://qualityandinnovation.com/tag/r/feed/",
+  "photo_url": "https://qualityandinnovation.com/wp-content/uploads/2024/05/espresso-labs.jpg?w=200",
+  "description": "Digital Transformation & Data Science for Performance Excellence since 2008",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Nicole M Radziwill",
+      "social_media": [
+        {
+          "twitter": "nicoleradziwill",
+          "bluesky": "nicoleradziwill.bsky.social",
+          "website": "http://qualityandinnovation.com"
+        }
+      ]
+    }
+  ]
+}
