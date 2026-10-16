@@ -1,0 +1,36 @@
+{
+  "name": "cotram",
+  "title": "Count Transformation Models",
+  "description": "Count transformation models featuring parameters interpretable as discrete hazard ratios, odds ratios, reverse-time discrete hazard ratios, or transformed expectations. An appropriate data transformation for a count outcome and regression coefficients are simultaneously estimated by maximising the exact discrete log-likelihood using the computational framework provided in package 'mlt', technical details are given in Siegfried & Hothorn (2020) <DOI:10.1111/2041-210X.13383>. The package also contains an experimental implementation of multivariate count transformation models with an application to multi-species distribution models <DOI:10.48550/arXiv.2201.13095>.",
+  "repo_url": null,
+  "pkdown_url": "http://ctm.R-forge.R-project.org",
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2025-11-19",
+  "authors": [
+    {
+      "name": "Sandra Siegfried",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-7312-1001",
+      "email": "sandra.siegfried@alumni.uzh.ch"
+    },
+    {
+      "name": "Luisa Barbanti",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-5352-5802",
+      "directory_id": "luisa-barbanti"
+    },
+    {
+      "name": "Torsten Hothorn",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-8301-0471"
+    }
+  ]
+}
