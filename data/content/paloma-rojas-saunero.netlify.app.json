@@ -1,0 +1,23 @@
+{
+  "title": "L. Paloma Rojas-Saunero",
+  "type": "blog",
+  "url": "https://paloma-rojas-saunero.netlify.app/",
+  "rss_feed": "https://paloma-rojas-saunero.netlify.app/index.xml",
+  "photo_url": "https://paloma-rojas-saunero.netlify.app/images/icon_hud08db874d537f07f5a2207f5205ecb1e_175689_512x512_fill_lanczos_center_2.png",
+  "description": "Postdoctoral fellow",
+  "language": "en",
+  "authors": [
+    {
+      "name": "L. Paloma Rojas-Saunero",
+      "social_media": [
+        {
+          "twitter": "palolili23",
+          "bluesky": "palolili23.bsky.social",
+          "linkedin": "lprojass",
+          "github": "palolili23",
+          "website": "https://paloma-rojas-saunero.netlify.app/"
+        }
+      ]
+    }
+  ]
+}
