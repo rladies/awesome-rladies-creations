@@ -1,0 +1,27 @@
+{
+  "name": "dataReporter",
+  "title": "Reproducible Data Screening Checks and Report of Possible Errors",
+  "description": "Data screening is an important first step of any statistical analysis. 'dataReporter' auto generates a customizable data report with a thorough summary of the checks and the results that a human can use to identify possible errors. It provides an extendable suite of test for common potential errors in a dataset. See Petersen AH, Ekstrøm CT (2019). \"dataMaid: Your Assistant for Documenting Supervised Data Quality Screening in R.\" _Journal of Statistical Software_, *90*(6), 1-38 <doi:10.18637/jss.v090.i06> for more information.",
+  "repo_url": "https://github.com/ekstroem/dataReporter",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/ekstroem/dataReporter/issues",
+  "logo_url": "https://raw.githubusercontent.com/ekstroem/dataReporter/HEAD/man/figures/logo.png",
+  "last_updated": "2025-04-13",
+  "authors": [
+    {
+      "name": "Anne Helby Petersen",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "anne-helby-petersen"
+    },
+    {
+      "name": "Claus Thorn Ekstrøm",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "ekstrom@sund.ku.dk"
+    }
+  ]
+}
