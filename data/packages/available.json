@@ -1,0 +1,46 @@
+{
+  "name": "available",
+  "title": "Check if the Title of a Package is Available, Appropriate and\nInteresting",
+  "description": "Check if a given package name is available to use. It checks the name's validity. Checks if it is used on 'GitHub', 'CRAN' and 'Bioconductor'. Checks for unintended meanings by querying 'Wiktionary' and Wikipedia.",
+  "repo_url": "https://github.com/r-lib/available",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/r-lib/available/issues",
+  "logo_url": "https://i.imgur.com/1KZn3Z5.jpg",
+  "last_updated": "2022-07-10",
+  "authors": [
+    {
+      "name": "Carl Ganz",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Gábor Csárdi",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "csardi.gabor@gmail.com"
+    },
+    {
+      "name": "Jim Hester",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Molly Lewis",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "molly-lewis"
+    },
+    {
+      "name": "Rachael Tatman",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "rachael-tatman"
+    }
+  ]
+}
