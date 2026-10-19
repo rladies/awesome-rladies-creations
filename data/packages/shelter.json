@@ -1,0 +1,47 @@
+{
+  "name": "shelter",
+  "title": "Support for Secure API Key Management",
+  "description": "Secure handling of API keys can be difficult. This package provides secure convenience functions for entering / handling API keys and opening connections via inversion of control on those keys. Works seamlessly between production and developer environments.",
+  "repo_url": "https://github.com/vubiostat/shelter",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/vubiostat/shelter/issues",
+  "logo_url": null,
+  "last_updated": "2025-06-02",
+  "authors": [
+    {
+      "name": "Benjamin Nutter",
+      "roles": [
+        "ctb",
+        "aut"
+      ]
+    },
+    {
+      "name": "Shawn Garbett",
+      "roles": [
+        "cre",
+        "ctb"
+      ],
+      "orcid": "0000-0003-4079-5621",
+      "email": "Shawn.Garbett@vumc.org"
+    },
+    {
+      "name": "Hui Wu",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Cole Beck",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Savannah Obregon",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "savannah-obregon"
+    }
+  ]
+}
