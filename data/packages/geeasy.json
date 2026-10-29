@@ -1,0 +1,39 @@
+{
+  "name": "geeasy",
+  "title": "Solve Generalized Estimating Equations for Clustered Data",
+  "description": "Estimation of generalized linear models with correlated/clustered observations by use of generalized estimating equations (GEE). See e.g. Halekoh and Højsgaard, (2005, <doi:10.18637/jss.v015.i02>), for details. Several types of clustering are supported, including exchangeable variance structures, AR1 structures, M-dependent, user-specified variance structures and more. The model fitting computations are performed using modified code from the 'geeM' package, while the interface and output objects have been written to resemble the 'geepack' package. The package also contains additional tools for working with and inspecting results from the 'geepack' package, e.g. a 'confint' method for 'geeglm' objects from 'geepack'.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2025-07-23",
+  "authors": [
+    {
+      "name": "Anne Helby Petersen",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "anne-helby-petersen"
+    },
+    {
+      "name": "Lee McDaniel",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Claus Ekstrøm",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Søren Højsgaard",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "sorenh@math.aau.dk"
+    }
+  ]
+}
