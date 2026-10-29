@@ -217,6 +217,9 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Stuart Lee, Ursula Laa, Dianne Cook
 - [casteval](https://github.com/phac-nml-phrsd/casteval) by Daniel Yu,
   Irena Papst, David Champredon, Government of Canada
+- [causalDisco](https://github.com/disco-coders/causalDisco) by Bjarke
+  Hautop Kristensen, Frederik Fabricius-Bjerre, Anne Helby Petersen,
+  Claus Thorn Ekstrøm, Tobias Ellegaard Larsen
 - [cellranger](https://github.com/rsheets/cellranger) by Jennifer Bryan,
   Hadley Wickham
 - [censored](https://github.com/tidymodels/censored) by Emil Hvitfeldt,
@@ -289,6 +292,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [datalegreyar](https://github.com/emitanaka/datalegreyar) by Emi
   Tanaka
 - [dataMaid](https://github.com/ekstroem/dataMaid) by Anne Helby
+  Petersen, Claus Thorn Ekstrøm
+- [dataReporter](https://github.com/ekstroem/dataReporter) by Anne Helby
   Petersen, Claus Thorn Ekstrøm
 - [datasauRus](https://github.com/jumpingrivers/datasauRus) by Colin
   Gillespie, Steph Locke, Alberto Cairo, Rhian Davies, Justin Matejka,
@@ -366,6 +371,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [gapminder](https://github.com/jennybc/gapminder) by Jennifer Bryan
 - [gargle](https://github.com/r-lib/gargle) by Jennifer Bryan, Craig
   Citro, Hadley Wickham, Google Inc, Posit Software, PBC
+- [geeasy]() by Anne Helby Petersen, Lee McDaniel, Claus Ekstrøm, Søren
+  Højsgaard
 - [GenBank](https://github.com/lucymli/GenBank) by Lucy M Li, Who to
   complain to
 - [geomnet](https://github.com/sctyner/geomnet) by Sam Tyner, Heike
