@@ -3,9 +3,9 @@
   "title": "Create and report on CPD activities",
   "description": "Tools for creating, analysing and reporting on CPD activities.",
   "repo_url": "https://github.com/trianglegirl/levelup",
-  "pkdown_url": null,
+  "pkdown_url": "https://statsrhian.github.io/levelup",
   "bug_reports_url": "https://github.com/trianglegirl/levelup/issues",
-  "logo_url": null,
+  "logo_url": "https://statsrhian.github.io/levelup/logo.png",
   "last_updated": "2024-08-20",
   "authors": [
     {

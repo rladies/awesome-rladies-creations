@@ -1,0 +1,21 @@
+{
+  "name": "lovedial",
+  "title": "Lovedial",
+  "description": "Guess who likes you in this secret admirer phone game.",
+  "repo_url": "https://github.com/statsrhian/lovedial",
+  "pkdown_url": "https://statsrhian.github.io/lovedial/",
+  "bug_reports_url": "https://github.com/statsrhian/lovedial/issues",
+  "logo_url": "https://statsrhian.github.io/lovedial/logo.png",
+  "last_updated": "2026-11-06",
+  "authors": [
+    {
+      "name": "Rhian Davies",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "statsrhian@gmail.com",
+      "directory_id": "rhian-davies"
+    }
+  ]
+}
