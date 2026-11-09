@@ -145,7 +145,7 @@ body:
       label: Directory IDs
       description: |
         If you (or co-authors) have an entry in the
-        [R-Ladies directory](https://github.com/rladies/directory),
+        [R-Ladies directory](https://rladies.org/directory/),
         list one directory id per line so we can link the content to your
         profile(s). Use the slug (filename without `.json`).
 
