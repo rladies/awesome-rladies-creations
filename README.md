@@ -521,6 +521,7 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [logmult](https://github.com/nalimilan/logmult) by Milan
   Bouchet-Valat, Heather Turner, Michael Friendly, Jim Lemon, Gabor
   Csardi
+- [lovedial](https://github.com/statsrhian/lovedial) by Rhian Davies
 - [lsr](https://github.com/djnavarro/lsr) by Danielle Navarro
 - [lvm4net](http://github.com/igollini/lvm4net) by Isabella Gollini
 - [mapycusmaximus](https://github.com/Alex-Nguyen-VN/mapycusmaximus) by
