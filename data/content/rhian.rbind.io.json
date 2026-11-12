@@ -1,0 +1,21 @@
+{
+  "title": "Rhian Davies",
+  "type": "blog",
+  "url": "https://rhian.rbind.io",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Rhian Davies",
+      "social_media": [
+        {
+          "mastodon": "@statsrhian@fosstodon.org",
+          "bluesky": "@statsrhian.bsky.social",
+          "github": "statsrhian",
+          "linkedin": "statsrhian",
+          "orcid": "0000-0002-0461-7329"
+        }
+      ]
+    }
+  ],
+  "description": "Personal website, blog, and portfolio."
+}
